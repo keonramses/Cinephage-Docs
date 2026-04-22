@@ -28,6 +28,10 @@ See [Authentication](authentication) for auth requirements and API key usage.
 | GET    | `/api/ready`          | 🔓   | Readiness check for orchestration |
 | GET    | `/api/system/status`  | 🔓   | Background services status     |
 
+:::info Admin Authorization (v0.5.0+)
+Many endpoints now require admin authorization (👑). Ensure your API key has admin privileges for these endpoints.
+:::
+
 ## Activity
 
 | Method | Endpoint                  | Auth | Description                    |
@@ -37,6 +41,8 @@ See [Authentication](authentication) for auth requirements and API key usage.
 | GET    | `/api/activity/settings`  | 🔓   | Activity settings              |
 | PUT    | `/api/activity/settings`  | 👑   | Update activity settings       |
 | GET    | `/api/activity/stream`    | 🔓   | SSE stream for real-time updates |
+| GET    | `/api/activity/stats`     | 🔓   | Activity statistics            |
+| POST   | `/api/activity/history/bulk`| 👑 | Bulk history actions           |
 
 ## Library
 
@@ -191,6 +197,13 @@ See [Authentication](authentication) for auth requirements and API key usage.
 | POST   | `/api/subtitles/sync/bulk`        | 👑   | Bulk sync subtitles        |
 | DELETE | `/api/subtitles/[id]`             | 👑   | Delete subtitle            |
 
+:::warning API Change (v0.5.0+)
+The `/api/subtitles/providers/analytics` endpoint response shape has changed:
+- Analytics object (successRate, responseTimes) removed
+- Provider fields are now at top level
+- Throttle state now includes `consecutiveFailures`, `lastError`, `lastErrorAt`
+:::
+
 ### Language Profiles
 
 | Method | Endpoint                              | Auth | Description              |
@@ -266,6 +279,21 @@ See [Authentication](authentication) for auth requirements and API key usage.
 | PUT    | `/api/settings/external-url`      | 👑   | Update external URL      |
 | GET    | `/api/settings/logs/stream`       | 👑   | SSE for log stream       |
 | GET    | `/api/settings/logs/download`     | 👑   | Download logs            |
+
+### Backup & Restore
+
+| Method | Endpoint                              | Auth | Description              |
+| ------ | ------------------------------------- | ---- | ------------------------ |
+| GET    | `/api/settings/backup`                | 👑   | Create configuration backup |
+| POST   | `/api/settings/restore`               | 👑   | Restore from backup      |
+| GET    | `/api/settings/backup/status`         | 👑   | Backup/restore status    |
+
+### User Preferences
+
+| Method | Endpoint                              | Auth | Description              |
+| ------ | ------------------------------------- | ---- | ------------------------ |
+| GET    | `/api/settings/user/language`         | 🔐   | Get user language        |
+| PUT    | `/api/settings/user/language`         | 🔐   | Update user language     |
 
 ### API Keys
 

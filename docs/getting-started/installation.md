@@ -173,12 +173,23 @@ docker compose up -d
 
 Our data and configuration will persist in the `./config` volume.
 
-:::info Docker Image Change
-Recent versions use `node:22-slim` (Debian) instead of `node:22-alpine`. The image size increased by ~40MB (180MB → 220MB) to support the new Captcha Solver. If updating from an older version, we may need to recreate the container:
+:::info Docker Image Changes
+- **Version 0.5.0+** uses `node:24-trixie-slim` (Debian) for improved security and performance
+- **Previous versions** used `node:22-slim` (Debian) instead of `node:22-alpine`
+- The image size is approximately 220MB to support the Captcha Solver
+- If updating from an older version, recreate the container:
 
 ```bash
 docker compose up -d --force-recreate
 ```
+:::
+
+:::danger BETTER_AUTH_SECRET Required (v0.5.0+)
+Starting with version 0.5.0, `BETTER_AUTH_SECRET` is **required**. The auto-generated `.auth-secret` file fallback has been removed.
+
+**Existing users:** Copy your secret from `data/.auth-secret` into the `BETTER_AUTH_SECRET` environment variable before upgrading, or all sessions and API keys will be lost.
+
+See the [Migration Guide](../guides/deploy/migration.md) for detailed instructions.
 :::
 
 ## Docker Tags

@@ -34,7 +34,7 @@ Cinephage supports three types of indexers:
 
 | Protocol      | Description              | Examples                                    |
 | ------------- | ------------------------ | ------------------------------------------- |
-| **torrent**   | BitTorrent trackers      | 1337x, RARBG alternatives, private trackers |
+| **torrent**   | BitTorrent trackers      | 1337x, Kinozal, Milkie.cc, RARBG alternatives, private trackers |
 | **usenet**    | NNTP newznab indexers    | NZBGeek, DrunkenSlug, DogNZB                |
 | **streaming** | Direct streaming sources | Various STRM providers                      |
 
@@ -156,6 +156,49 @@ settings:
   apiKey: your-api-key
   timeout: 30
 ```
+
+## Part 4: Built-in Indexers (v0.5.0+)
+
+Cinephage includes several built-in indexers that require minimal configuration:
+
+### Kinozal
+
+Russian torrent tracker with extensive movie and TV content.
+
+**Setup:**
+1. Go to **Settings > Integrations > Indexers**
+2. Click **Add Indexer**
+3. Select **Kinozal** from the dropdown
+4. Configure:
+   - **Name**: `Kinozal`
+   - **Priority**: `20`
+   - **Categories**: Movies, TV
+5. Click **Test** and **Save**
+
+:::tip Kinozal Features
+- Supports IMDB ID search for accurate matching
+- Extensive Russian and international content
+- Good for hard-to-find titles
+:::
+
+### Milkie.cc (Private Tracker)
+
+Private torrent tracker with high-quality releases.
+
+**Setup:**
+1. Go to **Settings > Integrations > Indexers**
+2. Click **Add Indexer**
+3. Select **Milkie** from the dropdown
+4. Configure:
+   - **Name**: `Milkie`
+   - **API Key**: Your Milkie API key
+   - **Priority**: `15`
+   - **Categories**: Movies, TV
+5. Click **Test** and **Save**
+
+:::warning Private Tracker
+Milkie.cc requires an account and API key. Category IDs are automatically normalized to tracker-native mapping.
+:::
 
 ## Part 4: Configure Indexer Priority
 

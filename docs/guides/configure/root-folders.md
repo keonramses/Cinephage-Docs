@@ -12,12 +12,25 @@ Root folders define where Cinephage stores your media. They're the foundation of
 
 ## Understanding Cinephage Libraries
 
-Cinephage organizes media into two main library types:
+Cinephage organizes media into two main library types with optional subtypes:
 
 | Library Type | Content | Organization |
 |--------------|---------|--------------|
 | **Movies** | Individual films | Flat or by folder per movie |
 | **TV Shows** | Series with episodes | Series > Seasons > Episodes |
+
+### Media Subtypes (v0.5.0+)
+
+You can further organize content with subtypes:
+
+| Subtype | Description | Example Use |
+|---------|-------------|-------------|
+| **Standard** | Regular movies/TV shows | Default for all content |
+| **Anime** | Japanese animation | Separate naming conventions and metadata |
+
+:::tip Anime Subtype
+Use the Anime subtype for anime content to ensure proper metadata fetching and naming conventions specific to anime releases.
+:::
 
 ## What Are Root Folders?
 
@@ -130,6 +143,25 @@ Shows:
 - Default quality profile
 - Default language profile
 - Path (use with caution)
+
+### Move Media Between Root Folders (v0.5.0+)
+
+You can move media between root folders directly in Cinephage:
+
+1. Go to **Library** and select the media you want to move
+2. Click **Actions > Move to Root Folder**
+3. Select the destination root folder
+4. Choose whether to move or copy files
+5. Click **Move**
+
+:::warning Move vs Copy
+- **Move**: Relocates files to the new root folder (frees space in source)
+- **Copy**: Duplicates files to the new root folder (keeps original)
+:::
+
+:::tip Bulk Moves
+You can select multiple items in the library to move them all at once. This is useful for reorganizing your library structure.
+:::
 
 ### Remove Root Folder
 

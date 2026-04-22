@@ -22,6 +22,17 @@ These variables must be set for Cinephage to function correctly:
 | `ORIGIN`             | Trusted origin URL for CSRF protection               | `http://localhost:3000`        |
 | `BETTER_AUTH_URL`    | Base URL for authentication callbacks                | `http://localhost:3000`        |
 
+:::danger BREAKING CHANGE - Version 0.5.0+
+`BETTER_AUTH_SECRET` is now **required**. The auto-generated `.auth-secret` file fallback has been removed.
+
+**Migration for existing deployments:**
+1. Locate your existing secret in `data/.auth-secret`
+2. Copy the value into the `BETTER_AUTH_SECRET` environment variable
+3. **Without this migration, all sessions and encrypted API keys will be lost**
+
+[See Migration Guide](../../guides/deploy/migration.md) for detailed instructions.
+:::
+
 ### Generating BETTER_AUTH_SECRET
 
 Generate a secure secret using one of these methods:

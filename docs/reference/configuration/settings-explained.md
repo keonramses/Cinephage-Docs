@@ -483,6 +483,108 @@ View detailed history of task execution:
 
 ---
 
+## Status Page (v0.5.0+)
+
+**Path:** `Settings > Status`
+
+The unified status page provides a consolidated view of your Cinephage system health, replacing separate maintenance and server-stats pages.
+
+### Storage Section
+
+| Metric | Description |
+|--------|-------------|
+| **Total Space** | Total storage across all root folders |
+| **Used Space** | Currently used storage |
+| **Free Space** | Available storage |
+| **Root Folder Status** | Per-folder usage and health |
+
+### Media Servers Section
+
+| Metric | Description |
+|--------|-------------|
+| **Server Status** | Connected media servers (Jellyfin, Emby, Plex) |
+| **Last Sync** | When library was last updated |
+| **Connection Health** | Test results per server |
+
+### Scan/Sync Status
+
+| Metric | Description |
+|--------|-------------|
+| **Last Library Scan** | When library was last scanned |
+| **Scan Progress** | Current scan progress if running |
+| **EPG Sync Status** | Live TV EPG synchronization state |
+
+---
+
+## Backup & Restore (v0.5.0+)
+
+**Path:** `Settings > System > Backup & Restore`
+
+Create encrypted configuration backups and restore from them.
+
+### Creating Backups
+
+1. Navigate to **Settings > System > Backup & Restore**
+2. Click **Create Backup**
+3. Backup includes:
+   - All settings
+   - Database configuration
+   - Encrypted secrets (API keys, passwords)
+   - User accounts and preferences
+
+### Restoring from Backup
+
+1. Click **Restore from Backup**
+2. Select backup file
+3. Confirm restoration
+4. Cinephage will restart with restored configuration
+
+:::warning Backup Compatibility
+Backups are compatible within the same major version. Cross-version restores may require manual adjustments.
+:::
+
+### Automated Backups
+
+Configure automatic backups via environment variables or scheduled tasks:
+
+| Setting | Description | Default |
+|---------|-------------|---------|
+| **Backup Interval** | How often to create backups | Disabled |
+| **Retention** | Number of backups to keep | 7 |
+| **Location** | Where to store backup files | `./config/backups` |
+
+---
+
+## User Preferences (v0.5.0+)
+
+**Path:** `Settings > User > Preferences`
+
+Configure personal preferences for your Cinephage user account.
+
+### Language Preferences
+
+Set your preferred interface and content languages:
+
+| Setting | Description | Options |
+|---------|-------------|---------|
+| **Interface Language** | UI language | English, Spanish, etc. |
+| **Content Language** | Default for media metadata | Based on TMDB languages |
+| **Subtitle Language** | Preferred subtitle language | Any configured language |
+
+:::tip i18n Support
+Cinephage uses Paraglide JS v2 for internationalization. Interface translations are community-contributed.
+:::
+
+### Playback Preferences
+
+| Setting | Description | Default |
+|---------|-------------|---------|
+| **Auto-Play Next Episode** | Automatically play next TV episode | Enabled |
+| **Default Quality** | Preferred streaming quality | Original |
+| **Subtitle Display** | Show subtitles by default | Disabled |
+
+---
+
 ## Live TV
 
 **Path:** `Settings > Live TV`

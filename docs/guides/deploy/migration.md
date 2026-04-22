@@ -18,6 +18,68 @@ Current deployment tags:
 
 ---
 
+## BETTER_AUTH_SECRET Migration (v0.5.0+)
+
+**Applies to:** All users upgrading to version 0.5.0 or later.
+
+### What Changed
+
+- `BETTER_AUTH_SECRET` is now **required** as an environment variable
+- Auto-generated `.auth-secret` file fallback has been removed
+- Without migration, all sessions and encrypted API keys will be lost
+
+### Migration Steps
+
+**Step 1:** Locate your existing secret
+
+```bash
+# If running in Docker
+docker exec cinephage cat /config/data/.auth-secret
+
+# If running bare metal
+cat /path/to/cinephage/data/.auth-secret
+```
+
+**Step 2:** Add to your environment
+
+Add the secret to your `docker-compose.yaml` or `.env` file:
+
+```yaml
+environment:
+  - BETTER_AUTH_SECRET=your-existing-secret-here
+```
+
+**Step 3:** Verify the secret is set
+
+```bash
+# Check it's in the environment
+docker exec cinephage env | grep BETTER_AUTH_SECRET
+```
+
+**Step 4:** Restart Cinephage
+
+```bash
+docker compose up -d
+```
+
+**Step 5:** Verify sessions work
+
+1. Log in to Cinephage
+2. Check that existing API keys still work
+3. If issues arise, you may need to regenerate API keys in Settings > System
+
+### What If I Don't Have the Old Secret?
+
+If you cannot retrieve the old secret:
+
+1. Set a **new** `BETTER_AUTH_SECRET`
+2. Restart Cinephage
+3. All users will need to log in again
+4. All API keys must be regenerated in Settings > System
+5. Update any external services using old API keys
+
+---
+
 ## Volume Mount Migration (/app/data → /config)
 
 **Applies to:** Users upgrading from versions before January 2026 that used `/app/data` mounts.

@@ -214,6 +214,42 @@ Conditions:
   - OR Contains: 'HSBS'
 ```
 
+### Source-Only Scoring (v0.5.0+)
+
+Score releases based solely on source quality, ignoring resolution:
+
+```yaml
+Name: 'Source Priority'
+Score: +50
+Conditions:
+  - Source: 'BluRay'
+```
+
+This is useful when you want the best source regardless of resolution.
+
+### Resolution-Only Scoring (v0.5.0+)
+
+Score releases based solely on resolution, ignoring source:
+
+```yaml
+Name: '4K Priority'
+Score: +100
+Conditions:
+  - Resolution: '2160p'
+```
+
+This prioritizes resolution over source quality.
+
+### Built-in Profile Overrides (v0.5.0+)
+
+Override built-in scoring profiles at runtime:
+
+| Profile | Override Behavior |
+|---------|-------------------|
+| **Quality** | Custom format scores take precedence |
+| **Balanced** | Built-in scores + custom additions |
+| **Compact** | Override with user-defined thresholds |
+
 ### Custom Format Examples
 
 **Prefer Specific Resolution:**

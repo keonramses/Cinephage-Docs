@@ -49,6 +49,14 @@ Use `dev` only if you want preview builds from the `dev` branch.
 
 ## Release Process
 
+### Automated Releases (v0.5.0+)
+
+Cinephage uses an automated release pipeline:
+
+1. **Release-please** manages version bumps and changelog generation
+2. **Semantic versioning** follows conventional commits
+3. **Auto-release workflow** handles GitHub Releases and Docker tagging
+
 ### Preview builds
 
 Every push to `dev` publishes:
@@ -60,14 +68,15 @@ Preview builds do not create GitHub Releases.
 
 ### Stable releases
 
-Stable releases are created manually from `main` by promoting an immutable `main-YYYYMMDD-RUN` candidate.
+Stable releases are automatically created when release-please promotes a `main` branch PR:
 
 That promotion creates:
 
 - Git tag `vX.Y.Z`
-- GitHub Release `vX.Y.Z`
+- GitHub Release `vX.Y.Z` with auto-generated notes
 - image tag `vX.Y.Z`
 - image tag `latest`
+- Discord announcement (if configured)
 
 ---
 
@@ -101,6 +110,52 @@ In practice:
 | Testing new features | `dev` |
 | Deterministic deploys | `vX.Y.Z` (pinned) |
 | CI/CD pipelines | `vX.Y.Z` (pinned) |
+
+---
+
+## Version 0.5.0 (Latest Stable)
+
+### Breaking Changes
+
+:::danger Migration Required
+**BETTER_AUTH_SECRET now required**
+- Auto-generated `.auth-secret` fallback removed
+- Must explicitly set `BETTER_AUTH_SECRET` environment variable
+- Existing users: Copy secret from `data/.auth-secret` before upgrading
+- Without migration: All sessions and encrypted API keys will be lost
+
+**Subtitles API changes**
+- `/api/subtitles/providers/analytics` response shape changed
+- Analytics object removed, fields now at top level
+- Throttle state includes new fields: `consecutiveFailures`, `lastError`, `lastErrorAt`
+
+**Indexer changes**
+- Removed `preferMagnetUrl` setting from all indexers
+:::
+
+### Major Features
+
+- **Activity Management** — Enhanced activity history with stats, bulk actions, and SSE events
+- **Backup & Restore** — Encrypted configuration backup and restore
+- **Unified Status Page** — Combined storage and media server status
+- **Native Subtitle Sync** — Built-in sync engine with alass algorithm
+- **Media Move** — Move content between root folders directly in UI
+- **Media Subtypes** — Anime subtype support for specialized metadata
+- **New Indexers** — Kinozal and Milkie.cc support
+- **Playback Sessions** — Track and manage active playback sessions
+- **i18n Support** — Internationalization with Spanish localization
+- **Content Rating Filter** — Filter discover page by content rating
+- **Language Filter** — Filter discover page by language
+- **List View** — Auto/manual grab for movies and TV shows
+- **Enhanced Live TV** — Channel name cleanup and improved EPG
+- **rTorrent Support** — XML-RPC download client implementation
+- **Scoring Improvements** — Source-only and resolution-only scoring formats
+
+### Infrastructure
+
+- **Docker** — Base image updated to `node:24-trixie-slim`
+- **Auto-release** — Automated release pipeline with release-please
+- **Admin Auth** — Enhanced admin authorization on API endpoints
 
 ---
 

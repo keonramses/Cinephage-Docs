@@ -153,20 +153,30 @@ If the test fails:
 
 ## Additional Transmission settings
 
-### Seed ratio and time
+### Seed ratio and time (v0.5.0+)
 
-You can configure seeding behavior in Transmission:
+Cinephage now properly sets and respects seeding limits in Transmission. Configure seeding behavior in your Transmission settings:
 
 ```json
 {
   "ratio-limit": 2.0,
   "ratio-limit-enabled": true,
   "seed-time-limit": 1440,
-  "seed-time-limit-enabled": true
+  "seed-time-limit-enabled": true,
+  "idle-seeding-limit": 30,
+  "idle-seeding-limit-enabled": true
 }
 ```
 
-This example stops seeding after reaching a 2.0 ratio or 24 hours (1440 minutes).
+| Setting | Description | Example |
+|---------|-------------|---------|
+| **ratio-limit** | Stop seeding after this ratio | 2.0 |
+| **seed-time-limit** | Stop seeding after this many minutes | 1440 (24 hours) |
+| **idle-seeding-limit** | Stop seeding after idle minutes | 30 |
+
+:::tip Hit-and-Run Protection
+Cinephage respects these limits and will not remove torrents that are still seeding. Once seeding limits are met, Cinephage can safely remove completed downloads from the queue.
+:::
 
 ### Download directory
 

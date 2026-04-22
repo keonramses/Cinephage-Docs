@@ -27,10 +27,12 @@ Cinephage brings together comprehensive media management functionality:
 | ---------------- | ---------------------------------------------- |
 | Movies           | Built-in library with TMDB integration         |
 | TV Series        | Episode tracking and monitoring                |
-| Indexers         | YAML-based indexer definitions                 |
-| Subtitles        | 11 subtitle providers with auto-sync           |
-| Content Discovery| Smart lists and TMDB discovery                 |
+| Indexers         | YAML-based indexer definitions with 15+ sources |
+| Subtitles        | 11 subtitle providers with native sync         |
+| Content Discovery| Smart lists, filters, and TMDB discovery       |
 | Cloudflare Bypass| Built-in Camoufox solver                       |
+| Live TV          | IPTV management with EPG and channel lineups   |
+| Streaming        | Direct streaming and NZB playback              |
 
 ## Key Features
 
@@ -47,20 +49,24 @@ Cinephage brings together comprehensive media management functionality:
 - **NZB streaming** - Direct usenet streaming with on-the-fly extraction
 - **Live TV** - Full IPTV management with EPG and channel lineups
 - **Provider circuit breakers** - Automatic failover for streaming sources
+- **Instant playback** - Skip stream probing for faster startup (v0.5.0+)
 
 ### Subtitle Management
 
 - **11 subtitle providers** - OpenSubtitles, Addic7ed, SubDL, and more
 - **Language profiles** - Multi-language preferences with upgrade support
-- **Auto-sync** - Built-in synchronization using the alass algorithm
+- **Native sync engine** - Built-in synchronization with alass algorithm (v0.5.0+)
 - **Score-based selection** - Match by hash, filename, and metadata
+- **Bulk sync** - Sync entire series at once
 
 ### Smart Automation
 
 - **Smart lists** - Dynamic TMDB queries with auto-add to library
 - **7 monitoring tasks** - Missing content, upgrades, new episodes, and more
 - **Worker system** - Background tasks with progress tracking
-- **Notifications** - Jellyfin/Emby integration for library updates
+- **Notifications** - Jellyfin/Emby/Plex integration for library updates
+- **Activity management** - Enhanced history with stats and bulk actions (v0.5.0+)
+- **Backup & restore** - Encrypted configuration backups (v0.5.0+)
 
 ## Quick Start
 

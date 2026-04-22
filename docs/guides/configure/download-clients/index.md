@@ -24,9 +24,9 @@ Download clients handle the actual downloading of media files. Cinephage connect
 | Client | Recommended | Features |
 |--------|-------------|----------|
 | [qBittorrent](qbittorrent) | Yes | Web UI, categories, stable |
-| [Transmission](transmission) | | Lightweight, RPC API |
+| [Transmission](transmission) | | Lightweight, RPC API, seeding limits |
 | [Deluge](deluge) | | Plugin system, thin client |
-| rTorrent | | CLI-based, low resource |
+| [rTorrent](rtorrent) | | XML-RPC, CLI-based, low resource |
 | aria2 | | Multi-protocol, lightweight |
 
 ### Usenet clients
@@ -99,7 +99,7 @@ Result: No path mapping needed (both see `/downloads`)
 
 Result: Map `/host/downloads` → `/downloads`
 
-For detailed path mapping instructions, see [Troubleshooting downloads](/docs/guides/deploy/troubleshooting#path-mapping-issues).
+For detailed path mapping instructions, see [Troubleshooting downloads](/docs/guides/deploy/troubleshooting).
 
 ## Quick start
 
