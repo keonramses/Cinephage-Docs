@@ -1,5 +1,5 @@
 ---
-title: Cinephage documentation
+title: Cinephage Documentation
 description: Complete documentation for Cinephage, the unified self-hosted media management platform
 slug: /
 tags: [overview, getting-started]
@@ -12,117 +12,93 @@ Welcome to the Cinephage documentation. Cinephage is a self-hosted media managem
 
 ## What Cinephage Does
 
-Instead of running multiple separate services that do not talk to each other, Cinephage provides one cohesive platform:
+Instead of running multiple separate services, Cinephage provides one cohesive platform:
 
-- **One database** - All your movies, series, subtitles, and configurations live together
-- **One interface** - Browse, search, monitor, and manage everything from a single UI
-- **One configuration** - Set up indexers, download clients, and preferences once
-- **One container** - Deploy with Docker and start managing immediately
+- **One database** — All your media and configurations together
+- **One interface** — Browse, search, and manage everything
+- **One configuration** — Set up indexers and clients once
+- **One container** — Deploy with Docker and go
 
-## Core Capabilities
+## Documentation Sections
 
-Cinephage brings together comprehensive media management functionality:
+<div className="card-grid">
 
-| Feature          | Description                                    |
-| ---------------- | ---------------------------------------------- |
-| Movies           | Built-in library with TMDB integration         |
-| TV Series        | Episode tracking and monitoring                |
-| Indexers         | YAML-based indexer definitions with 15+ sources |
-| Subtitles        | 11 subtitle providers with native sync         |
-| Content Discovery| Smart lists, filters, and TMDB discovery       |
-| Cloudflare Bypass| Built-in Camoufox solver                       |
-| Live TV          | IPTV management with EPG and channel lineups   |
-| Streaming        | Direct streaming and NZB playback              |
+<div className="card">
 
-## Key Features
+### 📚 Getting Started
 
-### Core Media Management
+Installation, setup, and your first steps.
 
-- **Library scanning** - Automatic file detection with TMDB matching
-- **Quality scoring** - 50+ scoring factors for intelligent decisions
-- **Custom formats** - User-defined rules for release selection
-- **Multi-protocol indexers** - Unified torrent, usenet, and streaming support
+[Get Started →](/docs/getting-started)
 
-### Advanced Streaming
+</div>
 
-- **.strm file generation** - Stream without downloading
-- **NZB streaming** - Direct usenet streaming with on-the-fly extraction
-- **Live TV** - Full IPTV management with EPG and channel lineups
-- **Provider circuit breakers** - Automatic failover for streaming sources
-- **Instant playback** - Skip stream probing for faster startup (v0.5.0+)
+<div className="card">
 
-### Subtitle Management
+### ⚙️ Guides
 
-- **11 subtitle providers** - OpenSubtitles, Addic7ed, SubDL, and more
-- **Language profiles** - Multi-language preferences with upgrade support
-- **Native sync engine** - Built-in synchronization with alass algorithm (v0.5.0+)
-- **Score-based selection** - Match by hash, filename, and metadata
-- **Bulk sync** - Sync entire series at once
+Task-oriented guides for configuration and use.
 
-### Smart Automation
+[Browse Guides →](/docs/guides)
 
-- **Smart lists** - Dynamic TMDB queries with auto-add to library
-- **7 monitoring tasks** - Missing content, upgrades, new episodes, and more
-- **Worker system** - Background tasks with progress tracking
-- **Notifications** - Jellyfin/Emby/Plex integration for library updates
-- **Activity management** - Enhanced history with stats and bulk actions (v0.5.0+)
-- **Backup & restore** - Encrypted configuration backups (v0.5.0+)
+</div>
+
+<div className="card">
+
+### 📖 Reference
+
+API docs, configuration, database schema.
+
+[View Reference →](/docs/reference)
+
+</div>
+
+<div className="card">
+
+### 💡 Explanation
+
+Architecture, concepts, and design decisions.
+
+[Learn More →](/docs/explanation)
+
+</div>
+
+<div className="card">
+
+### 🆘 Support
+
+FAQ, releases, roadmap, and troubleshooting.
+
+[Get Help →](/docs/support)
+
+</div>
+
+</div>
 
 ## Quick Start
 
-New to Cinephage? Start here:
+1. **Install** — [Docker installation guide](/docs/getting-started/installation)
+2. **Configure** — [Set up TMDB API and download clients](/docs/getting-started/initial-setup)
+3. **Add Media** — [Add your first movie or show](/docs/getting-started/adding-media)
 
-1. **[Installation](/docs/getting-started/installation)** - Get Cinephage running with Docker
-2. **[Initial Setup](/docs/getting-started/initial-setup)** - Configure TMDB API, download clients, and root folders
-3. **[Adding Media](/docs/getting-started/adding-media)** - Add your first movie or TV show
+## New in v0.5.0
 
-## Documentation Structure
+:::info Latest Release
+- **Activity Management** — Enhanced history with stats and bulk actions
+- **Backup & Restore** — Encrypted configuration backups
+- **Native Subtitle Sync** — Built-in sync engine
+- **Smart Lists** — Dynamic TMDB Discover integration
+- **i18n Support** — Spanish localization
 
-This documentation follows the Diátaxis framework with four distinct types of content:
-
-### Tutorials
-
-Step-by-step lessons for beginners. Hands-on learning with specific outcomes.
-
-- [Installation](/docs/getting-started/installation)
-- [Initial Setup](/docs/getting-started/initial-setup)
-- [Adding Your First Movie](/docs/getting-started/adding-media)
-
-### How-To Guides
-
-Practical steps to solve specific problems. Task-oriented documentation.
-
-- [Configure Download Clients](/docs/guides/configure/download-clients)
-- [Set Up Quality Profiles](/docs/guides/configure/quality-profiles)
-- [Configure Subtitles](/docs/guides/configure/subtitles)
-- [Troubleshooting](/docs/guides/deploy/troubleshooting)
-
-### Reference
-
-Technical descriptions and comprehensive information.
-
-- [Environment Variables](/docs/reference/configuration/environment-variables)
-- [Database Schema](/docs/reference/database/schema-overview)
-- [YAML Indexer Format](/docs/reference/yaml/indexer-definitions)
-
-### Explanation
-
-Background, concepts, and architecture decisions.
-
-- [Architecture Overview](/docs/explanation/architecture)
-- [Quality Scoring System](/docs/explanation/quality-scoring)
-- [Workers and Tasks](/docs/explanation/workers-and-tasks)
+[View full release notes →](/docs/support/releases)
+:::
 
 ## Getting Help
 
-- **Discord** - [Join our community](https://discord.gg/scGCBTSWEt) for chat support
-- **GitHub Issues** - [Report bugs](https://github.com/MoldyTaint/Cinephage/issues) or request features
-- **Troubleshooting** - See our [troubleshooting guide](/docs/guides/deploy/troubleshooting) for common issues
-
-## Contributing
-
-Cinephage is open source under the GPL-3.0 license. See our [GitHub repository](https://github.com/MoldyTaint/Cinephage) to contribute code, report issues, or suggest improvements.
+- 💬 **[Discord](https://discord.gg/scGCBTSWEt)** — Community chat
+- 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** — Bug reports
+- 🔧 **[Troubleshooting](/docs/guides/deploy/troubleshooting)** — Common issues
 
 ---
 
-Ready to get started? Head to the [Installation guide](/docs/getting-started/installation).
+Ready to dive in? Start with the [Installation guide](/docs/getting-started/installation).
