@@ -3,45 +3,50 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-type FeatureItem = {
+interface FeatureItem {
 	title: string;
-	description: ReactNode;
-};
+	description: string;
+	icon: string;
+}
 
 const FeatureList: FeatureItem[] = [
 	{
-		title: 'All-in-One',
-		description: (
-			<>
-				Replace Radarr, Sonarr, Prowlarr, Bazarr, Overseerr, and FlareSolverr with a single
-				self-hosted application. One database, one config, one container.
-			</>
-		)
+		title: 'Movies',
+		description: 'Built-in library with TMDB integration and automatic metadata matching.',
+		icon: '🎬'
 	},
 	{
-		title: 'Smart Quality Management',
-		description: (
-			<>
-				50+ quality scoring factors with intelligent upgrade logic. Custom formats, delay profiles,
-				and quality profiles give you full control over your media library.
-			</>
-		)
+		title: 'TV Shows',
+		description: 'Episode tracking, season monitoring, and automated downloads.',
+		icon: '📺'
 	},
 	{
-		title: 'Stream-First Design',
-		description: (
-			<>
-				Native .strm file support, usenet streaming, and built-in Live TV / IPTV. Access your media
-				instantly without waiting for full downloads.
-			</>
-		)
+		title: 'Indexers',
+		description: 'YAML-based definitions with 15+ sources — torrent, usenet, and streaming.',
+		icon: '🔍'
+	},
+	{
+		title: 'Subtitles',
+		description: '11 providers with native sync engine and multi-language support.',
+		icon: '📝'
+	},
+	{
+		title: 'Streaming',
+		description: 'Direct streaming and NZB playback without downloading.',
+		icon: '▶️'
+	},
+	{
+		title: 'Live TV',
+		description: 'IPTV management with EPG and channel lineups.',
+		icon: '📡'
 	}
 ];
 
-function Feature({ title, description }: FeatureItem) {
+function Feature({ title, description, icon }: FeatureItem) {
 	return (
-		<div className={clsx('col col--4')}>
-			<div className="text--center padding-horiz--md padding-vert--lg">
+		<div className={clsx('col col--4', styles.feature)}>
+			<div className={styles.featureCard}>
+				<div className={styles.featureIcon}>{icon}</div>
 				<Heading as="h3">{title}</Heading>
 				<p>{description}</p>
 			</div>
