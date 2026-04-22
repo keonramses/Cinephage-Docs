@@ -142,3 +142,81 @@
 [data-theme='dark'] .theme-code-block .token.punctuation {
 	color: #b8c5d9 !important;
 }
+
+/* Card Grid */
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1.5rem;
+	margin: 2rem 0;
+}
+
+.card {
+	border: 1px solid var(--ifm-color-emphasis-300);
+	border-radius: 8px;
+	padding: 1.5rem;
+	transition: all 0.2s ease;
+}
+
+.card:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transform: translateY(-2px);
+}
+
+[data-theme='dark'] .card {
+	border-color: var(--ifm-color-emphasis-600);
+}
+
+[data-theme='dark'] .card:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Admonition variants */
+.alert--info {
+	--ifm-alert-background-color: rgba(99, 102, 241, 0.1);
+	--ifm-alert-border-color: #6366f1;
+}
+
+.alert--success {
+	--ifm-alert-background-color: rgba(34, 197, 94, 0.1);
+	--ifm-alert-border-color: #22c55e;
+}
+
+.alert--warning {
+	--ifm-alert-background-color: rgba(245, 158, 11, 0.1);
+	--ifm-alert-border-color: #f59e0b;
+}
+
+.alert--danger {
+	--ifm-alert-background-color: rgba(239, 68, 68, 0.1);
+	--ifm-alert-border-color: #ef4444;
+}
+
+/* Table styling */
+table {
+	width: 100%;
+	display: table;
+}
+
+table thead tr {
+	border-bottom: 2px solid var(--ifm-color-emphasis-300);
+}
+
+table tbody tr:nth-child(2n) {
+	background-color: var(--ifm-color-emphasis-100);
+}
+
+table tbody tr:hover {
+	background-color: var(--ifm-color-emphasis-200);
+}
+
+/* Mobile improvements */
+@media screen and (max-width: 996px) {
+	.navbar-sidebar__items {
+		padding: 1rem;
+	}
+	
+	.card-grid {
+		grid-template-columns: 1fr;
+	}
+}
