@@ -46,6 +46,18 @@ const config: Config = {
 		]
 	],
 
+	plugins: [
+		[
+			'@easyops-cn/docusaurus-search-local',
+			{
+				hashed: true,
+				language: ['en'],
+				highlightSearchTermsOnTargetPage: true,
+				explicitSearchResultPath: true
+			}
+		]
+	],
+
 	themeConfig: {
 		image: 'img/logo.png',
 		colorMode: {
