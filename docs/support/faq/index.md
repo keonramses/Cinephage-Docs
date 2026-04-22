@@ -83,7 +83,7 @@ If you can't find what you're looking for:
 
 - 💬 **[Discord Community](https://discord.gg/scGCBTSWEt)** - Real-time help from the community
 - 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** - Bug reports and feature requests
-- 📖 **[Documentation](/docs/category/getting-started)** - Browse all guides and tutorials
+- 📖 **[Documentation](/docs/getting-started/)** - Browse all guides and tutorials
 - 🔧 **[Troubleshooting Guide](/docs/guides/deploy/troubleshooting)** - Detailed troubleshooting steps
 
 **When asking for help, include:**
