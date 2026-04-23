@@ -29,7 +29,7 @@ Cinephage supports two installation methods. Both provide the same features - ch
         </ul>
       </div>
       <div className="card__footer">
-        <a href="/getting-started/installation" className="button button--primary button--block">View Docker Guide</a>
+        <a href="./docker" className="button button--primary button--block">View Docker Guide</a>
       </div>
     </div>
   </div>
