@@ -84,7 +84,7 @@ The **Score** column shows how well a release matches your quality profile:
 
 Hover over any score to see the detailed breakdown.
 
-**Learn more:** See [Search System](/docs/explanation/search-system) for a complete explanation of how scoring works.
+**Learn more:** See [Search System](/explanation/search-system) for a complete explanation of how scoring works.
 
 ### Grab a Release
 
@@ -288,7 +288,7 @@ For the best search results:
 - **Respect Rate Limits** - Indexers have API limits; use reasonable monitoring intervals (default: hourly)
 - **Review Before Grabbing** - Check release names, file sizes, and release groups when selecting manually
 
-**Learn more:** See [Search System](/docs/explanation/search-system) for detailed conceptual guidance on search best practices.
+**Learn more:** See [Search System](/explanation/search-system) for detailed conceptual guidance on search best practices.
 
 ## Troubleshooting
 

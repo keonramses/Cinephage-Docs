@@ -24,7 +24,7 @@ keywords: [faq, library, import, organize, root folder, monitored]
 4. Review and confirm matches
 5. Cinephage will organize and add to library
 
-See [Import Existing Files](/docs/guides/use/import-existing-files) for details.
+See [Import Existing Files](/guides/use/import-existing-files) for details.
 
 ### Can I have multiple root folders?
 
@@ -56,7 +56,7 @@ Cinephage can organize files automatically:
 3. Cinephage applies patterns during import
 4. Use "Organize" feature to rename existing files
 
-See [Organize Files](/docs/guides/use/organize-files) for patterns and examples.
+See [Organize Files](/guides/use/organize-files) for patterns and examples.
 
 ### Why are my movies/shows matched incorrectly?
 
@@ -90,7 +90,7 @@ docker compose exec cinephage ls -la /path/to/media
 
 ## See Also
 
-- [Import Existing Files](/docs/guides/use/import-existing-files) - Detailed import guide
-- [Organize Files](/docs/guides/use/organize-files) - File naming patterns
-- [Downloading FAQ](/docs/support/faq/downloading) - Automated downloads
-- [Troubleshooting](/docs/support/faq/troubleshooting) - Import issues
+- [Import Existing Files](/guides/use/import-existing-files) - Detailed import guide
+- [Organize Files](/guides/use/organize-files) - File naming patterns
+- [Downloading FAQ](/support/faq/downloading) - Automated downloads
+- [Troubleshooting](/support/faq/troubleshooting) - Import issues

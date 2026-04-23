@@ -61,8 +61,8 @@ docker compose exec cinephage env
 
 ## See Also
 
-- [Getting Started](/docs/getting-started/) - Installation and setup guide
-- [Installation FAQ](/docs/support/faq/installation) - Installation questions
-- [Configuration FAQ](/docs/support/faq/configuration) - Configuration help
-- [Library Management](/docs/support/faq/library) - Managing your media library
+- [Getting Started](/getting-started/) - Installation and setup guide
+- [Installation FAQ](/support/faq/installation) - Installation questions
+- [Configuration FAQ](/support/faq/configuration) - Configuration help
+- [Library Management](/support/faq/library) - Managing your media library
 - [GitHub Repository](https://github.com/MoldyTaint/Cinephage) - Source code and releases

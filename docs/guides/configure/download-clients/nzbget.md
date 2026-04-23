@@ -189,6 +189,6 @@ Ensure these directories are accessible to Cinephage.
 
 ## See also
 
-- [Download clients overview](/docs/guides/configure/download-clients) — Overview of supported clients
+- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
 - [How to configure SABnzbd](./sabnzbd) — Alternative usenet client
-- [Troubleshooting downloads](/docs/guides/deploy/troubleshooting) — Common issues and solutions
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions

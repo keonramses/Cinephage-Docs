@@ -32,7 +32,7 @@ Quality profiles define:
 - **Compact:** Smaller files (720p/1080p)
 - **Streamer:** For NZB streaming
 
-See [Set Up Quality Profiles](/docs/guides/configure/quality-profiles) for details.
+See [Set Up Quality Profiles](/guides/configure/quality-profiles) for details.
 
 ### What's the cutoff?
 
@@ -101,6 +101,6 @@ This adds 50 points to any HEVC release, making it preferred over H.264.
 
 ## See Also
 
-- [Quality Profiles](/docs/guides/configure/quality-profiles) - Setting up profiles
-- [Library Management](/docs/support/faq/library) - Monitored vs unmonitored
-- [Streaming FAQ](/docs/support/faq/streaming) - NZB streaming option
+- [Quality Profiles](/guides/configure/quality-profiles) - Setting up profiles
+- [Library Management](/support/faq/library) - Monitored vs unmonitored
+- [Streaming FAQ](/support/faq/streaming) - NZB streaming option

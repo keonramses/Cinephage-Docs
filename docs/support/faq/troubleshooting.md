@@ -200,8 +200,8 @@ sqlite3 ./config/data/cinephage.db "VACUUM;"
 
 ## See Also
 
-- [Troubleshooting Guide](/docs/guides/deploy/troubleshooting) - Detailed troubleshooting
-- [Getting Help](/docs/getting-started/getting-help) - Support resources
-- [Configuration FAQ](/docs/support/faq/configuration) - Environment issues
-- [Installation FAQ](/docs/support/faq/installation) - Setup problems
+- [Troubleshooting Guide](/guides/deploy/troubleshooting) - Detailed troubleshooting
+- [Getting Help](/getting-started/getting-help) - Support resources
+- [Configuration FAQ](/support/faq/configuration) - Environment issues
+- [Installation FAQ](/support/faq/installation) - Setup problems
 - [GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues) - Bug reports

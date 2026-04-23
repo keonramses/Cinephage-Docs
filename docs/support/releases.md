@@ -83,6 +83,6 @@ docker pull ghcr.io/moldytaint/cinephage:dev
 
 ## See Also
 
-- [Migration Guide](/docs/guides/deploy/migration) — Upgrading between versions
-- [Backup & Restore](/docs/guides/deploy/backup-restore) — Before updating
+- [Migration Guide](/guides/deploy/migration) — Upgrading between versions
+- [Backup & Restore](/guides/deploy/backup-restore) — Before updating
 - [Full Changelog on GitHub](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md)

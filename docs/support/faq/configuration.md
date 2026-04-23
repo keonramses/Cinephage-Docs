@@ -86,6 +86,6 @@ docker compose exec cinephage env | grep -E "(ORIGIN|PUID|PGID)"
 
 ## See Also
 
-- [Installation Guide](/docs/getting-started/installation) - Environment setup
-- [Installation FAQ](/docs/support/faq/installation) - Docker and setup questions
-- [Troubleshooting](/docs/support/faq/troubleshooting) - Permission and access issues
+- [Installation Guide](/getting-started/installation) - Environment setup
+- [Installation FAQ](/support/faq/installation) - Docker and setup questions
+- [Troubleshooting](/support/faq/troubleshooting) - Permission and access issues

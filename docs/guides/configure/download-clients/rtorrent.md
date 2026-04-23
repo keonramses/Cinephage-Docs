@@ -187,7 +187,7 @@ schedule = ratio_stop, 60, 60, "if=(ratio,stop)"
 
 ## See Also
 
-- [Download clients overview](/docs/guides/configure/download-clients) — Overview of supported clients
+- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
 - [How to configure qBittorrent](./qbittorrent) — Alternative torrent client
 - [How to configure Transmission](./transmission) — Another torrent client option
-- [Troubleshooting downloads](/docs/guides/deploy/troubleshooting) — Common issues and solutions
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions

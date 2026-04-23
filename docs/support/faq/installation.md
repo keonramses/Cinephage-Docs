@@ -44,7 +44,7 @@ Yes, but Docker is strongly recommended:
 - **Docker:** Easier setup, consistent environment, better support
 - **Native:** Requires Node.js 20+, npm install, more complex
 
-See [Installation](/docs/getting-started/installation) for both methods.
+See [Installation](/getting-started/installation) for both methods.
 
 ### How do I update Cinephage?
 
@@ -129,7 +129,7 @@ docker compose ps
 
 ## See Also
 
-- [Installation Guide](/docs/getting-started/installation) - Complete installation instructions
-- [Configuration FAQ](/docs/support/faq/configuration) - Environment and settings
-- [Troubleshooting](/docs/support/faq/troubleshooting) - If something goes wrong
-- [Troubleshooting Guide](/docs/guides/deploy/troubleshooting) - Detailed troubleshooting
+- [Installation Guide](/getting-started/installation) - Complete installation instructions
+- [Configuration FAQ](/support/faq/configuration) - Environment and settings
+- [Troubleshooting](/support/faq/troubleshooting) - If something goes wrong
+- [Troubleshooting Guide](/guides/deploy/troubleshooting) - Detailed troubleshooting

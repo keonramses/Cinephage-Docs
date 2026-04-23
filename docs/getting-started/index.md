@@ -10,14 +10,14 @@ New to Cinephage? Follow these steps to get up and running.
 
 ## Quick Start
 
-1. **[Installation](/docs/getting-started/installation)** — Get Cinephage running with Docker
-2. **[Initial Setup](/docs/getting-started/initial-setup)** — Configure TMDB API, download clients, and root folders
-3. **[Adding Media](/docs/getting-started/adding-media)** — Add your first movie or TV show
+1. **[Installation](/getting-started/installation)** — Get Cinephage running with Docker
+2. **[Initial Setup](/getting-started/initial-setup)** — Configure TMDB API, download clients, and root folders
+3. **[Adding Media](/getting-started/adding-media)** — Add your first movie or TV show
 
 ## What's Next?
 
-- [Understanding the Interface](/docs/getting-started/understanding-interface) — Learn the Cinephage UI
-- [Getting Help](/docs/getting-started/getting-help) — Where to find support
+- [Understanding the Interface](/getting-started/understanding-interface) — Learn the Cinephage UI
+- [Getting Help](/getting-started/getting-help) — Where to find support
 
 ## New to Self-Hosting?
 

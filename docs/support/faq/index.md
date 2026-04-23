@@ -14,59 +14,59 @@ Welcome to the Cinephage FAQ! Find answers to common questions organized by cate
 
 | Category | Description | Questions |
 |----------|-------------|-----------|
-| [📋 General](/docs/support/faq/general) | What is Cinephage, features, and capabilities | 6 |
-| [⚙️ Installation & Setup](/docs/support/faq/installation) | System requirements, Docker, updates, backups | 7 |
-| [🔧 Configuration](/docs/support/faq/configuration) | Environment variables, permissions, external access | 4 |
-| [📚 Library Management](/docs/support/faq/library) | Importing, organizing, root folders | 6 |
-| [⬇️ Downloading](/docs/support/faq/downloading) | Quality profiles, indexers, automation | 6 |
-| [📺 Streaming & Live TV](/docs/support/faq/streaming) | NZB streaming, IPTV setup | 4 |
-| [🔍 Troubleshooting](/docs/support/faq/troubleshooting) | Errors, logs, common issues, advanced topics | 10 |
+| [📋 General](/support/faq/general) | What is Cinephage, features, and capabilities | 6 |
+| [⚙️ Installation & Setup](/support/faq/installation) | System requirements, Docker, updates, backups | 7 |
+| [🔧 Configuration](/support/faq/configuration) | Environment variables, permissions, external access | 4 |
+| [📚 Library Management](/support/faq/library) | Importing, organizing, root folders | 6 |
+| [⬇️ Downloading](/support/faq/downloading) | Quality profiles, indexers, automation | 6 |
+| [📺 Streaming & Live TV](/support/faq/streaming) | NZB streaming, IPTV setup | 4 |
+| [🔍 Troubleshooting](/support/faq/troubleshooting) | Errors, logs, common issues, advanced topics | 10 |
 
 ## FAQ Categories
 
-### 📋 [General Questions](/docs/support/faq/general)
+### 📋 [General Questions](/support/faq/general)
 New to Cinephage? Start here to learn what it does, its features, and whether it's right for you.
 
 **Topics:** Overview, features, licensing, advantages, library import
 
 ---
 
-### ⚙️ [Installation & Setup](/docs/support/faq/installation)
+### ⚙️ [Installation & Setup](/support/faq/installation)
 Everything you need to get Cinephage running, from system requirements to backups.
 
 **Topics:** Requirements, TMDB API, Docker vs native, updates, data storage, backups
 
 ---
 
-### 🔧 [Configuration](/docs/support/faq/configuration)
+### 🔧 [Configuration](/support/faq/configuration)
 Setting up environment variables, authentication, and fixing permission issues.
 
 **Topics:** ORIGIN/BETTER_AUTH_URL, external access, PUID/PGID, permissions
 
 ---
 
-### 📚 [Library Management](/docs/support/faq/library)
+### 📚 [Library Management](/support/faq/library)
 Managing your media collection, importing existing files, and organization.
 
 **Topics:** Importing, root folders, monitored vs unmonitored, file organization, matching
 
 ---
 
-### ⬇️ [Downloading](/docs/support/faq/downloading)
+### ⬇️ [Downloading](/support/faq/downloading)
 Automated downloads, quality profiles, and indexer configuration.
 
 **Topics:** Quality profiles, cutoff, search tasks, slow searches, custom formats
 
 ---
 
-### 📺 [Streaming & Live TV](/docs/support/faq/streaming)
+### 📺 [Streaming & Live TV](/support/faq/streaming)
 NZB streaming and IPTV setup for live television.
 
 **Topics:** NZB streaming, Live TV setup, M3U playlists
 
 ---
 
-### 🔍 [Troubleshooting](/docs/support/faq/troubleshooting)
+### 🔍 [Troubleshooting](/support/faq/troubleshooting)
 Solutions to common problems and advanced configuration.
 
 **Topics:** Logs, debug mode, database issues, startup problems, VPN, getting help, API, contributing
@@ -83,8 +83,8 @@ If you can't find what you're looking for:
 
 - 💬 **[Discord Community](https://discord.gg/scGCBTSWEt)** - Real-time help from the community
 - 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** - Bug reports and feature requests
-- 📖 **[Documentation](/docs/getting-started/)** - Browse all guides and tutorials
-- 🔧 **[Troubleshooting Guide](/docs/guides/deploy/troubleshooting)** - Detailed troubleshooting steps
+- 📖 **[Documentation](/getting-started/)** - Browse all guides and tutorials
+- 🔧 **[Troubleshooting Guide](/guides/deploy/troubleshooting)** - Detailed troubleshooting steps
 
 **When asking for help, include:**
 1. What you were trying to do
@@ -97,6 +97,6 @@ If you can't find what you're looking for:
 
 ## See Also
 
-- [Getting Started](/docs/getting-started/) - Installation and first steps
-- [Troubleshooting Guide](/docs/guides/deploy/troubleshooting) - Detailed problem-solving
-- [Getting Help](/docs/getting-started/getting-help) - All support resources
+- [Getting Started](/getting-started/) - Installation and first steps
+- [Troubleshooting Guide](/guides/deploy/troubleshooting) - Detailed problem-solving
+- [Getting Help](/getting-started/getting-help) - All support resources

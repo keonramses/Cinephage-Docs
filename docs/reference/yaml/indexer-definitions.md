@@ -1043,4 +1043,4 @@ Only enable categories the indexer supports:
 - [Naming Tokens Reference](naming-tokens) - Token reference for file naming patterns
 - [Search and Download](../../guides/use/search-and-download) - Guide to using indexers for searches
 - [YAML Specification](https://yaml.org/spec/) - Official YAML specification
-- [CSS Selector Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) - MDN CSS selector documentation
+- [CSS Selector Reference](https://developer.mozilla.org/en-US/Web/CSS/CSS_Selectors) - MDN CSS selector documentation

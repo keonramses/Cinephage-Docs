@@ -84,10 +84,10 @@
 
 **Actions:**
 1. **Create `docs/support/index.md`** — landing page with card grid:
-   - FAQ card → `/docs/support/faq`
-   - Releases card → `/docs/support/releases`
-   - Roadmap card → `/docs/support/roadmap`
-   - Troubleshooting card → `/docs/guides/deploy/troubleshooting`
+   - FAQ card → `/support/faq`
+   - Releases card → `/support/releases`
+   - Roadmap card → `/support/roadmap`
+   - Troubleshooting card → `/guides/deploy/troubleshooting`
 2. **Keep `faq/index.md`** as FAQ overview, delete duplicate `faq.md`
 3. **Rewrite `releases.md`:**
    - Title: "Release History"
@@ -199,10 +199,10 @@ Add to existing CSS:
 
 **Footer changes:**
 - Add "Support" column with:
-  - FAQ → `/docs/support/faq`
-  - Troubleshooting → `/docs/guides/deploy/troubleshooting`
-  - Roadmap → `/docs/support/roadmap`
-  - Releases → `/docs/support/releases`
+  - FAQ → `/support/faq`
+  - Troubleshooting → `/guides/deploy/troubleshooting`
+  - Roadmap → `/support/roadmap`
+  - Releases → `/support/releases`
 
 **Navbar changes:**
 - Add Discord icon/link (left side, near Documentation)

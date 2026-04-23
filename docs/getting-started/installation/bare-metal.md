@@ -487,16 +487,16 @@ node --version
 
 If not, reinstall Node.js following Step 1.
 
-For more help, see the [Troubleshooting Guide](/docs/guides/deploy/troubleshooting).
+For more help, see the [Troubleshooting Guide](/guides/deploy/troubleshooting).
 
 ## Next Steps
 
-- [Initial Setup](/docs/getting-started/initial-setup) - Configure download clients, indexers, and quality profiles
-- [Environment Variables Reference](/docs/reference/configuration/environment-variables) - Complete configuration options
-- [Backup and Restore](/docs/guides/deploy/backup-restore) - Protect your data
+- [Initial Setup](/getting-started/initial-setup) - Configure download clients, indexers, and quality profiles
+- [Environment Variables Reference](/reference/configuration/environment-variables) - Complete configuration options
+- [Backup and Restore](/guides/deploy/backup-restore) - Protect your data
 
 ## See Also
 
-- [Docker Installation](/docs/getting-started/installation) - Alternative installation using containers
-- [Installation FAQ](/docs/support/faq/installation) - Common questions
-- [System Requirements](/docs/getting-started/installation) - Hardware and software requirements
+- [Docker Installation](/getting-started/installation) - Alternative installation using containers
+- [Installation FAQ](/support/faq/installation) - Common questions
+- [System Requirements](/getting-started/installation) - Hardware and software requirements

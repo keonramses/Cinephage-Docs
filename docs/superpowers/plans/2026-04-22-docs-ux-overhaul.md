@@ -214,7 +214,7 @@ Find answers, track releases, and get help with Cinephage.
 
 Common questions about installing, configuring, and using Cinephage.
 
-[Browse FAQ →](/docs/support/faq)
+[Browse FAQ →](/support/faq)
 
 </div>
 
@@ -224,7 +224,7 @@ Common questions about installing, configuring, and using Cinephage.
 
 Version history, release notes, and Docker tag reference.
 
-[View Releases →](/docs/support/releases)
+[View Releases →](/support/releases)
 
 </div>
 
@@ -234,7 +234,7 @@ Version history, release notes, and Docker tag reference.
 
 Planned features, work in progress, and known limitations.
 
-[View Roadmap →](/docs/support/roadmap)
+[View Roadmap →](/support/roadmap)
 
 </div>
 
@@ -244,7 +244,7 @@ Planned features, work in progress, and known limitations.
 
 Common issues, logs, and debugging steps.
 
-[Troubleshooting Guide →](/docs/guides/deploy/troubleshooting)
+[Troubleshooting Guide →](/guides/deploy/troubleshooting)
 
 </div>
 
@@ -254,7 +254,7 @@ Common issues, logs, and debugging steps.
 
 - 💬 **[Discord Community](https://discord.gg/scGCBTSWEt)** - Real-time help
 - 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** - Bug reports
-- 📖 **[Getting Help](/docs/getting-started/getting-help)** - All support resources
+- 📖 **[Getting Help](/getting-started/getting-help)** - All support resources
 ```
 
 - [ ] **Step 2: Rewrite docs/support/releases.md**
@@ -345,8 +345,8 @@ docker pull ghcr.io/moldytaint/cinephage:dev
 
 ## See Also
 
-- [Migration Guide](/docs/guides/deploy/migration) — Upgrading between versions
-- [Backup & Restore](/docs/guides/deploy/backup-restore) — Before updating
+- [Migration Guide](/guides/deploy/migration) — Upgrading between versions
+- [Backup & Restore](/guides/deploy/backup-restore) — Before updating
 - [Full Changelog on GitHub](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md)
 ```
 
@@ -387,14 +387,14 @@ New to Cinephage? Follow these steps to get up and running.
 
 ## Quick Start
 
-1. **[Installation](/docs/getting-started/installation)** — Get Cinephage running with Docker
-2. **[Initial Setup](/docs/getting-started/initial-setup)** — Configure TMDB API, download clients, and root folders
-3. **[Adding Media](/docs/getting-started/adding-media)** — Add your first movie or TV show
+1. **[Installation](/getting-started/installation)** — Get Cinephage running with Docker
+2. **[Initial Setup](/getting-started/initial-setup)** — Configure TMDB API, download clients, and root folders
+3. **[Adding Media](/getting-started/adding-media)** — Add your first movie or TV show
 
 ## What's Next?
 
-- [Understanding the Interface](/docs/getting-started/understanding-interface) — Learn the Cinephage UI
-- [Getting Help](/docs/getting-started/getting-help) — Where to find support
+- [Understanding the Interface](/getting-started/understanding-interface) — Learn the Cinephage UI
+- [Getting Help](/getting-started/getting-help) — Where to find support
 
 ## New to Self-Hosting?
 
@@ -423,29 +423,29 @@ Practical, task-oriented guides for getting things done with Cinephage.
 
 Set up and customize your Cinephage instance:
 
-- [Download Clients](/docs/guides/configure/download-clients) — qBittorrent, SABnzbd, Deluge, and more
-- [Quality Profiles](/docs/guides/configure/quality-profiles) — Define quality preferences and cutoffs
-- [Indexers](/docs/guides/configure/indexers) — Add search sources
-- [Subtitles](/docs/guides/configure/subtitles) — Language preferences and providers
-- [Live TV](/docs/guides/configure/live-tv) — IPTV and EPG setup
+- [Download Clients](/guides/configure/download-clients) — qBittorrent, SABnzbd, Deluge, and more
+- [Quality Profiles](/guides/configure/quality-profiles) — Define quality preferences and cutoffs
+- [Indexers](/guides/configure/indexers) — Add search sources
+- [Subtitles](/guides/configure/subtitles) — Language preferences and providers
+- [Live TV](/guides/configure/live-tv) — IPTV and EPG setup
 
 ## Deploy
 
 Server management and operations:
 
-- [Troubleshooting](/docs/guides/deploy/troubleshooting) — Common issues and fixes
-- [Backup & Restore](/docs/guides/deploy/backup-restore) — Protect your configuration
-- [Performance Tuning](/docs/guides/deploy/performance-tuning) — Optimize resource usage
-- [Migration](/docs/guides/deploy/migration) — Upgrade between versions
+- [Troubleshooting](/guides/deploy/troubleshooting) — Common issues and fixes
+- [Backup & Restore](/guides/deploy/backup-restore) — Protect your configuration
+- [Performance Tuning](/guides/deploy/performance-tuning) — Optimize resource usage
+- [Migration](/guides/deploy/migration) — Upgrade between versions
 
 ## Use
 
 Day-to-day workflows:
 
-- [Search & Download](/docs/guides/use/search-and-download) — Find and grab content
-- [Import Existing Files](/docs/guides/use/import-existing-files) — Add your existing library
-- [Monitor & Upgrade](/docs/guides/use/monitor-and-upgrade) — Keep content up to date
-- [Organize Files](/docs/guides/use/organize-files) — Rename and move media
+- [Search & Download](/guides/use/search-and-download) — Find and grab content
+- [Import Existing Files](/guides/use/import-existing-files) — Add your existing library
+- [Monitor & Upgrade](/guides/use/monitor-and-upgrade) — Keep content up to date
+- [Organize Files](/guides/use/organize-files) — Rename and move media
 ```
 
 - [ ] **Step 3: Create docs/reference/index.md**
@@ -463,25 +463,25 @@ Comprehensive technical documentation for Cinephage.
 
 ## API Documentation
 
-- [Authentication](/docs/reference/api/authentication) — API key and session management
-- [Endpoints Overview](/docs/reference/api/endpoints-overview) — API structure and conventions
-- [Rate Limiting](/docs/reference/api/rate-limiting) — API usage limits
+- [Authentication](/reference/api/authentication) — API key and session management
+- [Endpoints Overview](/reference/api/endpoints-overview) — API structure and conventions
+- [Rate Limiting](/reference/api/rate-limiting) — API usage limits
 
 ## Configuration
 
-- [Environment Variables](/docs/reference/configuration/environment-variables) — All available env vars
-- [Settings Explained](/docs/reference/configuration/settings-explained) — Configuration options
-- [Supported Languages](/docs/reference/configuration/supported-languages) — Language codes and formats
+- [Environment Variables](/reference/configuration/environment-variables) — All available env vars
+- [Settings Explained](/reference/configuration/settings-explained) — Configuration options
+- [Supported Languages](/reference/configuration/supported-languages) — Language codes and formats
 
 ## Database
 
-- [Schema Overview](/docs/reference/database/schema-overview) — Database structure
-- [Table Reference](/docs/reference/database/table-reference) — Complete table documentation
+- [Schema Overview](/reference/database/schema-overview) — Database structure
+- [Table Reference](/reference/database/table-reference) — Complete table documentation
 
 ## YAML Formats
 
-- [Indexer Definitions](/docs/reference/yaml/indexer-definitions) — Custom indexer format
-- [Naming Tokens](/docs/reference/yaml/naming-tokens) — Available naming variables
+- [Indexer Definitions](/reference/yaml/indexer-definitions) — Custom indexer format
+- [Naming Tokens](/reference/yaml/naming-tokens) — Available naming variables
 ```
 
 - [ ] **Step 4: Create docs/explanation/index.md**
@@ -499,15 +499,15 @@ Understand how Cinephage works and why it works that way.
 
 ## Architecture
 
-- [Architecture Overview](/docs/explanation/architecture) — High-level system design
-- [Workers and Tasks](/docs/explanation/workers-and-tasks) — Background processing
-- [Search System](/docs/explanation/search-system) — How content discovery works
+- [Architecture Overview](/explanation/architecture) — High-level system design
+- [Workers and Tasks](/explanation/workers-and-tasks) — Background processing
+- [Search System](/explanation/search-system) — How content discovery works
 
 ## Concepts
 
-- [Core Concepts](/docs/explanation/concepts) — Key ideas and terminology
-- [Quality Scoring](/docs/explanation/quality-scoring) — How release quality is evaluated
-- [Design Decisions](/docs/explanation/design-decisions) — Why we built it this way
+- [Core Concepts](/explanation/concepts) — Key ideas and terminology
+- [Quality Scoring](/explanation/quality-scoring) — How release quality is evaluated
+- [Design Decisions](/explanation/design-decisions) — Why we built it this way
 ```
 
 - [ ] **Step 5: Verify build passes**
@@ -563,7 +563,7 @@ Instead of running multiple separate services, Cinephage provides one cohesive p
 
 Installation, setup, and your first steps.
 
-[Get Started →](/docs/getting-started)
+[Get Started →](/getting-started)
 
 </div>
 
@@ -573,7 +573,7 @@ Installation, setup, and your first steps.
 
 Task-oriented guides for configuration and use.
 
-[Browse Guides →](/docs/guides)
+[Browse Guides →](/guides)
 
 </div>
 
@@ -583,7 +583,7 @@ Task-oriented guides for configuration and use.
 
 API docs, configuration, database schema.
 
-[View Reference →](/docs/reference)
+[View Reference →](/reference)
 
 </div>
 
@@ -593,7 +593,7 @@ API docs, configuration, database schema.
 
 Architecture, concepts, and design decisions.
 
-[Learn More →](/docs/explanation)
+[Learn More →](/explanation)
 
 </div>
 
@@ -603,7 +603,7 @@ Architecture, concepts, and design decisions.
 
 FAQ, releases, roadmap, and troubleshooting.
 
-[Get Help →](/docs/support)
+[Get Help →](/support)
 
 </div>
 
@@ -611,9 +611,9 @@ FAQ, releases, roadmap, and troubleshooting.
 
 ## Quick Start
 
-1. **Install** — [Docker installation guide](/docs/getting-started/installation)
-2. **Configure** — [Set up TMDB API and download clients](/docs/getting-started/initial-setup)
-3. **Add Media** — [Add your first movie or show](/docs/getting-started/adding-media)
+1. **Install** — [Docker installation guide](/getting-started/installation)
+2. **Configure** — [Set up TMDB API and download clients](/getting-started/initial-setup)
+3. **Add Media** — [Add your first movie or show](/getting-started/adding-media)
 
 ## New in v0.5.0
 
@@ -624,18 +624,18 @@ FAQ, releases, roadmap, and troubleshooting.
 - **Smart Lists** — Dynamic TMDB Discover integration
 - **i18n Support** — Spanish localization
 
-[View full release notes →](/docs/support/releases)
+[View full release notes →](/support/releases)
 :::
 
 ## Getting Help
 
 - 💬 **[Discord](https://discord.gg/scGCBTSWEt)** — Community chat
 - 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** — Bug reports
-- 🔧 **[Troubleshooting](/docs/guides/deploy/troubleshooting)** — Common issues
+- 🔧 **[Troubleshooting](/guides/deploy/troubleshooting)** — Common issues
 
 ---
 
-Ready to dive in? Start with the [Installation guide](/docs/getting-started/installation).
+Ready to dive in? Start with the [Installation guide](/getting-started/installation).
 ```
 
 - [ ] **Step 2: Verify build passes**
@@ -685,7 +685,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started"
+            to="/getting-started"
           >
             Get Started
           </Link>
@@ -943,18 +943,18 @@ footer: {
     {
       title: 'Documentation',
       items: [
-        { label: 'Getting Started', to: '/docs/getting-started' },
-        { label: 'Guides', to: '/docs/guides' },
-        { label: 'Reference', to: '/docs/reference' },
+        { label: 'Getting Started', to: '/getting-started' },
+        { label: 'Guides', to: '/guides' },
+        { label: 'Reference', to: '/reference' },
       ]
     },
     {
       title: 'Support',
       items: [
-        { label: 'FAQ', to: '/docs/support/faq' },
-        { label: 'Troubleshooting', to: '/docs/guides/deploy/troubleshooting' },
-        { label: 'Roadmap', to: '/docs/support/roadmap' },
-        { label: 'Releases', to: '/docs/support/releases' },
+        { label: 'FAQ', to: '/support/faq' },
+        { label: 'Troubleshooting', to: '/guides/deploy/troubleshooting' },
+        { label: 'Roadmap', to: '/support/roadmap' },
+        { label: 'Releases', to: '/support/releases' },
       ]
     },
     {

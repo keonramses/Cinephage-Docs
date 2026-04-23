@@ -16,7 +16,7 @@ Watch content directly from usenet without downloading the full file:
 3. Start playing immediately
 4. No waiting for full download
 
-See [Configure NZB Streaming](/docs/guides/configure/nzb-streaming) for setup.
+See [Configure NZB Streaming](/guides/configure/nzb-streaming) for setup.
 
 ### How do I set up Live TV?
 
@@ -25,7 +25,7 @@ Cinephage supports IPTV via:
 - **XStream Codes** - Username/password auth
 - **M3U Playlist** - Standard IPTV playlists
 
-See [Set Up Live TV](/docs/guides/configure/live-tv) for detailed configuration.
+See [Set Up Live TV](/guides/configure/live-tv) for detailed configuration.
 
 ### Can I record Live TV?
 
@@ -60,6 +60,6 @@ curl https://your-cinephage-url/api/livetv/playlist.m3u
 
 ## See Also
 
-- [NZB Streaming Guide](/docs/guides/configure/nzb-streaming) - Setup instructions
-- [Live TV Setup](/docs/guides/configure/live-tv) - IPTV configuration
-- [Downloading FAQ](/docs/support/faq/downloading) - Traditional downloads
+- [NZB Streaming Guide](/guides/configure/nzb-streaming) - Setup instructions
+- [Live TV Setup](/guides/configure/live-tv) - IPTV configuration
+- [Downloading FAQ](/support/faq/downloading) - Traditional downloads

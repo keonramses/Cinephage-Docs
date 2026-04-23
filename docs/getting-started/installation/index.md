@@ -29,7 +29,7 @@ Cinephage supports two installation methods. Both provide the same features - ch
         </ul>
       </div>
       <div className="card__footer">
-        <a href="/docs/getting-started/installation" className="button button--primary button--block">View Docker Guide</a>
+        <a href="/getting-started/installation" className="button button--primary button--block">View Docker Guide</a>
       </div>
     </div>
   </div>
@@ -98,12 +98,12 @@ If you are new to self-hosting, **start with Docker**. It is easier to set up, m
 
 ## Next Steps
 
-After installing Cinephage using your chosen method, continue to the [Initial Setup](/docs/getting-started/initial-setup) guide to configure your first library, download client, and indexers.
+After installing Cinephage using your chosen method, continue to the [Initial Setup](/getting-started/initial-setup) guide to configure your first library, download client, and indexers.
 
 ## Getting Help
 
 If you encounter issues during installation:
 
-- Check the [Troubleshooting Guide](/docs/guides/deploy/troubleshooting)
-- Review the [Installation FAQ](/docs/support/faq/installation)
+- Check the [Troubleshooting Guide](/guides/deploy/troubleshooting)
+- Review the [Installation FAQ](/support/faq/installation)
 - Join our [GitHub Discussions](https://github.com/MoldyTaint/Cinephage/discussions)

@@ -252,4 +252,4 @@ We welcome community input on prioritization and new feature ideas!
 
 - [Changelog](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md)
 - [GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)
-- [FAQ](/docs/support/faq)
+- [FAQ](/support/faq)

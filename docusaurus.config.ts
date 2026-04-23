@@ -36,6 +36,7 @@ const config: Config = {
 			{
 				docs: {
 					sidebarPath: './sidebars.ts',
+					routeBasePath: '/',
 					editUrl: 'https://github.com/MoldyTaint/Cinephage-Docs/edit/main/'
 				},
 				blog: false,
@@ -117,15 +118,15 @@ const config: Config = {
 					items: [
 						{
 							label: 'Getting Started',
-							to: '/docs/getting-started'
+							to: '/getting-started'
 						},
 						{
 							label: 'Guides',
-							to: '/docs/guides'
+							to: '/guides'
 						},
 						{
 							label: 'Reference',
-							to: '/docs/reference'
+							to: '/reference'
 						}
 					]
 				},
@@ -134,19 +135,19 @@ const config: Config = {
 					items: [
 						{
 							label: 'FAQ',
-							to: '/docs/support/faq'
+							to: '/support/faq'
 						},
 						{
 							label: 'Troubleshooting',
-							to: '/docs/guides/deploy/troubleshooting'
+							to: '/guides/deploy/troubleshooting'
 						},
 						{
 							label: 'Roadmap',
-							to: '/docs/support/roadmap'
+							to: '/support/roadmap'
 						},
 						{
 							label: 'Releases',
-							to: '/docs/support/releases'
+							to: '/support/releases'
 						}
 					]
 				},

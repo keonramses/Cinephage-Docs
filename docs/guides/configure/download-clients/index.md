@@ -99,7 +99,7 @@ Result: No path mapping needed (both see `/downloads`)
 
 Result: Map `/host/downloads` → `/downloads`
 
-For detailed path mapping instructions, see [Troubleshooting downloads](/docs/guides/deploy/troubleshooting).
+For detailed path mapping instructions, see [Troubleshooting downloads](/guides/deploy/troubleshooting).
 
 ## Quick start
 
@@ -145,17 +145,17 @@ If you encounter issues:
 - **Downloads not importing** — Check path mappings and file permissions
 - **Authentication errors** — Verify API keys and passwords
 
-For detailed troubleshooting, see [Troubleshooting downloads](/docs/guides/deploy/troubleshooting).
+For detailed troubleshooting, see [Troubleshooting downloads](/guides/deploy/troubleshooting).
 
 ## Next steps
 
 After configuring your download client:
 
-- [Configure indexers](/docs/guides/configure/indexers) to add content sources
-- [Set up quality profiles](/docs/guides/configure/quality-profiles) to control download quality
-- [Search and download](/docs/guides/use/search-and-download) to start acquiring content
+- [Configure indexers](/guides/configure/indexers) to add content sources
+- [Set up quality profiles](/guides/configure/quality-profiles) to control download quality
+- [Search and download](/guides/use/search-and-download) to start acquiring content
 
 ## See also
 
-- [Environment variables](/docs/reference/configuration/environment-variables) for advanced configuration
-- [Performance tuning](/docs/guides/deploy/performance-tuning) for optimization tips
+- [Environment variables](/reference/configuration/environment-variables) for advanced configuration
+- [Performance tuning](/guides/deploy/performance-tuning) for optimization tips

@@ -18,7 +18,7 @@ Find answers, track releases, and get help with Cinephage.
 
 Common questions about installing, configuring, and using Cinephage.
 
-[Browse FAQ →](/docs/support/faq)
+[Browse FAQ →](/support/faq)
 
 </div>
 
@@ -28,7 +28,7 @@ Common questions about installing, configuring, and using Cinephage.
 
 Version history, release notes, and Docker tag reference.
 
-[View Releases →](/docs/support/releases)
+[View Releases →](/support/releases)
 
 </div>
 
@@ -38,7 +38,7 @@ Version history, release notes, and Docker tag reference.
 
 Planned features, work in progress, and known limitations.
 
-[View Roadmap →](/docs/support/roadmap)
+[View Roadmap →](/support/roadmap)
 
 </div>
 
@@ -48,7 +48,7 @@ Planned features, work in progress, and known limitations.
 
 Common issues, logs, and debugging steps.
 
-[Troubleshooting Guide →](/docs/guides/deploy/troubleshooting)
+[Troubleshooting Guide →](/guides/deploy/troubleshooting)
 
 </div>
 
@@ -58,4 +58,4 @@ Common issues, logs, and debugging steps.
 
 - 💬 **[Discord Community](https://discord.gg/scGCBTSWEt)** - Real-time help
 - 🐛 **[GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)** - Bug reports
-- 📖 **[Getting Help](/docs/getting-started/getting-help)** - All support resources
+- 📖 **[Getting Help](/getting-started/getting-help)** - All support resources
