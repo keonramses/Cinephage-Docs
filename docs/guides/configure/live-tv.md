@@ -385,7 +385,7 @@ EPG provides TV schedule information for your channels.
 | Provider | EPG Support | Source |
 |----------|-------------|--------|
 | **Stalker** |  Full | Retrieved from portal automatically |
-| **XStream** |  Planned | Via XStream EPG API (coming soon) |
+| **XStream** |  Planned | Via XStream EPG API |
 | **M3U** |  Optional | Requires external XMLTV URL |
 
 ### Configuring EPG
