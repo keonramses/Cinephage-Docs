@@ -51,3 +51,4 @@ CLAUDE.md
 *.seed
 *.tsbuildinfo
 .cache/
+.worktrees/
