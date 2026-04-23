@@ -1,6 +1,7 @@
 ---
 title: Cinephage Documentation
 description: Complete documentation for Cinephage, the unified self-hosted media management platform
+sidebar_position: 0
 slug: /
 tags: [overview, getting-started]
 keywords: [cinephage, documentation, media management, self-hosted]
