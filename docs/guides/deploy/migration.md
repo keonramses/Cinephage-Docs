@@ -22,13 +22,13 @@ Current deployment tags:
 
 **Applies to:** All users upgrading to version 0.5.0 or later.
 
-### What Changed
+### What changed
 
 - `BETTER_AUTH_SECRET` is now **required** as an environment variable
 - Auto-generated `.auth-secret` file fallback has been removed
 - Without migration, all sessions and encrypted API keys will be lost
 
-### Migration Steps
+### Migration steps
 
 **Step 1:** Locate your existing secret
 
@@ -66,16 +66,16 @@ docker compose up -d
 
 1. Log in to Cinephage
 2. Check that existing API keys still work
-3. If issues arise, you may need to regenerate API keys in Settings > System
+3. If issues arise, you may need to regenerate API keys in **Settings > System**
 
-### What If I Don't Have the Old Secret?
+### What if I don't have the old secret?
 
 If you cannot retrieve the old secret:
 
 1. Set a **new** `BETTER_AUTH_SECRET`
 2. Restart Cinephage
 3. All users will need to log in again
-4. All API keys must be regenerated in Settings > System
+4. All API keys must be regenerated in **Settings > System**
 5. Update any external services using old API keys
 
 ---
@@ -84,7 +84,7 @@ If you cannot retrieve the old secret:
 
 **Applies to:** Users upgrading from versions before January 2026 that used `/app/data` mounts.
 
-### Why This Change?
+### Why this change?
 
 The `/config` consolidation:
 
@@ -93,7 +93,7 @@ The `/config` consolidation:
 - Aligns with Docker best practices
 - Reduces risk of permission issues
 
-### Migration Path
+### Migration path
 
 #### Option 1: Automatic Migration (Recommended)
 
@@ -341,7 +341,7 @@ docker compose up -d
 
 ---
 
-### Troubleshooting Migration
+### Troubleshooting migration
 
 #### Migration doesn't run
 
@@ -400,14 +400,14 @@ docker compose up -d
 
 **Applies to:** Users upgrading from versions with separate Monitoring page
 
-### What Changed
+### What changed
 
-- **Monitoring settings page removed** — All monitoring configuration consolidated into Settings > Tasks
+- **Monitoring settings page removed** — All monitoring configuration consolidated into **Settings > Tasks**
 - **Unified task registry** — Centralized task definitions with consistent configuration
 - **Task execution history** — All tasks now record detailed per-item activity
 - **Automatic history cleanup** — Old history entries automatically removed after 30 days
 
-### Task Frequency Changes
+### Task frequency changes
 
 | Task | Old Location | Old Frequency | New Frequency |
 |------|--------------|---------------|---------------|
@@ -416,7 +416,7 @@ docker compose up -d
 | MissingSubtitles | — | — | Every 6 hours (new) |
 | SubtitleUpgrade | — | — | Daily (new) |
 
-### Migration Steps
+### Migration steps
 
 **Step 1:** Review your task settings:
 
@@ -435,7 +435,7 @@ docker compose up -d
 2. Click **View History** on any task
 3. See detailed per-item execution records
 
-### Removed Features
+### Removed features
 
 - Individual monitoring task pages
 - BROWSER_SOLVER_* environment variables
@@ -447,13 +447,13 @@ docker compose up -d
 
 **Applies to:** All users upgrading to Camoufox-based Captcha Solver
 
-### What Changed
+### What changed
 
 - Base image: `node:22-alpine` -> `node:24-trixie-slim` (Debian)
 - Image size: ~180MB → ~220MB
 - New feature: Camoufox browser support for Cloudflare bypass
 
-### Migration Steps
+### Migration steps
 
 **Step 1:** Pull new image:
 
@@ -482,7 +482,7 @@ If you have `BROWSER_SOLVER_ENABLED` in your `.env`, remove it (no longer used).
 **Step 5:** Configure Captcha Solver:
 
 1. Open Cinephage UI
-2. Go to Settings > Integrations > Captcha Solver
+2. Go to **Settings > Integrations > Captcha Solver**
 3. Enable and configure as needed
 
 ### Troubleshooting
@@ -562,5 +562,5 @@ docker compose up -d
 ## See Also
 
 - [Installation](/getting-started/installation)
-- [Backup & Restore](./backup-restore.md)
-- [Troubleshooting](./troubleshooting.md)
+- [Backup & Restore](./backup-restore) — Data protection
+- [Troubleshooting](./troubleshooting) — Common issues

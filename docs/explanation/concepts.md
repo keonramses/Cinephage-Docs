@@ -3,7 +3,7 @@ title: Key concepts
 description: Fundamental concepts and terminology used throughout Cinephage
 sidebar_position: 2
 tags: [concepts, terminology, glossary, explanation]
-keywords: [concepts, terminology, root folders, monitoring]
+keywords: [concepts, terminology, Root Folders, monitoring]
 ---
 
 # Key concepts
@@ -22,7 +22,7 @@ Root folders are the foundation of your library organization. When you add media
 **Examples:**
 
 - `/media/movies` - For movie files
-- `/media/tv` - For TV shows
+- `/media/tv` - For TV Shows
 - `/mnt/nas/movies` - Network-attached storage
 
 **Key Points:**
@@ -30,7 +30,7 @@ Root folders are the foundation of your library organization. When you add media
 - Must be accessible by Cinephage (read/write permissions)
 - Should be separate from download folder
 - Can be on local disk, NAS, or cloud mount
-- Multiple root folders allowed
+- Multiple Root Folders allowed
 
 **See:** [Configure Download Clients](../guides/configure/download-clients#path-mapping-basics)
 
@@ -149,7 +149,7 @@ Indexers are how Cinephage discovers what media is available for download. They 
 
 **See:** [Configure Indexers](../guides/configure/indexers)
 
-### Download Clients
+### Download clients
 
 **Definition:** Applications that actually download the media files.
 
@@ -172,7 +172,7 @@ While Cinephage finds and selects releases, download clients handle the actual d
 
 ## Library Management Concepts
 
-### Library Scanning
+### Library scanning
 
 **Definition:** The process of detecting and importing existing media files.
 
@@ -207,7 +207,7 @@ Inception (2010)/Inception (2010) 1080p.mkv
 Breaking Bad/Season 01/Breaking Bad - S01E01.mkv
 ```
 
-### Unmatched Files
+### Unmatched files
 
 **Definition:** Files that could not be automatically matched to TMDB entries.
 
@@ -301,7 +301,7 @@ When a better quality release becomes available, Cinephage can automatically upg
 
 ## Search Concepts
 
-### Automatic Search
+### Automatic search
 
 **Definition:** Background process that searches for monitored content.
 
@@ -319,7 +319,7 @@ Automatic search runs on a schedule (hourly by default) and searches for:
 - Interval time elapsed
 - Indexers available
 
-### Manual Search
+### Manual search
 
 **Definition:** User-initiated search on specific item.
 
@@ -360,7 +360,7 @@ Total: 170
 
 ## Subtitle Concepts
 
-### Language Profiles
+### Language profiles
 
 **Definition:** Preferences for subtitle languages.
 
@@ -380,7 +380,7 @@ Language profiles define which languages you want subtitles in and whether they 
 2. Spanish (Optional, Upgrade)
 ```
 
-### Subtitle Scoring
+### Subtitle scoring
 
 **Definition:** Quality assessment of subtitle matches.
 
@@ -401,7 +401,7 @@ Subtitles are scored based on how well they match your media file:
 **Definition:** Dynamic lists that automatically populate based on criteria.
 
 **Explanation:**
-Smart lists use TMDB queries to automatically find content matching your criteria. They can auto-add items to your library.
+Smart Lists use TMDB queries to automatically find content matching your criteria. They can auto-add items to your library.
 
 **Use Cases:**
 
@@ -418,10 +418,10 @@ Smart lists use TMDB queries to automatically find content matching your criteri
 
 ### Live TV
 
-**Definition:** IPTV and Live TV streaming.
+**Definition:** Live TV streaming.
 
 **Explanation:**
-Cinephage can manage IPTV subscriptions, organize channels, and provide EPG (Electronic Program Guide) functionality.
+Cinephage can manage Live TV subscriptions, organize channels, and provide EPG (Electronic Program Guide) functionality.
 
 **Components:**
 
@@ -450,7 +450,7 @@ Unlike traditional downloading, NZB streaming allows you to watch content direct
 - Instant playback
 - Selective downloading
 
-### Circuit Breakers
+### Circuit breakers
 
 **Definition:** Pattern that prevents repeated calls to failing services.
 
@@ -502,5 +502,5 @@ environment:
 
 - [Architecture Overview](architecture)
 - [Quality Scoring](quality-scoring)
-- [Getting Started](../getting-started/)
-- [How-To Guides](../guides/)
+- [Getting Started](/getting-started/) — Installation and setup
+- [How-To Guides](/guides/) — Configuration and usage guides

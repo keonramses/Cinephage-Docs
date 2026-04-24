@@ -169,7 +169,7 @@ Tokens that support conditional logic.
 |-------|-------------|-------|
 | `{Series Tags}` | Series tags | `{Series Tags:}` |
 | `{Episode Tags}` | Episode tags | `{Episode Tags:}` |
-| `{Custom Formats}` | All custom formats | `{Custom Formats:,}` |
+| `{Custom Formats}` | All Custom Formats | `{Custom Formats:,}` |
 
 ## Special Characters
 
@@ -184,7 +184,7 @@ Special characters for formatting.
 
 ## Usage Examples
 
-### Movie Naming Examples
+### Movie naming examples
 
 **Standard movie file:**
 ```
@@ -210,7 +210,7 @@ Special characters for formatting.
 # Result: The Dark Knight Collection\The Dark Knight (2008)\The Dark Knight (2008) - 1080p BluRay
 ```
 
-### TV Naming Examples
+### TV naming examples
 
 **Standard episode:**
 ```
@@ -236,7 +236,7 @@ Special characters for formatting.
 # Result: One Piece - 100 - The Legend Begins
 ```
 
-### Path Organization Examples
+### Path organization examples
 
 **Movies by quality:**
 ```
@@ -293,6 +293,6 @@ Characters that may need escaping in filenames:
 ## See Also
 
 - [Indexer Definitions](indexer-definitions) - YAML format for defining custom indexers
-- [How to Configure Indexers](../../guides/configure/indexers) - Step-by-step guide for configuring indexers
-- [How to Organize Files](../../guides/use/organize-files) - Guide to file organization and naming patterns
-- [Root Folders](../../guides/configure/root-folders) - Configure root folders and naming settings
+- [How to Configure Indexers](/guides/configure/indexers) — Step-by-step guide for configuring indexers
+- [How to Organize Files](/guides/use/organize-files) — Guide to file organization and naming patterns
+- [Root Folders](/guides/configure/root-folders) — Configure Root Folders and naming settings

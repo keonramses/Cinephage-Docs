@@ -17,56 +17,56 @@ Welcome to the Cinephage FAQ! Find answers to common questions organized by cate
 | [📋 General](/support/faq/general) | What is Cinephage, features, and capabilities | 6 |
 | [⚙️ Installation & Setup](/support/faq/installation) | System requirements, Docker, updates, backups | 7 |
 | [🔧 Configuration](/support/faq/configuration) | Environment variables, permissions, external access | 4 |
-| [📚 Library Management](/support/faq/library) | Importing, organizing, root folders | 6 |
+| [📚 Library Management](/support/faq/library) | Importing, organizing, Root Folders | 6 |
 | [⬇️ Downloading](/support/faq/downloading) | Quality profiles, indexers, automation | 6 |
-| [📺 Streaming & Live TV](/support/faq/streaming) | NZB streaming, IPTV setup | 4 |
+| [📺 Streaming & Live TV](/support/faq/streaming) | NZB Streaming, Live TV setup | 4 |
 | [🔍 Troubleshooting](/support/faq/troubleshooting) | Errors, logs, common issues, advanced topics | 10 |
 
 ## FAQ Categories
 
-### 📋 [General Questions](/support/faq/general)
+### 📋 [general questions](/support/faq/general)
 New to Cinephage? Start here to learn what it does, its features, and whether it's right for you.
 
 **Topics:** Overview, features, licensing, advantages, library import
 
 ---
 
-### ⚙️ [Installation & Setup](/support/faq/installation)
+### ⚙️ [installation & setup](/support/faq/installation)
 Everything you need to get Cinephage running, from system requirements to backups.
 
 **Topics:** Requirements, TMDB API, Docker vs native, updates, data storage, backups
 
 ---
 
-### 🔧 [Configuration](/support/faq/configuration)
+### 🔧 [configuration](/support/faq/configuration)
 Setting up environment variables, authentication, and fixing permission issues.
 
 **Topics:** ORIGIN/BETTER_AUTH_URL, external access, PUID/PGID, permissions
 
 ---
 
-### 📚 [Library Management](/support/faq/library)
+### 📚 [library management](/support/faq/library)
 Managing your media collection, importing existing files, and organization.
 
-**Topics:** Importing, root folders, monitored vs unmonitored, file organization, matching
+**Topics:** Importing, Root Folders, monitored vs unmonitored, file organization, matching
 
 ---
 
-### ⬇️ [Downloading](/support/faq/downloading)
+### ⬇️ [downloading](/support/faq/downloading)
 Automated downloads, quality profiles, and indexer configuration.
 
-**Topics:** Quality profiles, cutoff, search tasks, slow searches, custom formats
+**Topics:** Quality profiles, cutoff, search tasks, slow searches, Custom Formats
 
 ---
 
-### 📺 [Streaming & Live TV](/support/faq/streaming)
-NZB streaming and IPTV setup for Live TV.
+### 📺 [streaming & live tv](/support/faq/streaming)
+NZB Streaming and Live TV setup for Live TV.
 
 **Topics:** NZB streaming, Live TV setup, M3U playlists
 
 ---
 
-### 🔍 [Troubleshooting](/support/faq/troubleshooting)
+### 🔍 [troubleshooting](/support/faq/troubleshooting)
 Solutions to common problems and advanced configuration.
 
 **Topics:** Logs, debug mode, database issues, startup problems, VPN, getting help, API, contributing

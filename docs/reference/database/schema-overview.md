@@ -27,7 +27,7 @@ Cinephage uses schema versioning for migrations:
 
 ## Major Table Categories
 
-### Authentication (Better Auth)
+### Authentication (better auth)
 
 User authentication and session management:
 
@@ -52,7 +52,7 @@ Core media library data:
 | `seasons`              | Season information                   |
 | `episodes`             | Episode metadata                     |
 | `episode_files`        | Physical episode files               |
-| `root_folders`         | Configured root folders              |
+| `root_folders`         | Configured Root Folders              |
 | `unmatched_files`      | Files awaiting manual matching       |
 | `library_scan_history` | Scan operation history               |
 
@@ -70,7 +70,7 @@ Download client integration:
 
 ### Indexers
 
-Indexer management:
+Content source management:
 
 | Table                 | Purpose                        |
 | --------------------- | ------------------------------ |
@@ -136,7 +136,7 @@ Streaming and NZB streaming:
 
 ### Live TV
 
-IPTV and Live TV:
+Live TV:
 
 | Table                    | Purpose                           |
 | ------------------------ | --------------------------------- |
@@ -169,7 +169,7 @@ Application settings and metadata:
 
 ## Key Relationships
 
-### Movie Relationships
+### Movie relationships
 
 ```
 movies
@@ -178,7 +178,7 @@ movies
 └── root_folders (many-to-one)
 ```
 
-### TV Series Relationships
+### TV shows relationships
 
 ```
 series
@@ -189,7 +189,7 @@ series
 └── root_folders (many-to-one)
 ```
 
-### Download Flow
+### Download flow
 
 ```
 movies/episodes
@@ -200,7 +200,7 @@ movies/episodes
 
 ## Common Queries
 
-### List All Movies
+### List all movies
 
 ```sql
 SELECT id, title, year, monitored, tmdbId
@@ -208,7 +208,7 @@ FROM movies
 ORDER BY title;
 ```
 
-### Count Monitored Items
+### Count monitored items
 
 ```sql
 SELECT
@@ -216,7 +216,7 @@ SELECT
   (SELECT COUNT(*) FROM series WHERE monitored = 1) as monitored_series;
 ```
 
-### Recent Downloads
+### Recent downloads
 
 ```sql
 SELECT
@@ -229,7 +229,7 @@ ORDER BY dh.date DESC
 LIMIT 10;
 ```
 
-### Files Missing Quality Info
+### Files missing quality info
 
 ```sql
 SELECT
@@ -261,7 +261,7 @@ Size factors:
 
 ## Backup and Maintenance
 
-### Creating Backups
+### Creating backups
 
 ```bash
 # While Cinephage is stopped
@@ -271,7 +271,7 @@ cp /path/to/config/data/cinephage.db /path/to/backups/cinephage-$(date +%Y%m%d).
 sqlite3 /path/to/config/data/cinephage.db ".backup /path/to/backups/cinephage-$(date +%Y%m%d).db"
 ```
 
-### Database Optimization
+### Database optimization
 
 ```bash
 # Vacuum (reclaim space, optimize)
@@ -283,7 +283,7 @@ sqlite3 /path/to/config/data/cinephage.db "ANALYZE;"
 
 Run optimization monthly or after large imports.
 
-### Integrity Check
+### Integrity check
 
 ```bash
 # Check for corruption
@@ -294,7 +294,7 @@ sqlite3 /path/to/config/data/cinephage.db "PRAGMA integrity_check;"
 
 ## Accessing the Database
 
-### Docker Access
+### Docker access
 
 ```bash
 # Enter container shell
@@ -307,7 +307,7 @@ sqlite3 /config/data/cinephage.db
 docker exec cinephage sqlite3 /config/data/cinephage.db "SELECT COUNT(*) FROM movies;"
 ```
 
-### Local Access (if not using Docker)
+### Local access (if not using Docker)
 
 ```bash
 # Direct access
@@ -331,7 +331,7 @@ Cinephage handles schema migrations automatically:
 
 ## See Also
 
-- [Backup and Restore](../../guides/deploy/backup-restore)
-- [Troubleshooting](../../guides/deploy/troubleshooting)
-- [Performance Tuning](../../guides/deploy/performance-tuning)
+- [Backup and Restore](/guides/deploy/backup-restore) — Data protection
+- [Troubleshooting](/guides/deploy/troubleshooting) — Common issues
+- [Performance Tuning](/guides/deploy/performance-tuning) — Optimization guide
 - [SQLite Documentation](https://www.sqlite.org/docs.html)

@@ -124,7 +124,7 @@ curl -H "x-api-key: cinephage_your_key_here" \
 
 ### Create series
 
-Adds a new TV show to the library by TMDB ID.
+Adds a new TV shows to the library by TMDB ID.
 
 ```
 POST /api/library/series

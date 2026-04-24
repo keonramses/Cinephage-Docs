@@ -30,7 +30,7 @@ These variables must be set for Cinephage to function correctly:
 2. Copy the value into the `BETTER_AUTH_SECRET` environment variable
 3. **Without this migration, all sessions and encrypted API keys will be lost**
 
-[See Migration Guide](../../guides/deploy/migration.md) for detailed instructions.
+[See Migration Guide](/guides/deploy/migration) for detailed instructions.
 :::
 
 ### Generating BETTER_AUTH_SECRET
@@ -56,7 +56,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 
 ## Server Configuration
 
-### Core Server Settings
+### Core server settings
 
 | Variable                      | Default   | Description                                                                |
 | ----------------------------- | --------- | -------------------------------------------------------------------------- |
@@ -97,7 +97,7 @@ environment:
 
 ## System Configuration
 
-### User/Group IDs
+### User/Group ids
 
 | Variable | Default | Description                                    |
 | -------- | ------- | ---------------------------------------------- |
@@ -132,7 +132,7 @@ Valid values are TZ database names:
 - `Australia/Sydney`
 - See [full list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 
-### Advanced Permissions
+### Advanced permissions
 
 | Variable                          | Default | Description                                                 |
 | --------------------------------- | ------- | ----------------------------------------------------------- |
@@ -142,7 +142,7 @@ Set to `1` if you experience permission issues after changing PUID/PGID.
 
 ## Logging Configuration
 
-### Log Level
+### Log level
 
 | Variable    | Default | Description                 |
 | ----------- | ------- | --------------------------- |
@@ -155,7 +155,7 @@ Valid levels (in order of verbosity):
 - `warn` - Warnings and errors
 - `error` - Errors only
 
-### Log Options
+### Log options
 
 | Variable            | Default | Description                                          |
 | ------------------- | ------- | ---------------------------------------------------- |
@@ -189,7 +189,7 @@ Workers handle background tasks. These limits control concurrency:
 | `WORKER_MAX_PORTAL_SCANS`    | `2`     | Maximum concurrent portal scans (Live TV)   |
 | `WORKER_MAX_CHANNEL_SYNCS`   | `3`     | Maximum concurrent channel synchronizations |
 
-### Tuning Workers
+### Tuning workers
 
 **Low-resource systems:**
 
@@ -213,7 +213,7 @@ environment:
 
 ## Streaming Configuration
 
-### Proxy Settings
+### Proxy settings
 
 | Variable                 | Default              | Description                                         |
 | ------------------------ | -------------------- | --------------------------------------------------- |
@@ -222,7 +222,7 @@ environment:
 | `PROXY_MAX_RETRIES`      | `2`                  | Maximum retry attempts for failed segments          |
 | `DEFAULT_PROXY_REFERER`  | `https://videasy.net`| Default referer header for stream requests          |
 
-### Provider Circuit Breaker
+### Provider circuit breaker
 
 Circuit breakers prevent repeated failures with streaming providers:
 
@@ -234,13 +234,13 @@ Circuit breakers prevent repeated failures with streaming providers:
 
 ## Live TV Configuration
 
-### EPG Settings
+### EPG settings
 
 | Variable               | Default | Description                                        |
 | ---------------------- | ------- | -------------------------------------------------- |
 | `EPG_STARTUP_GRACE_MS` | `30000` | Grace period for EPG initialization (milliseconds) |
 
-### API Rate Limiting
+### API rate limiting
 
 | Variable                                 | Default   | Description                                |
 | ---------------------------------------- | --------- | ------------------------------------------ |
@@ -249,7 +249,7 @@ Circuit breakers prevent repeated failures with streaming providers:
 
 ## External Tools
 
-### ffprobe
+### Ffprobe
 
 | Variable       | Default | Description                           |
 | -------------- | ------- | ------------------------------------- |
@@ -307,7 +307,7 @@ services:
 
 ## Variable Reference Table
 
-### Quick Reference
+### Quick reference
 
 | Category            | Variables                                                                                                  |
 | ------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -320,17 +320,17 @@ services:
 | **Live TV**         | `EPG_STARTUP_GRACE_MS`, `STREAMING_API_KEY_RATE_LIMIT_*`                                                   |
 | **Tools**           | `FFPROBE_PATH`                                                                                             |
 
-### Total Variables
+### Total variables
 
 - **Required:** 3 (`BETTER_AUTH_SECRET`, `ORIGIN`, `BETTER_AUTH_URL`)
 - **Recommended:** 4 (PUID, PGID, TZ, LOG_LEVEL)
 - **Optional:** 20+
 - **Total:** 27+ environment variables
 
-For troubleshooting environment variable issues, see [Troubleshooting guide](../../guides/deploy/troubleshooting).
+For troubleshooting environment variable issues, see [Troubleshooting guide](/guides/deploy/troubleshooting).
 
 ## See Also
 
 - [Settings Explained](settings-explained) for UI-configurable settings
 - [Docker Compose Reference](https://docs.docker.com/compose/compose-file/)
-- [Performance Tuning](../../guides/deploy/performance-tuning)
+- [Performance Tuning](/guides/deploy/performance-tuning) — Optimization guide

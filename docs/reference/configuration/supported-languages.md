@@ -29,5 +29,5 @@ Cinephage uses ISO 639-1 language codes:
 
 ## See Also
 
-- [Configure Subtitles](../../guides/configure/subtitles)
-- [Language Profiles](../../guides/configure/subtitles#part-2-create-language-profiles)
+- [Configure Subtitles](/guides/configure/subtitles) — Subtitle configuration
+- [Language Profiles](/guides/configure/subtitles#part-2-create-language-profiles) — Language profile setup

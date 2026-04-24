@@ -26,9 +26,9 @@ keywords: [faq, library, import, organize, root folder, monitored]
 
 See [Import Existing Files](/guides/use/import-existing-files) for details.
 
-### Can I have multiple root folders?
+### Can I have multiple Root Folders?
 
-Yes! You can create multiple root folders:
+Yes! You can create multiple Root Folders:
 ```
 /media/movies      (Movies root)
 /media/tv          (TV Shows root)
@@ -38,7 +38,7 @@ Yes! You can create multiple root folders:
 
 Each must be dedicated to one media type (don't mix movies and TV).
 
-### What's the difference between Monitored and Unmonitored?
+### What's the difference between monitored and unmonitored?
 
 - **Monitored:** Cinephage actively searches for this content
 - **Unmonitored:** Item is in library but won't be auto-searched
@@ -51,7 +51,7 @@ Each must be dedicated to one media type (don't mix movies and TV).
 
 Cinephage can organize files automatically:
 
-1. Configure naming patterns in Settings → Media Management → Naming
+1. Configure naming patterns in **Settings > Media Management > Naming**
 2. Use tokens like `{Movie Title}`, `{Release Year}`, `{Quality}`
 3. Cinephage applies patterns during import
 4. Use "Organize" feature to rename existing files

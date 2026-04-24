@@ -60,7 +60,7 @@ Many endpoints now require admin authorization (👑). Ensure your API key has a
 | GET    | `/api/library/movies/[id]/stream` | 🔓   | SSE for movie updates          |
 | PUT    | `/api/library/movies/bulk`        | 🔐   | Bulk edit movies               |
 
-### Series & Episodes
+### Series & episodes
 
 | Method | Endpoint                          | Auth | Description                    |
 | ------ | --------------------------------- | ---- | ------------------------------ |
@@ -74,7 +74,7 @@ Many endpoints now require admin authorization (👑). Ensure your API key has a
 | GET    | `/api/library/episodes/[id]`      | 🔐   | Get episode details            |
 | PUT    | `/api/library/episodes/[id]`      | 🔐   | Update episode                 |
 
-### Library Operations
+### Library operations
 
 | Method | Endpoint                          | Auth | Description                    |
 | ------ | --------------------------------- | ---- | ------------------------------ |
@@ -153,7 +153,7 @@ Many endpoints now require admin authorization (👑). Ensure your API key has a
 | GET    | `/api/livetv/epg/status`        | 🔓   | EPG sync status            |
 | POST   | `/api/livetv/epg/sync`          | 👑   | Trigger EPG sync           |
 
-### Lineup & Playlist
+### Lineup & playlist
 
 | Method | Endpoint                        | Auth | Description                |
 | ------ | ------------------------------- | ---- | -------------------------- |
@@ -204,7 +204,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 - Throttle state now includes `consecutiveFailures`, `lastError`, `lastErrorAt`
 :::
 
-### Language Profiles
+### Language profiles
 
 | Method | Endpoint                              | Auth | Description              |
 | ------ | ------------------------------------- | ---- | ------------------------ |
@@ -280,7 +280,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | GET    | `/api/settings/logs/stream`       | 👑   | SSE for log stream       |
 | GET    | `/api/settings/logs/download`     | 👑   | Download logs            |
 
-### Backup & Restore
+### Backup & restore
 
 | Method | Endpoint                              | Auth | Description              |
 | ------ | ------------------------------------- | ---- | ------------------------ |
@@ -288,14 +288,14 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | POST   | `/api/settings/restore`               | 👑   | Restore from backup      |
 | GET    | `/api/settings/backup/status`         | 👑   | Backup/restore status    |
 
-### User Preferences
+### User preferences
 
 | Method | Endpoint                              | Auth | Description              |
 | ------ | ------------------------------------- | ---- | ------------------------ |
 | GET    | `/api/settings/user/language`         | 🔐   | Get user language        |
 | PUT    | `/api/settings/user/language`         | 🔐   | Update user language     |
 
-### API Keys
+### API keys
 
 | Method | Endpoint                              | Auth | Description            |
 | ------ | ------------------------------------- | ---- | ---------------------- |
@@ -307,7 +307,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 
 | Method | Endpoint                  | Auth | Description              |
 | ------ | ------------------------- | ---- | ------------------------ |
-| GET    | `/api/root-folders`       | 🔓   | List root folders        |
+| GET    | `/api/root-folders`       | 🔓   | List Root Folders        |
 | POST   | `/api/root-folders`       | 👑   | Create root folder       |
 | GET    | `/api/root-folders/[id]`  | 🔓   | Get folder               |
 | PUT    | `/api/root-folders/[id]`  | 👑   | Update folder            |
@@ -322,11 +322,11 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | GET    | `/api/scoring-profiles`   | 🔓   | List Quality Profiles    |
 | POST   | `/api/scoring-profiles`   | 👑   | Create scoring profile   |
 
-### Custom Formats
+### Custom formats
 
 | Method | Endpoint                  | Auth | Description              |
 | ------ | ------------------------- | ---- | ------------------------ |
-| GET    | `/api/custom-formats`     | 🔓   | List custom formats      |
+| GET    | `/api/custom-formats`     | 🔓   | List Custom Formats      |
 | POST   | `/api/custom-formats`     | 👑   | Create custom format     |
 | PUT    | `/api/custom-formats`     | 👑   | Update custom format     |
 | DELETE | `/api/custom-formats`     | 👑   | Delete custom format     |
@@ -341,7 +341,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | GET    | `/api/naming/tokens`      | 🔓   | List naming tokens       |
 | POST   | `/api/naming/preview`     | 🔓   | Preview naming           |
 
-### Rename Operations
+### Rename operations
 
 | Method | Endpoint                      | Auth | Description            |
 | ------ | ----------------------------- | ---- | ---------------------- |
@@ -470,4 +470,4 @@ For comprehensive documentation of specific endpoint categories:
 
 - [Authentication](authentication) — Auth methods and API keys
 - [Rate Limiting](rate-limiting) — Rate limit configuration
-- [Architecture](../../explanation/architecture) — System design
+- [Architecture](/explanation/architecture) — System design
