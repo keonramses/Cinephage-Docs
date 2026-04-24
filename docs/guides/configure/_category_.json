@@ -1,0 +1,9 @@
+{
+  "label": "Configure",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Configure",
+    "description": "Set up and customize your Cinephage instance"
+  }
+}

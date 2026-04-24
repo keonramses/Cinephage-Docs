@@ -1,0 +1,9 @@
+{
+  "label": "Deploy",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Deploy",
+    "description": "Server management and operations"
+  }
+}
