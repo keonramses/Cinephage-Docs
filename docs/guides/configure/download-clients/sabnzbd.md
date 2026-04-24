@@ -1,5 +1,5 @@
 ---
-title: How to configure SABnzbd
+title: How to Configure SABnzbd
 description: Step-by-step guide to configure SABnzbd with Cinephage
 sidebar_position: 2
 tags: [download-clients, sabnzbd, usenet, configuration, guide]

@@ -1,5 +1,5 @@
 ---
-title: How to configure Deluge
+title: How to Configure Deluge
 description: Step-by-step guide to configure Deluge with Cinephage
 sidebar_position: 5
 tags: [download-clients, deluge, torrent, configuration, guide]

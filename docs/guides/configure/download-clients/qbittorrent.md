@@ -1,5 +1,5 @@
 ---
-title: How to configure qBittorrent
+title: How to Configure qBittorrent
 description: Step-by-step guide to configure qBittorrent with Cinephage
 sidebar_position: 1
 tags: [download-clients, qbittorrent, torrent, configuration, guide]

@@ -1,5 +1,5 @@
 ---
-title: How to configure rTorrent
+title: How to Configure rTorrent
 description: Step-by-step guide to configure rTorrent with Cinephage
 sidebar_position: 4
 tags: [download-clients, rtorrent, torrent, configuration, guide]

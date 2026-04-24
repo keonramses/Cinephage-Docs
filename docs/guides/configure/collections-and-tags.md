@@ -1,5 +1,5 @@
 ---
-title: Collections and tags
+title: Collections and Tags
 description: Organize your library with collections, tags, and custom filters
 sidebar_position: 7
 tags: [library, collections, tags, filters, organization, guide]

@@ -1,5 +1,5 @@
 ---
-title: Import existing files
+title: Import Existing Files
 description: Import your existing media library into Cinephage from disk or other media managers
 sidebar_position: 4
 tags: [import, library, migration, guide, existing, files]

@@ -1,5 +1,5 @@
 ---
-title: Database schema overview
+title: Database Schema Overview
 description: Overview of Cinephage's SQLite database structure and tables
 sidebar_position: 1
 tags: [database, schema, sqlite, reference]

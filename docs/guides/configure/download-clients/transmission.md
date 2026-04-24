@@ -1,5 +1,5 @@
 ---
-title: How to configure Transmission
+title: How to Configure Transmission
 description: Step-by-step guide to configure Transmission with Cinephage
 sidebar_position: 3
 tags: [download-clients, transmission, torrent, configuration, guide]

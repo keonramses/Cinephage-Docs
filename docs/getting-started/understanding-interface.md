@@ -1,5 +1,5 @@
 ---
-title: Understanding the interface
+title: Understanding the Interface
 description: Navigate the Cinephage web interface and understand its organization
 sidebar_position: 5
 tags: [interface, ui, navigation, tutorial]

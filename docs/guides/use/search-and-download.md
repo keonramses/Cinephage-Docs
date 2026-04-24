@@ -1,5 +1,5 @@
 ---
-title: Search and download
+title: Search and Download
 description: Find and acquire media using Cinephage's search and download system
 sidebar_position: 1
 tags: [search, download, media, workflow, guide]

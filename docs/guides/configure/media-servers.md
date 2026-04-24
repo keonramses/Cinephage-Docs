@@ -1,5 +1,5 @@
 ---
-title: Configure media servers
+title: Configure Media Servers
 description: Connect Jellyfin, Emby, or Plex for automatic library updates
 sidebar_position: 11
 tags: [media-servers, jellyfin, emby, plex, notifications, configuration, guide]

@@ -1,5 +1,5 @@
 ---
-title: How to configure NZBGet
+title: How to Configure NZBGet
 description: Step-by-step guide to configure NZBGet with Cinephage
 sidebar_position: 4
 tags: [download-clients, nzbget, usenet, configuration, guide]

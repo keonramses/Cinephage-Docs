@@ -1,5 +1,5 @@
 ---
-title: Monitor and upgrade
+title: Monitor and Upgrade
 description: Configure automatic monitoring and quality upgrades for your library
 sidebar_position: 2
 tags: [monitoring, upgrades, quality, guide, tasks, automation]

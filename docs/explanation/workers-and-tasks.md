@@ -1,5 +1,5 @@
 ---
-title: Workers and tasks
+title: Workers and Tasks
 description: Understanding Cinephage's background worker system and task processing
 sidebar_position: 4
 tags: [workers, tasks, background, explanation, architecture, concurrency]

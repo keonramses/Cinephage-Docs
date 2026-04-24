@@ -1,5 +1,5 @@
 ---
-title: Set up live TV
+title: Set Up Live TV
 description: Configure Live TV providers, manage channels, and stream Live TV
 sidebar_position: 5
 tags: [live-tv, streaming, configuration, guide, stalker, xstream, m3u]

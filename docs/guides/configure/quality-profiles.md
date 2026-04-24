@@ -1,5 +1,5 @@
 ---
-title: Set up quality profiles
+title: Set Up Quality Profiles
 description: Configure quality scoring, Custom Formats, and upgrade behavior
 sidebar_position: 3
 tags: [quality-profiles, custom-formats, scoring, configuration, guide]

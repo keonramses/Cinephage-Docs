@@ -1,5 +1,5 @@
 ---
-title: Backup and restore
+title: Backup and Restore
 description: Protect your Cinephage data with regular backups and restore procedures
 sidebar_position: 2
 tags: [backup, restore, data-protection, maintenance, guide]

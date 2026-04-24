@@ -1,5 +1,5 @@
 ---
-title: Handle failed downloads
+title: Handle Failed Downloads
 description: Deal with failed downloads, use the blocklist, and retry strategies
 sidebar_position: 3
 tags: [downloads, failures, troubleshooting, guide, blocklist, retry]
