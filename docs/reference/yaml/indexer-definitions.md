@@ -1,5 +1,5 @@
 ---
-title: Indexer definitions
+title: Indexer Definitions
 description: YAML format reference for defining custom indexers in Cinephage
 sidebar_position: 1
 tags: [yaml, indexers, torrent, usenet, streaming, reference]

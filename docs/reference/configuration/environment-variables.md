@@ -1,5 +1,5 @@
 ---
-title: Environment variables
+title: Environment Variables
 description: Complete reference for all Cinephage environment variables
 sidebar_position: 1
 tags: [environment-variables, configuration, reference]

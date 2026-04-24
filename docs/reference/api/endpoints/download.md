@@ -1,5 +1,5 @@
 ---
-title: Download queue
+title: Download Queue
 description: API endpoints for managing the download queue
 sidebar_position: 4
 tags: [api, download, queue, torrent, usenet, endpoints, reference]

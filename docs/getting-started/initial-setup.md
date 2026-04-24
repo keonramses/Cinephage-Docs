@@ -1,5 +1,5 @@
 ---
-title: Initial setup
+title: Initial Setup
 description: Complete the initial configuration of Cinephage after installation
 sidebar_position: 3
 tags: [setup, configuration, tutorial]

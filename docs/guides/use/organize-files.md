@@ -1,5 +1,5 @@
 ---
-title: Organize files
+title: Organize Files
 description: Use custom naming patterns and folder structures to organize your media library
 sidebar_position: 5
 tags: [naming, organization, files, guide, patterns, tokens]

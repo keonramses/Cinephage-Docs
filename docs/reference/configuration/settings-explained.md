@@ -1,5 +1,5 @@
 ---
-title: Settings explained
+title: Settings Explained
 sidebar_position: 2
 description: Comprehensive reference for all Cinephage settings configured through the web interface
 tags: [settings, configuration, reference]

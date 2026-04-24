@@ -1,5 +1,5 @@
 ---
-title: Library views
+title: Library Views
 description: Browse, filter, and sort your movie and TV show libraries
 sidebar_position: 5
 tags: [library, views, filters, sorting, guide]

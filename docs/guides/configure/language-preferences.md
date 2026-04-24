@@ -1,5 +1,5 @@
 ---
-title: Language preferences
+title: Language Preferences
 description: Configure per-library subtitle and language settings
 sidebar_position: 9
 tags: [library, language, subtitles, configuration, guide]

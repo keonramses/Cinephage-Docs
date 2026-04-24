@@ -1,5 +1,5 @@
 ---
-title: Quality scoring
+title: Quality Scoring
 description: How Cinephage calculates quality scores for release selection
 sidebar_position: 3
 tags: [quality, scoring, algorithms, explanation]

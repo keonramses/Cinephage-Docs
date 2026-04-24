@@ -1,5 +1,5 @@
 ---
-title: Captcha solver
+title: Captcha Solver
 description: Configure built-in Cloudflare challenge bypass using Camoufox
 sidebar_position: 10
 tags: [captcha, cloudflare, camoufox, configuration, guide]

@@ -1,5 +1,5 @@
 ---
-title: Search system
+title: Search System
 description: How Cinephage's search system finds and selects media releases
 sidebar_position: 4
 tags: [search, explanation, indexers, workflow]

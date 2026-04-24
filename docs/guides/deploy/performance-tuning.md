@@ -1,5 +1,5 @@
 ---
-title: Performance tuning
+title: Performance Tuning
 description: Optimize Cinephage for your hardware, usage patterns, and deployment scenario
 sidebar_position: 3
 tags: [performance, tuning, optimization, guide, scaling, workers]

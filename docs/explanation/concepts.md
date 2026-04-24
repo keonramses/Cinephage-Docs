@@ -1,5 +1,5 @@
 ---
-title: Key concepts
+title: Key Concepts
 description: Fundamental concepts and terminology used throughout Cinephage
 sidebar_position: 2
 tags: [concepts, terminology, glossary, explanation]

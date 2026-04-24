@@ -1,5 +1,5 @@
 ---
-title: Architecture overview
+title: Architecture Overview
 description: High-level overview of Cinephage's system architecture and components
 sidebar_position: 1
 tags: [architecture, system, components, explanation]

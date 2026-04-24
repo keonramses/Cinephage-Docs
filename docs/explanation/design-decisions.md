@@ -1,5 +1,5 @@
 ---
-title: Design decisions
+title: Design Decisions
 description: Understanding the key architectural and design choices behind Cinephage
 sidebar_position: 5
 tags: [design, decisions, explanation, architecture, philosophy]

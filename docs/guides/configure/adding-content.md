@@ -1,5 +1,5 @@
 ---
-title: Adding content
+title: Adding Content
 description: Add movies and TV shows to your library manually or in bulk
 sidebar_position: 6
 tags: [library, adding, movies, tv, bulk, guide]

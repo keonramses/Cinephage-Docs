@@ -1,5 +1,5 @@
 ---
-title: Root folders
+title: Root Folders
 description: Set up and manage Root Folders for your media library
 sidebar_position: 4
 tags: [library, root-folders, configuration, guide]

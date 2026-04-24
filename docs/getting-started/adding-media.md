@@ -1,5 +1,5 @@
 ---
-title: Adding media
+title: Adding Media
 description: Learn how to add movies and TV shows to your Cinephage library
 sidebar_position: 4
 tags: [media, library, tutorial, movies, tv]

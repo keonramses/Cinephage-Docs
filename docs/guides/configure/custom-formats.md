@@ -1,5 +1,5 @@
 ---
-title: Custom formats
+title: Custom Formats
 description: Create personalized scoring rules that go beyond built-in quality profiles
 sidebar_position: 7
 tags: [custom-formats, scoring, configuration, guide]

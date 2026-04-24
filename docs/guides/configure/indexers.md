@@ -1,5 +1,5 @@
 ---
-title: Configure indexers
+title: Configure Indexers
 description: Add indexers using YAML-based indexer definitions
 sidebar_position: 2
 tags: [indexers, torrent, usenet, streaming, yaml, configuration, guide]

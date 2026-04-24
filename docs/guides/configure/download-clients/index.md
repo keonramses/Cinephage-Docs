@@ -1,5 +1,5 @@
 ---
-title: Download clients
+title: Download Clients
 description: Configure download clients for automated media acquisition
 sidebar_position: 1
 tags: [download-clients, configuration, qbittorrent, sabnzbd, overview]

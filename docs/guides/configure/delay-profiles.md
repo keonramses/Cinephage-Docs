@@ -1,5 +1,5 @@
 ---
-title: Delay profiles
+title: Delay Profiles
 description: Configure download delays to prefer higher quality releases over time
 sidebar_position: 7
 tags: [delay, profiles, configuration, guide, quality]

@@ -1,5 +1,5 @@
 ---
-title: Supported languages
+title: Supported Languages
 description: Language codes and subtitle language support
 sidebar_position: 3
 tags: [languages, subtitles, reference]

@@ -1,5 +1,5 @@
 ---
-title: Configure subtitles
+title: Configure Subtitles
 description: Set up subtitle providers, language profiles, and automatic downloads
 sidebar_position: 4
 tags: [subtitles, languages, providers, configuration, guide]

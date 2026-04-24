@@ -1,5 +1,5 @@
 ---
-title: Migration guide
+title: Migration Guide
 description: Upgrade from older Cinephage versions with breaking changes and volume mount updates
 sidebar_position: 4
 tags: [migration, upgrade, deployment, guide]

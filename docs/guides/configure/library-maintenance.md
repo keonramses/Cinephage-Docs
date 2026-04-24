@@ -1,5 +1,5 @@
 ---
-title: Library maintenance
+title: Library Maintenance
 description: Keep your media library organized and healthy with regular maintenance
 sidebar_position: 8
 tags: [library, maintenance, scanning, metadata, guide]

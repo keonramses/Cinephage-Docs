@@ -1,5 +1,5 @@
 ---
-title: Getting help
+title: Getting Help
 description: Where to find help and support for Cinephage
 sidebar_position: 6
 tags: [support, help, community]

@@ -1,5 +1,5 @@
 ---
-title: Naming tokens
+title: Naming Tokens
 description: Complete list of tokens for file naming patterns
 sidebar_position: 2
 tags: [naming, tokens, reference]
