@@ -242,7 +242,7 @@ This prioritizes resolution over source quality.
 
 ### Built-in Profile Overrides (v0.5.0+)
 
-Override built-in scoring profiles at runtime:
+Override built-in Quality Profiles at runtime:
 
 | Profile | Override Behavior |
 |---------|-------------------|

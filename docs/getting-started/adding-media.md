@@ -8,7 +8,7 @@ keywords: [movies, tv shows, library, discover, add media]
 
 # Adding media
 
-This tutorial teaches you how to add movies and TV series to your Cinephage library. You will learn to search for content, configure monitoring, and initiate downloads.
+This tutorial teaches you how to add movies and TV shows to your Cinephage library. You will learn to search for content, configure monitoring, and initiate downloads.
 
 ## Prerequisites
 
@@ -85,14 +85,14 @@ Click **Activity** in the navigation to see:
 - **History** - Completed downloads
 - Click on a queue item to see details
 
-## Part 2: Adding a TV Series
+## Part 2: Adding a TV Shows
 
 ### Step 1: Switch to TV Discover
 
 In the Discover page:
 
 1. Click the **TV** tab at the top
-2. Browse or search for a TV series
+2. Browse or search for a TV shows
 
 ### Step 2: View Series Details
 
@@ -213,7 +213,7 @@ When searching:
 You have successfully:
 
 - Added movies to your library
-- Added TV series with season monitoring
+- Added TV shows with season monitoring
 - Initiated automatic searches
 - Monitored download progress
 - Imported existing media files

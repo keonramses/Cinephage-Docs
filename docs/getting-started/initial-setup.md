@@ -270,7 +270,7 @@ Now that Cinephage is fully configured, continue to [Adding Media](adding-media)
 
 ### Configuration Guides
 - [Configure Download Clients](../guides/configure/download-clients) — Set up qBittorrent, SABnzbd, and others
-- [Configure Indexers](../guides/configure/indexers) — Add content sources using YAML definitions
+- [Configure Indexers](../guides/configure/indexers) — Add indexers using YAML definitions
 - [Set Up Quality Profiles](../guides/configure/quality-profiles) — Configure quality scoring and upgrade behavior
 
 ### Help & Support

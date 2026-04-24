@@ -60,7 +60,7 @@ Automated downloads, quality profiles, and indexer configuration.
 ---
 
 ### 📺 [Streaming & Live TV](/support/faq/streaming)
-NZB streaming and IPTV setup for live television.
+NZB streaming and IPTV setup for Live TV.
 
 **Topics:** NZB streaming, Live TV setup, M3U playlists
 

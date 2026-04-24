@@ -351,7 +351,7 @@ Configure connections to download clients for automated downloading.
 
 **Path:** `Settings > Integrations > Indexers`
 
-Configure search sources for finding releases.
+Configure indexers for finding releases.
 
 #### Indexer configuration fields
 

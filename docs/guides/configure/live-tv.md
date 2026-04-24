@@ -1,6 +1,6 @@
 ---
 title: Set up live TV
-description: Configure IPTV providers, manage channels, and stream live television
+description: Configure IPTV providers, manage channels, and stream Live TV
 sidebar_position: 5
 tags: [live-tv, iptv, streaming, configuration, guide, stalker, xstream, m3u]
 keywords: [live tv, iptv, stalker, xstream, channels]

@@ -48,7 +48,7 @@ Core media library data:
 | ---------------------- | ------------------------------------ |
 | `movies`               | Movie metadata and monitoring status |
 | `movie_files`          | Physical movie files                 |
-| `series`               | TV series metadata                   |
+| `series`               | TV shows metadata                   |
 | `seasons`              | Season information                   |
 | `episodes`             | Episode metadata                     |
 | `episode_files`        | Physical episode files               |
@@ -70,7 +70,7 @@ Download client integration:
 
 ### Indexers
 
-Content source management:
+Indexer management:
 
 | Table                 | Purpose                        |
 | --------------------- | ------------------------------ |
@@ -136,7 +136,7 @@ Streaming and NZB streaming:
 
 ### Live TV
 
-IPTV and live television:
+IPTV and Live TV:
 
 | Table                    | Purpose                           |
 | ------------------------ | --------------------------------- |

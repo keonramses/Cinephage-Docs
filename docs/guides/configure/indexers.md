@@ -1,6 +1,6 @@
 ---
 title: Configure indexers
-description: Add content sources using YAML-based indexer definitions
+description: Add indexers using YAML-based indexer definitions
 sidebar_position: 2
 tags: [indexers, torrent, usenet, streaming, yaml, configuration, guide]
 keywords: [indexers, yaml, torrent, usenet, configuration]
@@ -12,7 +12,7 @@ This guide explains how to add and configure indexers in Cinephage. Indexers are
 
 ## Goal
 
-Add content sources (indexers) so Cinephage can search for and find media releases.
+Add indexers so Cinephage can search for and find media releases.
 
 ## Prerequisites
 
@@ -228,7 +228,7 @@ Configure which content types each indexer searches:
 1. Edit an indexer
 2. Under **Categories**, check/uncheck:
    - **Movies** - Enable for movie searches
-   - **TV** - Enable for TV series searches
+    - **TV** - Enable for TV shows searches
 
 **Example:**
 

@@ -22,7 +22,7 @@ Root folders are the foundation of your library organization. When you add media
 **Examples:**
 
 - `/media/movies` - For movie files
-- `/media/tv` - For TV series
+- `/media/tv` - For TV shows
 - `/mnt/nas/movies` - Network-attached storage
 
 **Key Points:**
@@ -418,7 +418,7 @@ Smart lists use TMDB queries to automatically find content matching your criteri
 
 ### Live TV
 
-**Definition:** IPTV and live television streaming.
+**Definition:** IPTV and Live TV streaming.
 
 **Explanation:**
 Cinephage can manage IPTV subscriptions, organize channels, and provide EPG (Electronic Program Guide) functionality.

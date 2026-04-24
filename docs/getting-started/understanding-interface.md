@@ -19,7 +19,7 @@ The dashboard is your home screen when logging in. It provides:
 At the top:
 
 - **Movies** - Total movies in library
-- **TV Series** - Total series in library
+- **TV Shows** - Total series in library
 - **Monitored** - Items actively being monitored
 - **Missing** - Monitored items not yet downloaded
 
@@ -48,7 +48,7 @@ The left sidebar contains main sections:
 Browse and search TMDB for new content:
 
 - **Movies** tab - Browse movie database
-- **TV** tab - Browse TV series database
+- **TV** tab - Browse TV shows database
 - **People** tab - Browse actors and directors
 - Filters for genre, year, rating, and more
 
@@ -63,7 +63,7 @@ Manage your media collection:
 
 ### Live TV
 
-IPTV and live television management:
+IPTV and Live TV management:
 
 - **Channels** - Channel lineup and organization
 - **EPG** - Electronic program guide
@@ -262,7 +262,7 @@ Settings > Integrations contains:
 
 ### Indexers
 
-Add and manage content sources:
+Add and manage indexers:
 
 - View configured indexers
 - Add new indexers
@@ -302,7 +302,7 @@ Usenet server configuration:
 - Set connection limits
 - Configure SSL
 
-### Media Browsers
+### Media Servers
 
 Jellyfin/Emby integration:
 
@@ -434,7 +434,7 @@ You have completed the Getting Started tutorials. You are ready to:
 
 ### Essential Configuration
 - [Configure Download Clients](../guides/configure/download-clients) — Set up qBittorrent, SABnzbd, and others
-- [Configure Indexers](../guides/configure/indexers) — Add content sources
+- [Configure Indexers](../guides/configure/indexers) — Add indexers
 - [Set Up Quality Profiles](../guides/configure/quality-profiles) — Configure quality scoring
 
 ### Daily Operations

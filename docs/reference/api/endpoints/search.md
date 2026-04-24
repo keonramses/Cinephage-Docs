@@ -36,7 +36,7 @@ GET /api/search
 | query | string | No | Search query string |
 | type | string | No | Media type (movie, tv) |
 | tmdbId | integer | No | TMDB ID to search for |
-| tvdbId | integer | No | TVDB ID for TV series |
+| tvdbId | integer | No | TVDB ID for TV shows |
 | seriesId | string | No | Series UUID to search for |
 | movieId | string | No | Movie UUID to search for |
 | seasonNumber | integer | No | Season number (TV only) |
@@ -53,7 +53,7 @@ GET /api/search
 |------|---------------------|-------------|
 | `manual` | query | Free-form search |
 | `movie` | movieId or tmdbId | Search for specific movie |
-| `tv` | seriesId or tmdbId | Search for TV series |
+| `tv` | seriesId or tmdbId | Search for TV shows |
 | `episode` | seriesId, seasonNumber, episodeNumber | Search specific episode |
 
 ### Response codes
@@ -328,5 +328,5 @@ Cinephage supports searching across multiple indexer types:
 ## See Also
 
 - [Movies](movies) — Movie library endpoints
-- [TV](tv) — TV series and episode endpoints
+- [TV](tv) — TV shows and episode endpoints
 - [Download](download) — Queue and download management

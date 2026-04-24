@@ -1027,7 +1027,7 @@ Use browser DevTools to test CSS selectors:
 Only enable categories the indexer supports:
 
 - Movies: Movie releases
-- TV: TV series releases
+- TV: TV shows releases
 - Both: General indexers
 
 ### Security

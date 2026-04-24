@@ -16,7 +16,7 @@ Comprehensive technical documentation for Cinephage.
 
 ## Configuration
 
-- [Environment Variables](/reference/configuration/environment-variables) — All available env vars
+- [Environment Variables](/reference/configuration/environment-variables) — All available environment variables
 - [Settings Explained](/reference/configuration/settings-explained) — Configuration options
 - [Supported Languages](/reference/configuration/supported-languages) — Language codes and formats
 
