@@ -228,7 +228,7 @@ Configure which content types each indexer searches:
 1. Edit an indexer
 2. Under **Categories**, check/uncheck:
    - **Movies** - Enable for movie searches
-   - **TV** - Enable for TV series searches
+   - **TV** - Enable for TV shows searches
 
 **Example:**
 

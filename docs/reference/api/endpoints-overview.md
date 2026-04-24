@@ -224,7 +224,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | GET    | `/api/streaming/status`               | 🔓   | Streaming status         |
 | POST   | `/api/streaming/verify`               | 🔓   | Verify stream URL        |
 
-### Usenet streaming
+### NZB Streaming
 
 | Method | Endpoint                          | Auth | Description                |
 | ------ | --------------------------------- | ---- | -------------------------- |
@@ -319,7 +319,7 @@ The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 | Method | Endpoint                  | Auth | Description              |
 | ------ | ------------------------- | ---- | ------------------------ |
 | GET    | `/api/quality-presets`    | 🔓   | List quality presets     |
-| GET    | `/api/scoring-profiles`   | 🔓   | List scoring profiles    |
+| GET    | `/api/scoring-profiles`   | 🔓   | List Quality Profiles    |
 | POST   | `/api/scoring-profiles`   | 👑   | Create scoring profile   |
 
 ### Custom formats

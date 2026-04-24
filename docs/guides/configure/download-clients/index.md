@@ -151,7 +151,7 @@ For detailed troubleshooting, see [Troubleshooting downloads](/guides/deploy/tro
 
 After configuring your download client:
 
-- [Configure indexers](/guides/configure/indexers) to add content sources
+- [Configure indexers](/guides/configure/indexers) to add indexers
 - [Set up quality profiles](/guides/configure/quality-profiles) to control download quality
 - [Search and download](/guides/use/search-and-download) to start acquiring content
 

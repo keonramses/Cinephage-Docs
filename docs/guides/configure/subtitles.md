@@ -45,7 +45,7 @@ Cinephage provides comprehensive subtitle support:
 | Subf2m            | Free         | Free          | Multi-language              |
 | NapiProjekt       | Free         | Free          | Polish-focused              |
 | LegendasDivx      | Free         | Free Account  | Portuguese-focused          |
-| BetaSeries        | Free         | API Key       | French TV series            |
+| BetaSeries        | Free         | API Key       | French TV shows            |
 | Assrt             | Free         | API Key       | Chinese, Asian languages    |
 
 :::note Removed Providers
@@ -285,7 +285,7 @@ History is automatically cleaned up after 30 days.
 4. Under **Language Profile**, select your profile
 5. Click **Save**
 
-### Apply to TV series
+### Apply to TV shows
 
 1. Go to **Library > TV**
 2. Select series (or all)
@@ -361,7 +361,7 @@ The sync engine uses Voice Activity Detection (VAD) to align subtitles:
 
 ### Bulk sync
 
-For TV series with multiple episodes:
+For TV shows with multiple episodes:
 
 1. Go to series detail page
 2. Click **Subtitles** tab
@@ -630,7 +630,7 @@ Subtitles are small files:
 Now that subtitles are configured:
 
 - [Search and Download](../use/search-and-download) media with subtitle support
-- [Set Up Live TV](live-tv) for live television with subtitles
+- [Set Up Live TV](live-tv) for Live TV with subtitles
 - [Configure NZB Streaming](nzb-streaming) for streaming with subtitle support
 
 ## See Also

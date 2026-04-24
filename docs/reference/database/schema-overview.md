@@ -48,7 +48,7 @@ Core media library data:
 | ---------------------- | ------------------------------------ |
 | `movies`               | Movie metadata and monitoring status |
 | `movie_files`          | Physical movie files                 |
-| `series`               | TV series metadata                   |
+| `series`               | TV shows metadata                   |
 | `seasons`              | Season information                   |
 | `episodes`             | Episode metadata                     |
 | `episode_files`        | Physical episode files               |
@@ -178,7 +178,7 @@ movies
 └── root_folders (many-to-one)
 ```
 
-### TV series relationships
+### TV shows relationships
 
 ```
 series

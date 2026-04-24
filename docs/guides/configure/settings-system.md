@@ -105,7 +105,7 @@ Some media servers (Plex, Jellyfin) cannot send custom headers. Use the query pa
 ### API key security
 
 - **Treat like passwords** — Don't share or commit to version control
-- **Use environment variables** — In scripts, store keys in env vars
+- **Use environment variables** — In scripts, store keys in environment variables
 - **Use least privilege** — Use Streaming API Key for media servers
 - **Rotate if compromised** — Regenerate immediately if leaked
 

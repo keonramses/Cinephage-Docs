@@ -48,7 +48,7 @@ The left sidebar contains main sections:
 Browse and search TMDB for new content:
 
 - **Movies** tab - Browse movie database
-- **TV** tab - Browse TV series database
+- **TV** tab - Browse TV shows database
 - **People** tab - Browse actors and directors
 - Filters for genre, year, rating, and more
 

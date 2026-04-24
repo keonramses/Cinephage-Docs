@@ -345,5 +345,5 @@ POST /api/libraries/:id/backfill
 ## See Also
 
 - [Movies](movies) — Movie library endpoints
-- [TV](tv) — TV series library endpoints
+- [TV](tv) — TV shows library endpoints
 - [Settings](settings) — System configuration endpoints

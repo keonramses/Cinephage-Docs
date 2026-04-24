@@ -1,14 +1,14 @@
 ---
-title: TV series and episodes
-description: API endpoints for managing TV series, seasons, and episodes
+title: TV shows and episodes
+description: API endpoints for managing TV shows, seasons, and episodes
 sidebar_position: 2
 tags: [api, tv, series, episodes, library, endpoints, reference]
 keywords: [api, tv, series, episodes, library, endpoints]
 ---
 
-# TV series and episodes
+# TV shows and episodes
 
-Endpoints for managing TV series, seasons, and episodes in the Cinephage library.
+Endpoints for managing TV shows, seasons, and episodes in the Cinephage library.
 
 ## Authentication
 
@@ -26,7 +26,7 @@ All TV endpoints require authentication via session cookie or API key.
 
 ### List series
 
-Returns a paginated list of TV series.
+Returns a paginated list of TV shows.
 
 ```
 GET /api/library/series
@@ -124,7 +124,7 @@ curl -H "x-api-key: cinephage_your_key_here" \
 
 ### Create series
 
-Adds a new TV series to the library by TMDB ID.
+Adds a new TV shows to the library by TMDB ID.
 
 ```
 POST /api/library/series
