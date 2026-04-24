@@ -393,7 +393,7 @@ sudo systemctl start cinephage
 sudo systemctl status cinephage
 ```
 
-For more details, see the [Update Guide](../../guides/use/update-cinephage).
+For more details, see the [Update Guide](/guides/use/update-cinephage).
 
 ## Reverse Proxy Setup (Optional)
 

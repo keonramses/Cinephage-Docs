@@ -31,7 +31,7 @@ Cinephage can import existing media files and automatically:
 ### Prerequisites
 
 - Cinephage installed and running
-- Root folders configured ([Initial Setup](../../getting-started/initial-setup))
+- Root folders configured ([Initial Setup](/getting-started/initial-setup))
 - TMDB API key configured
 - Read/write permissions to media folders
 
@@ -506,7 +506,7 @@ Configure automatic import from specific folders:
 
 ## See Also
 
-- [Adding Media](../../getting-started/adding-media) - Add new content to library
-- [Organize Files](organize-files) - Custom naming patterns
-- [Configure Download Clients](../configure/download-clients) - Set up automatic downloads
-- [Understanding the Interface](../../getting-started/understanding-interface) - Navigate your library
+- [Adding Media](/getting-started/adding-media) — Add new content to library
+- [Organize Files](organize-files) — Custom naming patterns
+- [Configure Download Clients](../configure/download-clients) — Set up automatic downloads
+- [Understanding the Interface](/getting-started/understanding-interface) — Navigate your library

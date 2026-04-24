@@ -402,6 +402,6 @@ Now that quality profiles are configured:
 
 ## See Also
 
-- [Custom Formats Explained](../../explanation/quality-scoring)
-- [Search and Download](../use/search-and-download)
-- [Environment Variables](../../reference/configuration/environment-variables)
+- [Custom Formats Explained](/explanation/quality-scoring) — How quality scoring works
+- [Search and Download](../use/search-and-download) — Find and download content
+- [Environment Variables](/reference/configuration/environment-variables) — Configuration reference

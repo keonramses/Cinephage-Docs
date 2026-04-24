@@ -110,5 +110,5 @@ Try alternative indexers if one is consistently blocked.
 
 ## See Also
 
-- [Indexers](./indexers.md) — Configuring indexers that need Cloudflare bypass
-- [Troubleshooting](../deploy/troubleshooting.md) — General troubleshooting guide
+- [Indexers](./indexers) — Configuring indexers that need Cloudflare bypass
+- [Troubleshooting](../deploy/troubleshooting) — General troubleshooting guide

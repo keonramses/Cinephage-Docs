@@ -523,7 +523,7 @@ Any other relevant information
 
 ## See Also
 
-- [Getting Help](../../getting-started/getting-help)
-- [FAQ](../../support/faq)
-- [Performance Tuning](performance-tuning)
-- [Backup and Restore](backup-restore)
+- [Getting Help](/getting-started/getting-help) — Support resources
+- [FAQ](/support/faq) — Frequently asked questions
+- [Performance Tuning](performance-tuning) — Optimization guide
+- [Backup and Restore](backup-restore) — Data protection

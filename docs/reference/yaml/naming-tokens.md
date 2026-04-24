@@ -293,6 +293,6 @@ Characters that may need escaping in filenames:
 ## See Also
 
 - [Indexer Definitions](indexer-definitions) - YAML format for defining custom indexers
-- [How to Configure Indexers](../../guides/configure/indexers) - Step-by-step guide for configuring indexers
-- [How to Organize Files](../../guides/use/organize-files) - Guide to file organization and naming patterns
-- [Root Folders](../../guides/configure/root-folders) - Configure Root Folders and naming settings
+- [How to Configure Indexers](/guides/configure/indexers) — Step-by-step guide for configuring indexers
+- [How to Organize Files](/guides/use/organize-files) — Guide to file organization and naming patterns
+- [Root Folders](/guides/configure/root-folders) — Configure Root Folders and naming settings

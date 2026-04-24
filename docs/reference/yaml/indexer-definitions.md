@@ -1039,8 +1039,8 @@ Only enable categories the indexer supports:
 
 ## See Also
 
-- [How to Configure Indexers](../../guides/configure/indexers) - Step-by-step guide for adding and configuring indexers
+- [How to Configure Indexers](/guides/configure/indexers) — Step-by-step guide for adding and configuring indexers
 - [Naming Tokens Reference](naming-tokens) - Token reference for file naming patterns
-- [Search and Download](../../guides/use/search-and-download) - Guide to using indexers for searches
+- [Search and Download](/guides/use/search-and-download) — Guide to using indexers for searches
 - [YAML Specification](https://yaml.org/spec/) - Official YAML specification
 - [CSS Selector Reference](https://developer.mozilla.org/en-US/Web/CSS/CSS_Selectors) - MDN CSS selector documentation

@@ -30,7 +30,7 @@ These variables must be set for Cinephage to function correctly:
 2. Copy the value into the `BETTER_AUTH_SECRET` environment variable
 3. **Without this migration, all sessions and encrypted API keys will be lost**
 
-[See Migration Guide](../../guides/deploy/migration.md) for detailed instructions.
+[See Migration Guide](/guides/deploy/migration) for detailed instructions.
 :::
 
 ### Generating BETTER_AUTH_SECRET
@@ -327,10 +327,10 @@ services:
 - **Optional:** 20+
 - **Total:** 27+ environment variables
 
-For troubleshooting environment variable issues, see [Troubleshooting guide](../../guides/deploy/troubleshooting).
+For troubleshooting environment variable issues, see [Troubleshooting guide](/guides/deploy/troubleshooting).
 
 ## See Also
 
 - [Settings Explained](settings-explained) for UI-configurable settings
 - [Docker Compose Reference](https://docs.docker.com/compose/compose-file/)
-- [Performance Tuning](../../guides/deploy/performance-tuning)
+- [Performance Tuning](/guides/deploy/performance-tuning) — Optimization guide

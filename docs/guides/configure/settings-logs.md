@@ -208,5 +208,5 @@ Never enable `LOG_SENSITIVE` in production. It logs passwords, API keys, and oth
 ## See Also
 
 - [Troubleshooting](../deploy/troubleshooting) — Common issues
-- [Environment Variables](../../reference/configuration/environment-variables) — Log configuration
-- [Architecture](../../explanation/architecture) — System design
+- [Environment Variables](/reference/configuration/environment-variables) — Log configuration
+- [Architecture](/explanation/architecture) — System design

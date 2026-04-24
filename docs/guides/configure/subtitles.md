@@ -635,6 +635,6 @@ Now that subtitles are configured:
 
 ## See Also
 
-- [Supported Languages](../../reference/configuration/supported-languages)
-- [Troubleshooting](../deploy/troubleshooting)
-- [Quality Profiles](quality-profiles)
+- [Supported Languages](/reference/configuration/supported-languages) — Language configuration reference
+- [Troubleshooting](../deploy/troubleshooting) — Common issues
+- [Quality Profiles](quality-profiles) — Quality settings

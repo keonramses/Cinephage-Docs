@@ -470,4 +470,4 @@ For comprehensive documentation of specific endpoint categories:
 
 - [Authentication](authentication) — Auth methods and API keys
 - [Rate Limiting](rate-limiting) — Rate limit configuration
-- [Architecture](../../explanation/architecture) — System design
+- [Architecture](/explanation/architecture) — System design

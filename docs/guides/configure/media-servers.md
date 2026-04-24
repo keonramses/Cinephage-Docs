@@ -217,6 +217,6 @@ To trigger a full library refresh manually:
 
 ## See Also
 
-- [Initial Setup](../../getting-started/initial-setup) — First-time configuration
+- [Initial Setup](/getting-started/initial-setup) — First-time configuration
 - [Root Folders](root-folders) — Managing your media library
 - [Troubleshooting](../deploy/troubleshooting) — General troubleshooting

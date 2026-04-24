@@ -192,6 +192,6 @@ cinephage.example.com {
 
 ## See Also
 
-- [Authentication](../../reference/api/authentication) — Full auth documentation
-- [Environment Variables](../../reference/configuration/environment-variables) — Configuration
+- [Authentication](/reference/api/authentication) — Full auth documentation
+- [Environment Variables](/reference/configuration/environment-variables) — Configuration
 - [Media Servers](media-servers) — Connect Jellyfin/Plex/Emby

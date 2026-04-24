@@ -395,6 +395,6 @@ Now that indexers are configured:
 
 ## See Also
 
-- [YAML Indexer Format Reference](../../reference/yaml/indexer-definitions)
-- [Search and Download](../use/search-and-download)
-- [Troubleshooting](../deploy/troubleshooting)
+- [YAML Indexer Format Reference](/reference/yaml/indexer-definitions) — YAML format documentation
+- [Search and Download](../use/search-and-download) — Find and download content
+- [Troubleshooting](../deploy/troubleshooting) — Common issues

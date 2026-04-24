@@ -274,6 +274,6 @@ If blocklist is impacting performance:
 
 ## See Also
 
-- [Search & Download](../use/search-and-download.md) — How releases are found and grabbed
-- [Delay Profiles](./delay-profiles.md) — Control when releases are grabbed
-- [Troubleshooting](../deploy/troubleshooting.md) — Common issues
+- [Search & Download](../use/search-and-download) — How releases are found and grabbed
+- [Delay Profiles](./delay-profiles) — Control when releases are grabbed
+- [Troubleshooting](../deploy/troubleshooting) — Common issues

@@ -248,6 +248,6 @@ Release Title matches regex: \d{3,4}kbps
 
 ## See Also
 
-- [Quality Profiles](./quality-profiles.md) — Built-in Quality Profiles
-- [Search & Download](../use/search-and-download.md) — How releases are selected
-- [Delay Profiles](./delay-profiles.md) — Control when releases are grabbed
+- [Quality Profiles](./quality-profiles) — Built-in Quality Profiles
+- [Search & Download](../use/search-and-download) — How releases are selected
+- [Delay Profiles](./delay-profiles) — Control when releases are grabbed

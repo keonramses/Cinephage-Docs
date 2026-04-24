@@ -562,5 +562,5 @@ docker compose up -d
 ## See Also
 
 - [Installation](/getting-started/installation)
-- [Backup & Restore](./backup-restore.md)
-- [Troubleshooting](./troubleshooting.md)
+- [Backup & Restore](./backup-restore) — Data protection
+- [Troubleshooting](./troubleshooting) — Common issues

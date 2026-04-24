@@ -479,5 +479,5 @@ Key metrics tracked:
 - [Workers and Tasks](workers-and-tasks)
 - [Quality Scoring](quality-scoring)
 - [Design Decisions](design-decisions)
-- [Database Schema](../reference/database/schema-overview)
-- [Getting Started](../getting-started/)
+- [Database Schema](/reference/database/schema-overview) — Complete database structure
+- [Getting Started](/getting-started/) — Installation and setup

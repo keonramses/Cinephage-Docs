@@ -287,6 +287,6 @@ Different indexers have different release patterns:
 
 ## See Also
 
-- [Quality Profiles](./quality-profiles.md) — How quality scoring works
-- [Custom Formats](./custom-formats.md) — Advanced scoring rules
-- [Blocklist](./blocklist.md) — Managing failed releases
+- [Quality Profiles](./quality-profiles) — How quality scoring works
+- [Custom Formats](./custom-formats) — Advanced scoring rules
+- [Blocklist](./blocklist) — Managing failed releases

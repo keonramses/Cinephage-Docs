@@ -467,7 +467,7 @@ Cinephage sanitizes filenames automatically:
 
 ## See Also
 
-- [Naming Tokens Reference](../../reference/yaml/naming-tokens) - Complete token list
-- [Import Existing Files](import-existing-files) - Import with your new patterns
-- [Settings Explained](../../reference/configuration/settings-explained) - All configuration options
-- [Understanding the Interface](../../getting-started/understanding-interface) - Browse your organized library
+- [Naming Tokens Reference](/reference/yaml/naming-tokens) — Complete token list
+- [Import Existing Files](import-existing-files) — Import with your new patterns
+- [Settings Explained](/reference/configuration/settings-explained) — All configuration options
+- [Understanding the Interface](/getting-started/understanding-interface) — Browse your organized library

@@ -346,8 +346,8 @@ After searching and downloading:
 
 ## See Also
 
-- [Search System](../../explanation/search-system) - How the search system works
-- [Quality Scoring](../../explanation/quality-scoring) - Detailed scoring algorithm
-- [Configure Indexers](../configure/indexers)
-- [Quality Profiles](../configure/quality-profiles)
-- [Troubleshooting](../deploy/troubleshooting)
+- [Search System](/explanation/search-system) — How the search system works
+- [Quality Scoring](/explanation/quality-scoring) — Detailed scoring algorithm
+- [Configure Indexers](../configure/indexers) — Indexer setup guide
+- [Quality Profiles](../configure/quality-profiles) — Quality configuration
+- [Troubleshooting](../deploy/troubleshooting) — Common issues

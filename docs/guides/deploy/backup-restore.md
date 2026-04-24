@@ -452,6 +452,6 @@ Now that backups are configured:
 
 ## See Also
 
-- [Environment Variables](../../reference/configuration/environment-variables)
-- [Docker Compose Reference](https://docs.docker.com/compose/)
-- [SQLite Backup Documentation](https://www.sqlite.org/backup.html)
+- [Environment Variables](/reference/configuration/environment-variables) — Configuration options
+- [Docker Compose Reference](https://docs.docker.com/compose/) — Docker documentation
+- [SQLite Backup Documentation](https://www.sqlite.org/backup.html) — SQLite reference

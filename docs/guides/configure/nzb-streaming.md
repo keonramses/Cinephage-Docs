@@ -753,4 +753,4 @@ Best integration via STRM files:
 
 - [Configure Download Clients](download-clients) - Set up NZB Streaming
 - [Set Up Quality Profiles](quality-profiles) - Configure Streamer profile
-- [Configure NNTP Servers](../../reference/configuration/settings-explained#nntp-servers-usenet) - NNTP settings reference
+- [Configure NNTP Servers](/reference/configuration/settings-explained#nntp-servers-usenet) — NNTP settings reference

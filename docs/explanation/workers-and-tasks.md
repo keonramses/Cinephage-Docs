@@ -603,7 +603,7 @@ environment:
 
 ## See Also
 
-- [Performance Tuning](../guides/deploy/performance-tuning) - Optimize worker performance
-- [Environment Variables](../reference/configuration/environment-variables) - All configuration options
-- [Architecture](architecture) - System architecture overview
-- [Settings Explained](../reference/configuration/settings-explained) - UI settings reference
+- [Performance Tuning](/guides/deploy/performance-tuning) — Optimize worker performance
+- [Environment Variables](/reference/configuration/environment-variables) — All configuration options
+- [Architecture](architecture) — System architecture overview
+- [Settings Explained](/reference/configuration/settings-explained) — UI settings reference
