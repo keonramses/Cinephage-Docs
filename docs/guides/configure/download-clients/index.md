@@ -33,9 +33,8 @@ Download clients handle the actual downloading of media files. Cinephage connect
 
 | Client | Recommended | Features |
 |--------|-------------|----------|
-| [SABnzbd](sabnzbd) | Yes | Web UI, categories, scripting |
+| [SABnzbd](sabnzbd) | Yes | Web UI, categories, scripting, mount mode |
 | [NZBGet](nzbget) | | Lightweight, RSS support |
-| NZB-Mount | | Direct streaming via WebDAV |
 
 ## Prerequisites
 

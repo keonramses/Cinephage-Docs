@@ -2,7 +2,7 @@
 title: Configure NZB streaming
 description: Stream content directly from usenet without downloading first using NZB streaming
 sidebar_position: 6
-tags: [nzb, streaming, usenet, configuration, guide, nzbmount, strm]
+tags: [nzb, streaming, usenet, configuration, guide, strm]
 keywords: [nzb, streaming, usenet, mount, direct play]
 ---
 
@@ -36,7 +36,7 @@ Player Request
     ↓
 Cinephage Streaming Server
     ↓
-NZB Mount (Virtual Filesystem)
+SABnzbd Mount Mode (Virtual Filesystem)
     ↓
 Segment Cache (Downloaded pieces)
     ↓
@@ -85,26 +85,26 @@ Look for providers with:
 
 ## Setup Guide
 
-### Step 1: add NZB Streaming download client
+### Step 1: Add SABnzbd download client (Mount Mode)
 
-First, configure NZB Streaming as a download client:
+First, configure SABnzbd as a download client and enable Mount Mode:
 
 1. Go to **Settings > Integrations > Download Clients**
 2. Click **Add Download Client**
-3. Select **NZB Streaming** from the dropdown
+3. Select **SABnzbd** from the dropdown
 4. Configure settings:
 
 | Setting | Value | Description |
 |---------|-------|-------------|
-| **Name** | "NZB Streaming" or "Streaming" | Display name |
+| **Name** | "SABnzbd Streaming" or "Streaming" | Display name |
 | **Enable** | Checked | Enable the client |
 | **Priority** | 1 | Priority for automatic search |
 
 5. Click **Test** to verify configuration
 6. Click **Save**
 
-:::note No Credentials Required
-NZB Streaming doesn't require host/port credentials like other download clients. It uses the NNTP server configuration (set up in Step 2).
+:::note Use SABnzbd Credentials
+Use your SABnzbd host/port/API key, then set **Client Behavior** to **Altmount / NZBDav (Mount Mode)**.
 :::
 
 ### Step 2: configure NNTP server
@@ -242,14 +242,14 @@ Use manual stream when:
 - Streaming one-time content
 :::
 
-### Method 3: nzb-mount import
+### Method 3: SABnzbd mount mode import
 
 For existing NZBs you want to stream:
 
-1. Add NZB to NZB Streaming client manually:
+1. Add NZB to your SABnzbd Mount Mode client manually:
    - Go to **Activity > Queue**
    - Click **Add NZB**
-   - Select NZB Streaming as client
+   - Select your SABnzbd (Mount Mode) client
 2. Cinephage mounts the NZB automatically
 3. Access via:
    - `.strm` file in library
@@ -751,6 +751,6 @@ Best integration via STRM files:
 
 ## See Also
 
-- [Configure Download Clients](download-clients) - Set up NZB Streaming
+- [Configure Download Clients](download-clients) - Set up SABnzbd Mount Mode
 - [Set Up Quality Profiles](quality-profiles) - Configure Streamer profile
 - [Configure NNTP Servers](/reference/configuration/settings-explained#nntp-servers-usenet) — NNTP settings reference
