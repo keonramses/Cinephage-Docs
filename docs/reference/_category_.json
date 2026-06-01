@@ -1,9 +1,5 @@
 {
   "label": "Reference",
   "position": 3,
-  "link": {
-    "type": "generated-index",
-    "title": "Technical Reference",
-    "description": "API documentation, configuration options, database schema, and YAML formats."
-  }
+  "link": { "type": "doc", "id": "reference/index" }
 }

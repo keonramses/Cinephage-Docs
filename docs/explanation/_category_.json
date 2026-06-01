@@ -1,9 +1,5 @@
 {
   "label": "Explanation",
   "position": 4,
-  "link": {
-    "type": "generated-index",
-    "title": "Explanation",
-    "description": "Architecture decisions, concepts, and how Cinephage works under the hood."
-  }
+  "link": { "type": "doc", "id": "explanation/index" }
 }
