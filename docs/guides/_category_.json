@@ -1,5 +1,1 @@
-{
-  "label": "Guides",
-  "position": 2,
-  "link": { "type": "doc", "id": "guides/index" }
-}
+{ "label": "Guides", "position": 2 }

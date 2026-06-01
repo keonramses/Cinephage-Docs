@@ -1,5 +1,1 @@
-{
-  "label": "Support",
-  "position": 5,
-  "link": { "type": "doc", "id": "support/index" }
-}
+{ "label": "Support", "position": 5 }
