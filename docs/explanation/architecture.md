@@ -140,8 +140,7 @@ Cinephage integrates with numerous external services:
 
 **Metadata:**
 
-- TMDB - Movie and TV metadata
-- TVDB - Additional TV data
+- TMDB - Movie, TV metadata, and external ID lookups (TVDB/IMDB IDs are resolved via TMDB's external IDs API)
 - IMDB - External ID linking
 
 **Download Clients:**
@@ -157,7 +156,7 @@ Cinephage integrates with numerous external services:
 
 **Subtitles:**
 
-- 11 subtitle providers
+- 12 subtitle providers
 - OpenSubtitles, Addic7ed, SubDL, etc.
 
 **Media Servers:**

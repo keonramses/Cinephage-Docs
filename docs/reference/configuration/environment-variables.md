@@ -20,10 +20,9 @@ These variables must be set for Cinephage to function correctly:
 | -------------------- | ---------------------------------------------------- | ------------------------------ |
 | `BETTER_AUTH_SECRET` | Secret key for session signing and API key encryption | _generate unique value_        |
 | `ORIGIN`             | Trusted origin URL for CSRF protection               | `http://localhost:3000`        |
-| `BETTER_AUTH_URL`    | Base URL for authentication callbacks                | `http://localhost:3000`        |
 
-:::danger BREAKING CHANGE - Version 0.5.0+
-`BETTER_AUTH_SECRET` is now **required**. The auto-generated `.auth-secret` file fallback has been removed.
+:::danger BREAKING CHANGE - Version 0.7.0
+`BETTER_AUTH_SECRET` is now **required**. The auto-generated `.auth-secret` file fallback was removed in v0.7.0 (the requirement was first introduced in v0.5.0).
 
 **Migration for existing deployments:**
 1. Locate your existing secret in `data/.auth-secret`
@@ -63,8 +62,9 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 | `HOST`                        | `0.0.0.0` | IP address to bind the server to                                           |
 | `PORT`                        | `3000`    | Port number to listen on                                                   |
 | `ORIGIN`                      | -         | Trusted origin URL for CSRF protection. Must match your access URL exactly |
-| `BETTER_AUTH_URL`             | -         | Base URL for authentication callbacks and redirects                        |
-| `BETTER_AUTH_TRUSTED_ORIGINS` | -         | Additional trusted origins for CORS (comma-separated)                      |
+| `BETTER_AUTH_URL`                   | -         | Base URL for authentication callbacks and redirects (optional - falls back to `ORIGIN`) |
+| `BETTER_AUTH_TRUSTED_ORIGINS`       | -         | Additional trusted origins for CORS (comma-separated)                      |
+| `BETTER_AUTH_DISABLE_SECURE_COOKIES`| `false`   | Disable secure cookies (auto-set when `BETTER_AUTH_URL` starts with `http://`) |
 | `PUBLIC_BASE_URL`             | -         | Public-facing URL for generated external links                             |
 
 ### Examples
@@ -188,6 +188,14 @@ Workers handle background tasks. These limits control concurrency:
 | `WORKER_MAX_SUBTITLE_SEARCH` | `3`     | Maximum concurrent subtitle searches        |
 | `WORKER_MAX_PORTAL_SCANS`    | `2`     | Maximum concurrent portal scans (Live TV)   |
 | `WORKER_MAX_CHANNEL_SYNCS`   | `3`     | Maximum concurrent channel synchronizations |
+| `WORKER_CLEANUP_MS`          | `1800000` | How long to keep completed worker logs in memory (ms) |
+| `WORKER_MAX_LOGS`            | `1000`  | Maximum log entries kept per worker instance |
+
+### Process lifecycle
+
+| Variable           | Default | Description                                              |
+| ------------------ | ------- | -------------------------------------------------------- |
+| `SHUTDOWN_TIMEOUT` | `30`    | Seconds to wait for graceful shutdown before force-killing |
 
 ### Tuning workers
 
@@ -311,10 +319,11 @@ services:
 
 | Category            | Variables                                                                                                  |
 | ------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **Server**          | `BETTER_AUTH_SECRET`, `ORIGIN`, `BETTER_AUTH_URL`, `HOST`, `PORT`, `BETTER_AUTH_TRUSTED_ORIGINS`, `PUBLIC_BASE_URL` |
+| **Server**          | `BETTER_AUTH_SECRET`, `ORIGIN`, `BETTER_AUTH_URL`, `BETTER_AUTH_DISABLE_SECURE_COOKIES`, `HOST`, `PORT`, `BETTER_AUTH_TRUSTED_ORIGINS`, `PUBLIC_BASE_URL` |
 | **System**          | `PUID`, `PGID`, `TZ`, `CINEPHAGE_FORCE_RECURSIVE_CHOWN`                                                    |
 | **Logging**         | `LOG_LEVEL`, `LOG_INCLUDE_STACK`, `LOG_SENSITIVE`                                                          |
-| **Workers**         | `WORKER_MAX_*` (8 variables)                                                                               |
+| **Workers**         | `WORKER_MAX_*` (8 variables), `WORKER_CLEANUP_MS`, `WORKER_MAX_LOGS`                                       |
+| **Process**         | `SHUTDOWN_TIMEOUT`                                                                                          |
 | **Streaming**       | `PROXY_FETCH_TIMEOUT_MS`, `PROXY_SEGMENT_MAX_SIZE`, `PROXY_MAX_RETRIES`, `DEFAULT_PROXY_REFERER`           |
 | **Circuit Breaker** | `PROVIDER_MAX_FAILURES`, `PROVIDER_CIRCUIT_HALF_OPEN_MS`, `PROVIDER_CIRCUIT_RESET_MS`                      |
 | **Live TV**         | `EPG_STARTUP_GRACE_MS`, `STREAMING_API_KEY_RATE_LIMIT_*`                                                   |
@@ -322,10 +331,10 @@ services:
 
 ### Total variables
 
-- **Required:** 3 (`BETTER_AUTH_SECRET`, `ORIGIN`, `BETTER_AUTH_URL`)
-- **Recommended:** 4 (PUID, PGID, TZ, LOG_LEVEL)
-- **Optional:** 20+
-- **Total:** 27+ environment variables
+- **Required:** 2 (`BETTER_AUTH_SECRET`, `ORIGIN`)
+- **Recommended:** 5 (`BETTER_AUTH_URL`, PUID, PGID, TZ, LOG_LEVEL)
+- **Optional:** 25+
+- **Total:** 32+ environment variables
 
 For troubleshooting environment variable issues, see [Troubleshooting guide](/guides/deploy/troubleshooting).
 

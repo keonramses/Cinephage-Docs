@@ -386,6 +386,20 @@ This is expected behavior - Smart Lists reflect current TMDB data:
 - Items no longer matching filters are marked
 - Use exclusion list to prevent specific items from returning
 
+## External list sources
+
+In addition to TMDB Discover filters, Smart Lists can pull from external list sources:
+
+| Source | Description | Status |
+|--------|-------------|--------|
+| **IMDb list** | Import content from a public IMDb list URL | Available |
+| **JSON URL** | Import from a remote JSON file with a compatible format | Available |
+| **Custom manual** | Manually curated list managed inside Cinephage | Available |
+| **TMDB list** | Import from a TMDB list ID | Available |
+| **Trakt list** | Import from a Trakt list | Not yet implemented |
+
+To use an external source, select it as the **List Source** when creating or editing a Smart List. IMDb and JSON URL sources require a valid public URL.
+
 ## Limitations
 
 ### TMDB dependencies

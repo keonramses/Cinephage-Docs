@@ -33,16 +33,14 @@ Navigate to **Settings > Integrations > Captcha Solver**:
 | ------------- | ------------------------------------ | ------- |
 | **Enabled**   | Turn solver on/off                   | Enabled |
 | **Timeout**   | Max time to wait for solve (seconds) | 60      |
-| **Cache TTL** | How long to keep cookies (hours)     | 24      |
+| **Cache TTL** | How long to keep cookies (hours)     | 1       |
 | **Headless**  | Run browser without GUI              | Enabled |
 
 ### Advanced settings
 
-| Setting             | Description                       | Default |
-| ------------------- | --------------------------------- | ------- |
-| **Proxy**           | HTTP proxy for browser (optional) | None    |
-| **Max Retries**     | Retry attempts per challenge      | 3       |
-| **Parallel Solves** | Concurrent challenge solving      | 1       |
+| Setting   | Description                       | Default |
+| --------- | --------------------------------- | ------- |
+| **Proxy** | HTTP proxy for browser (optional) | None    |
 
 ---
 

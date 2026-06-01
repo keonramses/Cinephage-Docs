@@ -8,7 +8,7 @@ keywords: [subtitles, languages, providers, sync, configuration]
 
 # Configure subtitles
 
-This guide walks you through configuring Cinephage's subtitle management system with 11 supported providers and automatic downloading.
+This guide walks you through configuring Cinephage's subtitle management system with 12 supported providers and automatic downloading.
 
 ## Goal
 
@@ -24,7 +24,7 @@ Enable automatic subtitle downloads for your media library in multiple languages
 
 Cinephage provides comprehensive subtitle support:
 
-- **11 subtitle providers** - Multiple sources for best coverage
+- **12 subtitle providers** - Multiple sources for best coverage
 - **Language profiles** - Multi-language preferences with embedded subtitle support
 - **Auto-download** - Automatic search on import
 - **Monitoring tasks** - Automatic searches for missing subtitles and upgrades
@@ -47,11 +47,10 @@ Cinephage provides comprehensive subtitle support:
 | LegendasDivx      | Free         | Free Account  | Portuguese-focused          |
 | BetaSeries        | Free         | API Key       | French TV shows            |
 | Assrt             | Free         | API Key       | Chinese, Asian languages    |
+| Podnapisi         | Free         | Free          | Slovenian and general       |
 
-:::note Removed Providers
-The following providers have been removed due to service unavailability:
-- **Podnapisi** — Server no longer responding
-- **Subscene** — Blocked by CloudFlare protection
+:::note
+Subscene is not supported.
 :::
 
 ## Part 1: Enable Subtitle Providers

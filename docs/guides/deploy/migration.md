@@ -18,15 +18,21 @@ Current deployment tags:
 
 ---
 
-## BETTER_AUTH_SECRET Migration (v0.5.0+)
+## BETTER_AUTH_SECRET Migration
 
-**Applies to:** All users upgrading to version 0.5.0 or later.
+**Applies to:** All users upgrading to v0.7.0 or later.
+
+Timeline:
+- **v0.5.0** - `BETTER_AUTH_SECRET` became required; the auto-generated `.auth-secret` file was still used as a fallback
+- **v0.7.0** - The `.auth-secret` file fallback was removed entirely; the env var is now the only accepted source
+
+If you have been running any version between v0.5.0 and v0.7.0, you must set the env var before upgrading to v0.7.0+.
 
 ### What changed
 
-- `BETTER_AUTH_SECRET` is now **required** as an environment variable
-- Auto-generated `.auth-secret` file fallback has been removed
-- Without migration, all sessions and encrypted API keys will be lost
+- `BETTER_AUTH_SECRET` must be set as an environment variable
+- The `.auth-secret` file is no longer read on startup
+- Without this migration, all sessions and encrypted API keys will be lost
 
 ### Migration steps
 

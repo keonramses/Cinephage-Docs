@@ -407,14 +407,14 @@ Smart Lists use TMDB queries to automatically find content matching your criteri
 
 - "All 2024 movies rated 7.5+"
 - "Action movies with Dwayne Johnson"
-- "Movies from my Trakt list"
+- "Movies from my IMDb watchlist"
 
 **Features:**
 
 - TMDB discover integration
 - Auto-refresh on schedule
 - Auto-add to library
-- Import from external sources
+- Import from IMDb lists, JSON URLs, or TMDB lists
 
 ### Live TV
 
