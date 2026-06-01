@@ -2,8 +2,7 @@
   "label": "Download Clients",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "title": "Download Clients",
-    "description": "Configure torrent and Usenet download clients"
+    "type": "doc",
+    "id": "guides/configure/download-clients/index"
   }
 }

@@ -2,8 +2,7 @@
   "label": "Installation",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "title": "Installation",
-    "description": "Installation methods and guides"
+    "type": "doc",
+    "id": "getting-started/installation/index"
   }
 }

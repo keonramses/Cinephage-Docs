@@ -2,8 +2,7 @@
   "label": "FAQ",
   "position": 1,
   "link": {
-    "type": "generated-index",
-    "title": "FAQ",
-    "description": "Frequently asked questions"
+    "type": "doc",
+    "id": "support/faq/index"
   }
 }
