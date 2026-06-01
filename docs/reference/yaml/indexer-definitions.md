@@ -12,15 +12,15 @@ This reference documents the YAML format for defining custom indexers in Cinepha
 
 ## Overview
 
-Cinephage uses a **unified YAML-only indexer architecture**. All indexers are defined entirely through YAML files — no code changes needed to add new indexers.
+Cinephage uses a **unified YAML-only indexer architecture**. All indexers are defined entirely through YAML files - no code changes needed to add new indexers.
 
 ### Architecture features
 
-- **YAML-only definitions** — All indexer logic in declarative YAML files
-- **Protocol handlers** — Separate handlers for torrent, usenet, and streaming protocols
-- **Dynamic capability discovery** — Automatically fetches `/api?t=caps` to determine supported search parameters
-- **Enhanced health tracking** — Tracks consecutive failures with exponential backoff
-- **Protocol-specific settings** — Custom columns for torrent, usenet, and streaming configurations
+- **YAML-only definitions** - All indexer logic in declarative YAML files
+- **Protocol handlers** - Separate handlers for torrent, usenet, and streaming protocols
+- **Dynamic capability discovery** - Automatically fetches `/api?t=caps` to determine supported search parameters
+- **Enhanced health tracking** - Tracks consecutive failures with exponential backoff
+- **Protocol-specific settings** - Custom columns for torrent, usenet, and streaming configurations
 
 ### Protocol support
 
@@ -1039,8 +1039,8 @@ Only enable categories the indexer supports:
 
 ## See Also
 
-- [How to Configure Indexers](/guides/configure/indexers) — Step-by-step guide for adding and configuring indexers
+- [How to Configure Indexers](/guides/configure/indexers) - Step-by-step guide for adding and configuring indexers
 - [Naming Tokens Reference](naming-tokens) - Token reference for file naming patterns
-- [Search and Download](/guides/use/search-and-download) — Guide to using indexers for searches
+- [Search and Download](/guides/use/search-and-download) - Guide to using indexers for searches
 - [YAML Specification](https://yaml.org/spec/) - Official YAML specification
 - [CSS Selector Reference](https://developer.mozilla.org/en-US/Web/CSS/CSS_Selectors) - MDN CSS selector documentation

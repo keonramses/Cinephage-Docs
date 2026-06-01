@@ -502,5 +502,5 @@ environment:
 
 - [Architecture Overview](architecture)
 - [Quality Scoring](quality-scoring)
-- [Getting Started](/getting-started/) — Installation and setup
-- [How-To Guides](/guides/) — Configuration and usage guides
+- [Getting Started](/getting-started/) - Installation and setup
+- [How-To Guides](/guides/) - Configuration and usage guides

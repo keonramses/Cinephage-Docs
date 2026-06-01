@@ -424,4 +424,4 @@ To use an external source, select it as the **List Source** when creating or edi
 
 - [Configure Quality Profiles](quality-profiles) - Set up quality profiles for auto-added items
 - [Configure Indexers](indexers) - Ensure indexers are configured for automatic search
-- [Understanding the Interface](/getting-started/understanding-interface) — Learn about the Library view
+- [Understanding the Interface](/getting-started/understanding-interface) - Learn about the Library view

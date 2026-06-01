@@ -506,7 +506,7 @@ Configure automatic import from specific folders:
 
 ## See Also
 
-- [Adding Media](/getting-started/adding-media) — Add new content to library
-- [Organize Files](organize-files) — Custom naming patterns
-- [Configure Download Clients](../configure/download-clients) — Set up automatic downloads
-- [Understanding the Interface](/getting-started/understanding-interface) — Navigate your library
+- [Adding Media](/getting-started/adding-media) - Add new content to library
+- [Organize Files](organize-files) - Custom naming patterns
+- [Configure Download Clients](../configure/download-clients) - Set up automatic downloads
+- [Understanding the Interface](/getting-started/understanding-interface) - Navigate your library

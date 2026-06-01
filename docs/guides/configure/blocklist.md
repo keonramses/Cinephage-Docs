@@ -16,18 +16,18 @@ The Blocklist prevents Cinephage from re-downloading releases that have previous
 
 ### Common scenarios
 
-- **Failed downloads** — Dead torrents, broken NZBs
-- **Fake releases** — Password-protected RARs, wrong content
-- **Wrong language** — Hardcoded foreign subtitles
-- **Bad quality** — CAM/TS when expecting BluRay
-- **Import failures** — Corrupted files, permission issues
+- **Failed downloads** - Dead torrents, broken NZBs
+- **Fake releases** - Password-protected RARs, wrong content
+- **Wrong language** - Hardcoded foreign subtitles
+- **Bad quality** - CAM/TS when expecting BluRay
+- **Import failures** - Corrupted files, permission issues
 
 ### Benefits
 
-- **Prevents loops** — Won't keep trying the same bad release
-- **Saves bandwidth** — No redundant downloads
-- **Cleaner results** — Failed releases hidden from search
-- **Automatic** — Blocks added on failure, manual for other reasons
+- **Prevents loops** - Won't keep trying the same bad release
+- **Saves bandwidth** - No redundant downloads
+- **Cleaner results** - Failed releases hidden from search
+- **Automatic** - Blocks added on failure, manual for other reasons
 
 ---
 
@@ -48,9 +48,9 @@ Cinephage automatically blocklists releases when:
 
 Releases are identified by:
 
-- **Info hash** (torrents) — Primary identifier
-- **NZB ID** (usenet) — For usenet releases
-- **Release name** — Fallback matching
+- **Info hash** (torrents) - Primary identifier
+- **NZB ID** (usenet) - For usenet releases
+- **Release name** - Fallback matching
 
 ---
 
@@ -72,17 +72,17 @@ Navigate to **Settings > Tasks > Blocklist**:
 
 Block a release manually:
 
-1. **From search results** — Click **Block** next to release
-2. **From download history** — Click **Block** on failed item
-3. **Bulk block** — Select multiple, click **Block Selected**
+1. **From search results** - Click **Block** next to release
+2. **From download history** - Click **Block** on failed item
+3. **Bulk block** - Select multiple, click **Block Selected**
 
 ### Removing blocks
 
 Remove items from blocklist:
 
-1. **Single item** — Click **Remove** on blocklist entry
-2. **Bulk remove** — Select multiple, click **Remove Selected**
-3. **Clear all** — **Clear Blocklist** button (use with caution)
+1. **Single item** - Click **Remove** on blocklist entry
+2. **Bulk remove** - Select multiple, click **Remove Selected**
+3. **Clear all** - **Clear Blocklist** button (use with caution)
 
 ---
 
@@ -115,8 +115,8 @@ Reason: "Hardcoded Spanish subs"
 
 Blocks apply to specific movies/episodes:
 
-- **Movie A** — Blocked release won't be tried for Movie A
-- **Movie B** — Same release may still work for Movie B
+- **Movie A** - Blocked release won't be tried for Movie A
+- **Movie B** - Same release may still work for Movie B
 
 This prevents over-blocking when a release works for some content but not others.
 
@@ -136,9 +136,9 @@ Currently blocks are per-title. Future versions may support:
 
 Blocked releases are marked in search:
 
-- **Strikethrough** — Release name crossed out
-- **"Blocked" badge** — Red badge with block reason
-- **Hidden by default** — Filter to show/hide blocked
+- **Strikethrough** - Release name crossed out
+- **"Blocked" badge** - Red badge with block reason
+- **Hidden by default** - Filter to show/hide blocked
 
 ### Show/Hide blocked
 
@@ -158,10 +158,10 @@ Search Filters:
 
 When monitoring searches for upgrades:
 
-1. **Search indexers** — Get all matching releases
-2. **Filter blocked** — Remove blocklisted releases
-3. **Score remaining** — Apply quality/custom format scoring
-4. **Grab best** — Download highest-scoring unblocked release
+1. **Search indexers** - Get all matching releases
+2. **Filter blocked** - Remove blocklisted releases
+3. **Score remaining** - Apply quality/custom format scoring
+4. **Grab best** - Download highest-scoring unblocked release
 
 ### Blocked releases don't count
 
@@ -206,9 +206,9 @@ The "Cutoff Unmet" task ignores the blocklist:
 
 Blocklist can grow over time:
 
-- **Review monthly** — Remove blocks for old issues
-- **Clear resolved** — If indexer fixed the problem
-- **Export before clearing** — Keep record if needed
+- **Review monthly** - Remove blocks for old issues
+- **Clear resolved** - If indexer fixed the problem
+- **Export before clearing** - Keep record if needed
 
 ### Use descriptive reasons
 
@@ -227,26 +227,26 @@ When blocking manually, be specific:
 
 If a blocked release is still being downloaded:
 
-1. **Check blocklist** — Verify it's actually blocked
-2. **Check identifier** — May have different info hash
-3. **Check scope** — Blocked for one title but not another
-4. **Clear and re-block** — Block may be corrupted
+1. **Check blocklist** - Verify it's actually blocked
+2. **Check identifier** - May have different info hash
+3. **Check scope** - Blocked for one title but not another
+4. **Clear and re-block** - Block may be corrupted
 
 ### Can't block release
 
 If block option is unavailable:
 
-1. **Check permissions** — Admin access required
-2. **Check if already blocked** — May be duplicate
-3. **Check search results** — Only available on search/history pages
+1. **Check permissions** - Admin access required
+2. **Check if already blocked** - May be duplicate
+3. **Check search results** - Only available on search/history pages
 
 ### Blocklist too large
 
 If blocklist is impacting performance:
 
-1. **Clear old entries** — Remove blocks > 6 months old
-2. **Export and archive** — Save to file, then clear
-3. **Use bulk remove** — Filter by reason, remove in batches
+1. **Clear old entries** - Remove blocks > 6 months old
+2. **Export and archive** - Save to file, then clear
+3. **Use bulk remove** - Filter by reason, remove in batches
 
 ---
 
@@ -274,6 +274,6 @@ If blocklist is impacting performance:
 
 ## See Also
 
-- [Search & Download](../use/search-and-download) — How releases are found and grabbed
-- [Delay Profiles](./delay-profiles) — Control when releases are grabbed
-- [Troubleshooting](../deploy/troubleshooting) — Common issues
+- [Search & Download](../use/search-and-download) - How releases are found and grabbed
+- [Delay Profiles](./delay-profiles) - Control when releases are grabbed
+- [Troubleshooting](../deploy/troubleshooting) - Common issues

@@ -570,7 +570,7 @@ GET /api/settings/logs/download
 
 ## See Also
 
-- [Authentication](../authentication) — API authentication
-- [Rate Limiting](../rate-limiting) — Rate limit configuration
-- [Movies](movies) — Movie library endpoints
-- [TV](tv) — TV shows endpoints
+- [Authentication](../authentication) - API authentication
+- [Rate Limiting](../rate-limiting) - Rate limit configuration
+- [Movies](movies) - Movie library endpoints
+- [TV](tv) - TV shows endpoints

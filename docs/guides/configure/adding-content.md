@@ -92,10 +92,10 @@ Add entire TMDB collections to your library at once:
 
 When you delete a movie or episode:
 
-- **Immediate status updates** — UI reflects deletion instantly without page refresh
-- **File removal confirmation** — Files are deleted immediately, library item updated
-- **Auto-redirect** — After deletion, you're automatically redirected to the library list
-- **No manual refresh needed** — Status indicators update in real-time
+- **Immediate status updates** - UI reflects deletion instantly without page refresh
+- **File removal confirmation** - Files are deleted immediately, library item updated
+- **Auto-redirect** - After deletion, you're automatically redirected to the library list
+- **No manual refresh needed** - Status indicators update in real-time
 
 **Bulk Actions:**
 

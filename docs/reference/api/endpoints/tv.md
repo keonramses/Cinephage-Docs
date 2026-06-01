@@ -628,5 +628,5 @@ curl -X PUT \
 
 ## See Also
 
-- [Movies](movies) — Movie endpoints
-- [Search](search) — Search and download endpoints
+- [Movies](movies) - Movie endpoints
+- [Search](search) - Search and download endpoints

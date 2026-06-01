@@ -47,14 +47,14 @@ The **Streaming API Key** provides limited access for media server integration.
 | **Rate Limit**| 10,000 requests/hour           |
 
 **Allowed Endpoints:**
-- `/api/livetv/*` — Live TV channels and streams
-- `/api/streaming/*` — Media streaming
-- `/api/livetv/playlist.m3u` — M3U playlist
-- `/api/livetv/epg.xml` — XMLTV EPG
+- `/api/livetv/*` - Live TV channels and streams
+- `/api/streaming/*` - Media streaming
+- `/api/livetv/playlist.m3u` - M3U playlist
+- `/api/livetv/epg.xml` - XMLTV EPG
 
 **Denied Endpoints:**
-- `/api/library/*` — Library access
-- `/api/settings/*` — Settings access
+- `/api/library/*` - Library access
+- `/api/settings/*` - Settings access
 - Admin operations
 
 **Use Cases:**
@@ -104,10 +104,10 @@ Some media servers (Plex, Jellyfin) cannot send custom headers. Use the query pa
 
 ### API key security
 
-- **Treat like passwords** — Don't share or commit to version control
-- **Use environment variables** — In scripts, store keys in environment variables
-- **Use least privilege** — Use Streaming API Key for media servers
-- **Rotate if compromised** — Regenerate immediately if leaked
+- **Treat like passwords** - Don't share or commit to version control
+- **Use environment variables** - In scripts, store keys in environment variables
+- **Use least privilege** - Use Streaming API Key for media servers
+- **Rotate if compromised** - Regenerate immediately if leaked
 
 ## External URL
 
@@ -192,6 +192,6 @@ cinephage.example.com {
 
 ## See Also
 
-- [Authentication](/reference/api/authentication) — Full auth documentation
-- [Environment Variables](/reference/configuration/environment-variables) — Configuration
-- [Media Servers](media-servers) — Connect Jellyfin/Plex/Emby
+- [Authentication](/reference/api/authentication) - Full auth documentation
+- [Environment Variables](/reference/configuration/environment-variables) - Configuration
+- [Media Servers](media-servers) - Connect Jellyfin/Plex/Emby

@@ -246,17 +246,17 @@ Now that you can add media, continue to [Understanding the Interface](understand
 ## See Also
 
 ### Next steps
-- [Understanding the Interface](./understanding-interface) — Navigate the Cinephage UI and discover advanced features
-- [Search and Download](../guides/use/search-and-download) — Detailed guide to finding and acquiring content
+- [Understanding the Interface](./understanding-interface) - Navigate the Cinephage UI and discover advanced features
+- [Search and Download](../guides/use/search-and-download) - Detailed guide to finding and acquiring content
 
 ### Related guides
-- [Import Existing Files](../guides/use/import-existing-files) — Add your current media library to Cinephage
-- [Configure Quality Profiles](../guides/configure/quality-profiles) — Understand and customize quality settings
-- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) — Set up automatic quality improvements
+- [Import Existing Files](../guides/use/import-existing-files) - Add your current media library to Cinephage
+- [Configure Quality Profiles](../guides/configure/quality-profiles) - Understand and customize quality settings
+- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) - Set up automatic quality improvements
 
 ### Concepts
-- [Quality Scoring](../explanation/quality-scoring) — How Cinephage calculates release quality
-- [Key Concepts](../explanation/concepts) — Understanding monitoring, Root Folders, and more
+- [Quality Scoring](../explanation/quality-scoring) - How Cinephage calculates release quality
+- [Key Concepts](../explanation/concepts) - Understanding monitoring, Root Folders, and more
 
 ---
 

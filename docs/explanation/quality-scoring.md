@@ -476,6 +476,6 @@ Minimum Score: 100
 
 ## See Also
 
-- [Set Up Quality Profiles](/guides/configure/quality-profiles) — Configure quality settings
-- [Key Concepts](concepts) — Core terminology
-- [Architecture Overview](architecture) — System design
+- [Set Up Quality Profiles](/guides/configure/quality-profiles) - Configure quality settings
+- [Key Concepts](concepts) - Core terminology
+- [Architecture Overview](architecture) - System design

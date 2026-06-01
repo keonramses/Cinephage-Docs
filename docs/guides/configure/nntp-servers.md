@@ -14,9 +14,9 @@ Configure NNTP (Usenet) servers for streaming content directly from Usenet witho
 
 NNTP servers enable Cinephage to:
 
-- **Stream from Usenet** — Stream NZB content without full download
-- **Check article availability** — Verify NZB articles exist before downloading
-- **Multi-server failover** — Use multiple providers for redundancy
+- **Stream from Usenet** - Stream NZB content without full download
+- **Check article availability** - Verify NZB articles exist before downloading
+- **Multi-server failover** - Use multiple providers for redundancy
 
 ## Adding an NNTP Server
 
@@ -101,9 +101,9 @@ Always enable SSL when available for:
 
 Select multiple servers to:
 
-- **Enable/Disable** — Toggle servers on/off
-- **Test** — Verify all connections at once
-- **Delete** — Remove servers
+- **Enable/Disable** - Toggle servers on/off
+- **Test** - Verify all connections at once
+- **Delete** - Remove servers
 
 ## Status Indicators
 
@@ -117,38 +117,38 @@ Select multiple servers to:
 
 ### Connection refused
 
-1. **Check host and port** — Verify correct server address
-2. **Verify SSL setting** — SSL port requires SSL enabled
-3. **Check firewall** — Ensure port is not blocked
-4. **Provider status** — Check if provider is having issues
+1. **Check host and port** - Verify correct server address
+2. **Verify SSL setting** - SSL port requires SSL enabled
+3. **Check firewall** - Ensure port is not blocked
+4. **Provider status** - Check if provider is having issues
 
 ### Authentication failed
 
-1. **Verify credentials** — Check username/password
-2. **Account status** — Ensure subscription is active
-3. **Connection limits** — May be exceeded on provider side
-4. **Case sensitivity** — Some providers are case-sensitive
+1. **Verify credentials** - Check username/password
+2. **Account status** - Ensure subscription is active
+3. **Connection limits** - May be exceeded on provider side
+4. **Case sensitivity** - Some providers are case-sensitive
 
 ### Slow performance
 
-1. **Reduce connections** — Too many can cause throttling
-2. **Check priority** — Ensure fastest server is priority 1
-3. **SSL overhead** — Try non-SSL if speed is critical
-4. **Provider issues** — Check provider status page
+1. **Reduce connections** - Too many can cause throttling
+2. **Check priority** - Ensure fastest server is priority 1
+3. **SSL overhead** - Try non-SSL if speed is critical
+4. **Provider issues** - Check provider status page
 
 ### SSL certificate errors
 
-1. **Update certificates** — System CA bundle may be outdated
-2. **Verify hostname** — Must match certificate exactly
-3. **Try alternative port** — 443 instead of 563
+1. **Update certificates** - System CA bundle may be outdated
+2. **Verify hostname** - Must match certificate exactly
+3. **Try alternative port** - 443 instead of 563
 
 ## Best Practices
 
 ### Multiple providers
 
 Configure at least 2 servers:
-- **Primary** — Fast, unlimited provider
-- **Backup** — Block account for missing articles
+- **Primary** - Fast, unlimited provider
+- **Backup** - Block account for missing articles
 
 ### Connection tuning
 
@@ -178,6 +178,6 @@ Configure at least 2 servers:
 
 ## See Also
 
-- [NZB Streaming](nzb-streaming) — Stream from Usenet
-- [Download Clients](download-clients) — Configure NZBGet/SABnzbd
-- [Troubleshooting](../deploy/troubleshooting) — General issues
+- [NZB Streaming](nzb-streaming) - Stream from Usenet
+- [Download Clients](download-clients) - Configure NZBGet/SABnzbd
+- [Troubleshooting](../deploy/troubleshooting) - General issues

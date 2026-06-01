@@ -200,27 +200,27 @@ Cinephage recognizes embedded subtitles within video containers (MKV, MP4, etc.)
 
 When media is imported:
 
-1. **Scan Video Container** — Checks for subtitle tracks in MKV, MP4, and other containers
-2. **Language Detection** — Identifies language codes of embedded tracks
-3. **Profile Matching** — Compares against your language profile requirements
-4. **Requirement Satisfaction** — Marks languages as "present" if embedded subtitle found
+1. **Scan Video Container** - Checks for subtitle tracks in MKV, MP4, and other containers
+2. **Language Detection** - Identifies language codes of embedded tracks
+3. **Profile Matching** - Compares against your language profile requirements
+4. **Requirement Satisfaction** - Marks languages as "present" if embedded subtitle found
 
 ### Benefits
 
-- **Reduces Downloads** — No external subtitles needed for content with embedded tracks
-- **Faster Import** — Skips unnecessary subtitle searches
-- **Saves Bandwidth** — Less API calls to subtitle providers
-- **Cleaner Library** — Fewer external files to manage
+- **Reduces Downloads** - No external subtitles needed for content with embedded tracks
+- **Faster Import** - Skips unnecessary subtitle searches
+- **Saves Bandwidth** - Less API calls to subtitle providers
+- **Cleaner Library** - Fewer external files to manage
 
 ### Supported containers
 
-- **MKV** (Matroska) — Full support for all subtitle tracks
-- **MP4** — Supports mov_text and other embedded formats
-- **AVI** — Limited support via IDX/SUB
+- **MKV** (Matroska) - Full support for all subtitle tracks
+- **MP4** - Supports mov_text and other embedded formats
+- **AVI** - Limited support via IDX/SUB
 
 ### Configuration
 
-Embedded subtitle recognition is automatic and requires no configuration. It works alongside your existing language profiles — embedded subtitles count as satisfying "Required" languages, just like downloaded external subtitles.
+Embedded subtitle recognition is automatic and requires no configuration. It works alongside your existing language profiles - embedded subtitles count as satisfying "Required" languages, just like downloaded external subtitles.
 
 ## Part 3: Configure Download Behavior
 
@@ -341,10 +341,10 @@ Cinephage includes a **native subtitle synchronization engine** inspired by the 
 
 The sync engine uses Voice Activity Detection (VAD) to align subtitles:
 
-1. **Audio Extraction** — Extracts audio from the video file using ffmpeg
-2. **Speech Detection** — Identifies speech segments via energy-based VAD
-3. **Alignment** — Matches subtitle timing to speech segments
-4. **Correction** — Applies timing adjustments to subtitle file
+1. **Audio Extraction** - Extracts audio from the video file using ffmpeg
+2. **Speech Detection** - Identifies speech segments via energy-based VAD
+3. **Alignment** - Matches subtitle timing to speech segments
+4. **Correction** - Applies timing adjustments to subtitle file
 
 ### Sync options
 
@@ -634,6 +634,6 @@ Now that subtitles are configured:
 
 ## See Also
 
-- [Supported Languages](/reference/configuration/supported-languages) — Language configuration reference
-- [Troubleshooting](../deploy/troubleshooting) — Common issues
-- [Quality Profiles](quality-profiles) — Quality settings
+- [Supported Languages](/reference/configuration/supported-languages) - Language configuration reference
+- [Troubleshooting](../deploy/troubleshooting) - Common issues
+- [Quality Profiles](quality-profiles) - Quality settings

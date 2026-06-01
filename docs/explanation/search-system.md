@@ -374,10 +374,10 @@ Delay profiles add a waiting period before grabbing releases, allowing better qu
 
 ## See Also
 
-- [Search and Download](/guides/use/search-and-download) — Practical guide to searching
-- [Quality Scoring](quality-scoring) — Deep dive into scoring algorithm
-- [Configure Indexers](/guides/configure/indexers) — Setting up indexers
-- [Quality Profiles](/guides/configure/quality-profiles) — Configuring quality preferences
-- [Delay Profiles](/guides/configure/delay-profiles) — Managing release timing
-- [Workers and Tasks](workers-and-tasks) — Background processing
-- [Architecture](architecture) — System architecture overview
+- [Search and Download](/guides/use/search-and-download) - Practical guide to searching
+- [Quality Scoring](quality-scoring) - Deep dive into scoring algorithm
+- [Configure Indexers](/guides/configure/indexers) - Setting up indexers
+- [Quality Profiles](/guides/configure/quality-profiles) - Configuring quality preferences
+- [Delay Profiles](/guides/configure/delay-profiles) - Managing release timing
+- [Workers and Tasks](workers-and-tasks) - Background processing
+- [Architecture](architecture) - System architecture overview

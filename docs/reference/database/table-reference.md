@@ -8,16 +8,16 @@ keywords: [database, tables, schema, sqlite]
 
 # Table Reference
 
-Cinephage uses SQLite for data storage. The database schema is managed automatically — you do not need to create tables manually.
+Cinephage uses SQLite for data storage. The database schema is managed automatically - you do not need to create tables manually.
 
 ## Overview
 
 The database is organized into logical groups:
 
-- **Media tables** — Movies, TV shows, episodes, and metadata
-- **Configuration tables** — Settings, profiles, and user preferences
-- **Download tables** — Queue, history, and client connections
-- **Search tables** — Indexers, queries, and results
+- **Media tables** - Movies, TV shows, episodes, and metadata
+- **Configuration tables** - Settings, profiles, and user preferences
+- **Download tables** - Queue, history, and client connections
+- **Search tables** - Indexers, queries, and results
 
 ## Key Tables
 
@@ -38,5 +38,5 @@ For a complete view of the database schema, including column types, indexes, and
 
 ## See Also
 
-- [Schema Overview](/reference/database/schema-overview) — Complete database structure
-- [Environment Variables](/reference/configuration/environment-variables) — Database configuration options
+- [Schema Overview](/reference/database/schema-overview) - Complete database structure
+- [Environment Variables](/reference/configuration/environment-variables) - Database configuration options

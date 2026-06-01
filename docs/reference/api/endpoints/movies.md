@@ -626,6 +626,6 @@ curl -X PUT \
 
 ## See Also
 
-- [Authentication](../authentication) — Authentication methods
-- [TV](tv) — TV shows and episode endpoints
-- [Search](search) — Search and download endpoints
+- [Authentication](../authentication) - Authentication methods
+- [TV](tv) - TV shows and episode endpoints
+- [Search](search) - Search and download endpoints

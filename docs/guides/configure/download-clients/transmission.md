@@ -190,7 +190,7 @@ Ensure your download directory is accessible to Cinephage:
 
 ## See also
 
-- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
-- [How to configure qBittorrent](./qbittorrent) — Alternative torrent client
-- [How to configure Deluge](./deluge) — Another torrent client option
-- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions
+- [Download clients overview](/guides/configure/download-clients) - Overview of supported clients
+- [How to configure qBittorrent](./qbittorrent) - Alternative torrent client
+- [How to configure Deluge](./deluge) - Another torrent client option
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) - Common issues and solutions

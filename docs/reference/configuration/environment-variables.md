@@ -45,8 +45,8 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
 
 :::warning Important Security Notes
-- **Keep this secret secure** — Store it safely like a password
-- **Back it up** — You'll need the same value if you restore from backup
+- **Keep this secret secure** - Store it safely like a password
+- **Back it up** - You'll need the same value if you restore from backup
 - **Changing it has consequences:**
   - All active user sessions are invalidated (users must log in again)
   - Existing API keys become unreadable and must be regenerated
@@ -342,4 +342,4 @@ For troubleshooting environment variable issues, see [Troubleshooting guide](/gu
 
 - [Settings Explained](settings-explained) for UI-configurable settings
 - [Docker Compose Reference](https://docs.docker.com/compose/compose-file/)
-- [Performance Tuning](/guides/deploy/performance-tuning) — Optimization guide
+- [Performance Tuning](/guides/deploy/performance-tuning) - Optimization guide

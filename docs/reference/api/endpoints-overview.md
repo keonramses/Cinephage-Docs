@@ -457,17 +457,17 @@ For comprehensive documentation of specific endpoint categories:
 
 | Category | Documentation |
 |----------|---------------|
-| Movies | [Movies](endpoints/movies) — Complete movie library API |
-| TV Series | [TV](endpoints/tv) — Series, season, and episode endpoints |
-| Search | [Search](endpoints/search) — Release search and grabbing |
-| Downloads | [Download](endpoints/download) — Queue management |
-| Settings | [Settings](endpoints/settings) — System configuration |
-| Libraries | [Libraries](endpoints/libraries) — Custom library management |
-| Tasks | [Tasks](endpoints/tasks) — Scheduled monitoring tasks |
-| Captcha Solver | [Captcha Solver](endpoints/captcha-solver) — Cloudflare bypass |
+| Movies | [Movies](endpoints/movies) - Complete movie library API |
+| TV Series | [TV](endpoints/tv) - Series, season, and episode endpoints |
+| Search | [Search](endpoints/search) - Release search and grabbing |
+| Downloads | [Download](endpoints/download) - Queue management |
+| Settings | [Settings](endpoints/settings) - System configuration |
+| Libraries | [Libraries](endpoints/libraries) - Custom library management |
+| Tasks | [Tasks](endpoints/tasks) - Scheduled monitoring tasks |
+| Captcha Solver | [Captcha Solver](endpoints/captcha-solver) - Cloudflare bypass |
 
 ## See Also
 
-- [Authentication](authentication) — Auth methods and API keys
-- [Rate Limiting](rate-limiting) — Rate limit configuration
-- [Architecture](/explanation/architecture) — System design
+- [Authentication](authentication) - Auth methods and API keys
+- [Rate Limiting](rate-limiting) - Rate limit configuration
+- [Architecture](/explanation/architecture) - System design

@@ -157,7 +157,7 @@ To set up categories in SABnzbd:
 
 ## See also
 
-- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
-- [How to configure qBittorrent](./qbittorrent) — Torrent client setup
-- [How to configure NZBGet](./nzbget) — Alternative usenet client
-- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions
+- [Download clients overview](/guides/configure/download-clients) - Overview of supported clients
+- [How to configure qBittorrent](./qbittorrent) - Torrent client setup
+- [How to configure NZBGet](./nzbget) - Alternative usenet client
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) - Common issues and solutions

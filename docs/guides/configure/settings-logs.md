@@ -93,12 +93,12 @@ Each log entry shows:
 
 Click a log entry to see additional details:
 
-- **Request ID** — Unique identifier for request tracing
-- **Support ID** — Short code for support tickets
-- **Method** — HTTP method (for API logs)
-- **Path** — Request path (for API logs)
-- **Duration** — Request duration (for API logs)
-- **Stack Trace** — For error logs
+- **Request ID** - Unique identifier for request tracing
+- **Support ID** - Short code for support tickets
+- **Method** - HTTP method (for API logs)
+- **Path** - Request path (for API logs)
+- **Duration** - Request duration (for API logs)
+- **Stack Trace** - For error logs
 
 ## Pause and Resume
 
@@ -134,34 +134,34 @@ Each line is a JSON object:
 
 ### Finding errors
 
-1. **Filter to Error level** — Show only errors
-2. **Search for keywords** — "failed", "error", function names
-3. **Check timestamps** — Correlate with when issue occurred
-4. **Expand entries** — View stack traces
+1. **Filter to Error level** - Show only errors
+2. **Search for keywords** - "failed", "error", function names
+3. **Check timestamps** - Correlate with when issue occurred
+4. **Expand entries** - View stack traces
 
 ### Tracing requests
 
-1. **Find the request** — Search by path or method
-2. **Copy Request ID** — From expanded view
-3. **Search by Request ID** — Find all logs for that request
-4. **Follow the flow** — See request lifecycle
+1. **Find the request** - Search by path or method
+2. **Copy Request ID** - From expanded view
+3. **Search by Request ID** - Find all logs for that request
+4. **Follow the flow** - See request lifecycle
 
 ### Support tickets
 
 When contacting support:
 
-1. **Note the Support ID** — From expanded view
-2. **Or export logs** — Download relevant time period
-3. **Include context** — What you were doing when issue occurred
+1. **Note the Support ID** - From expanded view
+2. **Or export logs** - Download relevant time period
+3. **Include context** - What you were doing when issue occurred
 
 ## Log Retention
 
 Logs are stored in memory only:
 
 - **Not persisted** to database
-- **Cleared on restart** — Historical logs unavailable
-- **Buffer limit** — ~1000 entries in browser
-- **For persistence** — Check Docker/container logs
+- **Cleared on restart** - Historical logs unavailable
+- **Buffer limit** - ~1000 entries in browser
+- **For persistence** - Check Docker/container logs
 
 ### Accessing container logs
 
@@ -207,6 +207,6 @@ Never enable `LOG_SENSITIVE` in production. It logs passwords, API keys, and oth
 
 ## See Also
 
-- [Troubleshooting](../deploy/troubleshooting) — Common issues
-- [Environment Variables](/reference/configuration/environment-variables) — Log configuration
-- [Architecture](/explanation/architecture) — System design
+- [Troubleshooting](../deploy/troubleshooting) - Common issues
+- [Environment Variables](/reference/configuration/environment-variables) - Log configuration
+- [Architecture](/explanation/architecture) - System design

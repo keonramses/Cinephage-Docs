@@ -433,23 +433,23 @@ You have completed the Getting Started tutorials. You are ready to:
 ## See Also
 
 ### Essential configuration
-- [Configure Download Clients](../guides/configure/download-clients) — Set up qBittorrent, SABnzbd, and others
-- [Configure Indexers](../guides/configure/indexers) — Add indexers
-- [Set Up Quality Profiles](../guides/configure/quality-profiles) — Configure quality scoring
+- [Configure Download Clients](../guides/configure/download-clients) - Set up qBittorrent, SABnzbd, and others
+- [Configure Indexers](../guides/configure/indexers) - Add indexers
+- [Set Up Quality Profiles](../guides/configure/quality-profiles) - Configure quality scoring
 
 ### Daily operations
-- [Search and Download](../guides/use/search-and-download) — Find and acquire content
-- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) — Automatic quality improvements
-- [Import Existing Files](../guides/use/import-existing-files) — Add your current media library
+- [Search and Download](../guides/use/search-and-download) - Find and acquire content
+- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) - Automatic quality improvements
+- [Import Existing Files](../guides/use/import-existing-files) - Add your current media library
 
 ### Technical understanding
-- [Architecture Overview](../explanation/architecture) — System architecture and components
-- [Workers and Tasks](../explanation/workers-and-tasks) — Background processing system
-- [Key Concepts](../explanation/concepts) — Root folders, monitoring, and terminology
+- [Architecture Overview](../explanation/architecture) - System architecture and components
+- [Workers and Tasks](../explanation/workers-and-tasks) - Background processing system
+- [Key Concepts](../explanation/concepts) - Root folders, monitoring, and terminology
 
 ### Support
-- [Getting Help](./getting-help) — Community support resources
-- [Troubleshooting Guide](../guides/deploy/troubleshooting) — Common issues and solutions
+- [Getting Help](./getting-help) - Community support resources
+- [Troubleshooting Guide](../guides/deploy/troubleshooting) - Common issues and solutions
 
 ## Tips for Efficient Use
 

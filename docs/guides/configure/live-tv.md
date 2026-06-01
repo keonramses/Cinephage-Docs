@@ -694,6 +694,6 @@ When updating Cinephage:
 
 ## See Also
 
-- [Understanding the Interface](/getting-started/understanding-interface) — Navigate the Live TV interface
+- [Understanding the Interface](/getting-started/understanding-interface) - Navigate the Live TV interface
 - [Troubleshooting](../deploy/troubleshooting) - General troubleshooting steps
 - [Configure Subtitles](subtitles) - Set up subtitles for live TV

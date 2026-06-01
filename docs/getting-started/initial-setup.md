@@ -201,10 +201,10 @@ Navigate to **Settings > Integrations > Media Servers** to connect your media se
 3. Enter server URL and API key
 4. Configure path mappings if running in Docker
 5. Select notification triggers:
-   - **On Import** — Notify when new media is added
-   - **On Upgrade** — Notify when media quality is upgraded
-   - **On Rename** — Notify when files are renamed
-   - **On Delete** — Notify when media is removed
+   - **On Import** - Notify when new media is added
+   - **On Upgrade** - Notify when media quality is upgraded
+   - **On Rename** - Notify when files are renamed
+   - **On Delete** - Notify when media is removed
 6. Click **Test** to verify connection
 7. Click **Save**
 
@@ -265,17 +265,17 @@ Now that Cinephage is fully configured, continue to [Adding Media](adding-media)
 ## See Also
 
 ### Next steps
-- [Adding Media](./adding-media) — Learn the complete workflow for adding and downloading content
-- [Understanding the Interface](./understanding-interface) — Navigate the Cinephage web interface
+- [Adding Media](./adding-media) - Learn the complete workflow for adding and downloading content
+- [Understanding the Interface](./understanding-interface) - Navigate the Cinephage web interface
 
 ### Configuration guides
-- [Configure Download Clients](../guides/configure/download-clients) — Set up qBittorrent, SABnzbd, and others
-- [Configure Indexers](../guides/configure/indexers) — Add indexers using YAML definitions
-- [Set Up Quality Profiles](../guides/configure/quality-profiles) — Configure quality scoring and upgrade behavior
+- [Configure Download Clients](../guides/configure/download-clients) - Set up qBittorrent, SABnzbd, and others
+- [Configure Indexers](../guides/configure/indexers) - Add indexers using YAML definitions
+- [Set Up Quality Profiles](../guides/configure/quality-profiles) - Configure quality scoring and upgrade behavior
 
 ### Help & support
-- [Getting Help](./getting-help) — Community support and troubleshooting resources
-- [Troubleshooting Guide](../guides/deploy/troubleshooting) — Solutions for common setup issues
+- [Getting Help](./getting-help) - Community support and troubleshooting resources
+- [Troubleshooting Guide](../guides/deploy/troubleshooting) - Solutions for common setup issues
 
 ---
 

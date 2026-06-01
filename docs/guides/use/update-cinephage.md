@@ -248,5 +248,5 @@ curl -s http://localhost:3000/api/system/status | jq .version
 
 - [Backup & Restore](../deploy/backup-restore) - Before updating
 - [Migration Guide](../deploy/migration) - Version migrations
-- [Releases](/support/releases) — Release channels explained
-- [Monitor and Upgrade](./monitor-and-upgrade) — Quality monitoring
+- [Releases](/support/releases) - Release channels explained
+- [Monitor and Upgrade](./monitor-and-upgrade) - Quality monitoring

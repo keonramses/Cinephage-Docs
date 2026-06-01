@@ -736,24 +736,24 @@ Configure usenet provider connections for NZB streaming.
 ## See Also
 
 ### Configuration guides
-- [Configure Download Clients](/guides/configure/download-clients) — Download client setup and connection
-- [Set Up Indexers](/guides/configure/indexers) — Indexer configuration and testing
-- [Quality Profiles](/guides/configure/quality-profiles) — Creating and customizing quality profiles
-- [Custom Formats](/guides/configure/custom-formats) — Building custom scoring rules
-- [Delay Profiles](/guides/configure/delay-profiles) — Configuring download delay behavior
-- [Blocklist Management](/guides/configure/blocklist) — Managing blocked releases and indexers
+- [Configure Download Clients](/guides/configure/download-clients) - Download client setup and connection
+- [Set Up Indexers](/guides/configure/indexers) - Indexer configuration and testing
+- [Quality Profiles](/guides/configure/quality-profiles) - Creating and customizing quality profiles
+- [Custom Formats](/guides/configure/custom-formats) - Building custom scoring rules
+- [Delay Profiles](/guides/configure/delay-profiles) - Configuring download delay behavior
+- [Blocklist Management](/guides/configure/blocklist) - Managing blocked releases and indexers
 
 ### Media and integration guides
-- [Root Folders](/guides/configure/root-folders) — Root folders, naming, and organization
-- [Media Servers](/guides/configure/media-servers) — Jellyfin, Emby, and Plex integration
-- [Live TV Setup](/guides/configure/live-tv) — Live TV provider configuration
-- [Subtitles Configuration](/guides/configure/subtitles) — Automatic subtitle downloads
-- [NNTP Servers](/guides/configure/nntp-servers) — Usenet provider setup
-- [NZB Streaming](/guides/configure/nzb-streaming) — Streaming without downloading
-- [Captcha Solver](/guides/configure/captcha-solver) — Cloudflare challenge solving
+- [Root Folders](/guides/configure/root-folders) - Root folders, naming, and organization
+- [Media Servers](/guides/configure/media-servers) - Jellyfin, Emby, and Plex integration
+- [Live TV Setup](/guides/configure/live-tv) - Live TV provider configuration
+- [Subtitles Configuration](/guides/configure/subtitles) - Automatic subtitle downloads
+- [NNTP Servers](/guides/configure/nntp-servers) - Usenet provider setup
+- [NZB Streaming](/guides/configure/nzb-streaming) - Streaming without downloading
+- [Captcha Solver](/guides/configure/captcha-solver) - Cloudflare challenge solving
 
 ### System and maintenance
-- [Environment Variables](./environment-variables) — Docker and command-line configuration
-- [Smart Lists](/guides/configure/smart-lists) — Dynamic content lists from TMDB
-- [Settings and Logs](/guides/configure/settings-logs) — System configuration and troubleshooting
-- [Backup and Restore](/guides/deploy/backup-restore) — Data protection procedures
+- [Environment Variables](./environment-variables) - Docker and command-line configuration
+- [Smart Lists](/guides/configure/smart-lists) - Dynamic content lists from TMDB
+- [Settings and Logs](/guides/configure/settings-logs) - System configuration and troubleshooting
+- [Backup and Restore](/guides/deploy/backup-restore) - Data protection procedures

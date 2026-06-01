@@ -16,9 +16,9 @@ Custom Formats allow you to create personalized scoring rules that go beyond the
 
 Think of them as "search filters with scores":
 
-- **Conditions** — Match specific text patterns in release names
-- **Score** — Add or subtract points when conditions match
-- **Priority** — Higher scores = preferred releases
+- **Conditions** - Match specific text patterns in release names
+- **Score** - Add or subtract points when conditions match
+- **Priority** - Higher scores = preferred releases
 
 ---
 
@@ -28,8 +28,8 @@ Navigate to **Settings > Quality > Custom Formats**:
 
 ### 1. basic information
 
-- **Name** — Descriptive name (e.g., "x265 Preferred", "No HDR")
-- **Description** — Optional explanation
+- **Name** - Descriptive name (e.g., "x265 Preferred", "No HDR")
+- **Description** - Optional explanation
 
 ### 2. add conditions
 
@@ -50,15 +50,15 @@ Click **Add Condition** and choose a type:
 
 ### 3. set match logic
 
-- **Must Contain** — All conditions must match
-- **Must Not Contain** — Release is rejected if matches
-- **Should Contain** — Optional, adds score if matches
+- **Must Contain** - All conditions must match
+- **Must Not Contain** - Release is rejected if matches
+- **Should Contain** - Optional, adds score if matches
 
 ### 4. assign score
 
-- **Positive score** — Prefer these releases
-- **Negative score** — Avoid these releases
-- **Reject** — Block entirely (score: -10000)
+- **Positive score** - Prefer these releases
+- **Negative score** - Avoid these releases
+- **Reject** - Block entirely (score: -10000)
 
 ---
 
@@ -127,9 +127,9 @@ Example:
 
 Set a minimum score to reject low-quality releases:
 
-- **0** — Accept anything
-- **500** — Only decent quality
-- **1000** — High quality only
+- **0** - Accept anything
+- **500** - Only decent quality
+- **1000** - High quality only
 
 ---
 
@@ -137,9 +137,9 @@ Set a minimum score to reject low-quality releases:
 
 ### Text matching
 
-- **Contains** — Substring match (case-insensitive)
-- **Equals** — Exact match
-- **Regex** — Regular expression (advanced)
+- **Contains** - Substring match (case-insensitive)
+- **Equals** - Exact match
+- **Regex** - Regular expression (advanced)
 
 ### Multiple values
 
@@ -187,7 +187,7 @@ Result: MATCH (+100 points)
 Don't make any single format worth 1000+ points:
 
 - **Good**: x265 (+100), SPARKS (+200), HDR (+50)
-- **Bad**: x265 (+5000) — overwhelms everything else
+- **Bad**: x265 (+5000) - overwhelms everything else
 
 ### Use rejection sparingly
 
@@ -228,26 +228,26 @@ Release Title matches regex: \d{3,4}kbps
 
 ### Format not matching
 
-1. **Check case sensitivity** — Matching is case-insensitive by default
-2. **Verify condition type** — "Release Title" vs "Release Group"
-3. **Test with exact name** — Copy/paste from indexer results
+1. **Check case sensitivity** - Matching is case-insensitive by default
+2. **Verify condition type** - "Release Title" vs "Release Group"
+3. **Test with exact name** - Copy/paste from indexer results
 
 ### Wrong releases being grabbed
 
-1. **Check score calculation** — Higher score wins
-2. **Verify minimum score** — May be too low
-3. **Review format order** — Earlier formats apply first
+1. **Check score calculation** - Higher score wins
+2. **Verify minimum score** - May be too low
+3. **Review format order** - Earlier formats apply first
 
 ### Too many rejections
 
-1. **Reduce reject conditions** — Only block truly unwanted
-2. **Check "Must Contain"** — All must match, not any
-3. **Use "Should Contain"** — For optional preferences
+1. **Reduce reject conditions** - Only block truly unwanted
+2. **Check "Must Contain"** - All must match, not any
+3. **Use "Should Contain"** - For optional preferences
 
 ---
 
 ## See Also
 
-- [Quality Profiles](./quality-profiles) — Built-in Quality Profiles
-- [Search & Download](../use/search-and-download) — How releases are selected
-- [Delay Profiles](./delay-profiles) — Control when releases are grabbed
+- [Quality Profiles](./quality-profiles) - Built-in Quality Profiles
+- [Search & Download](../use/search-and-download) - How releases are selected
+- [Delay Profiles](./delay-profiles) - Control when releases are grabbed
