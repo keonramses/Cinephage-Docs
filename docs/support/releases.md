@@ -8,140 +8,100 @@ keywords: [releases, versions, stable, dev]
 
 # Release History
 
-Cinephage follows semantic versioning and maintains two release channels.
-
 ## Release channels
 
-| Channel | Tag | Description |
-|---------|-----|-------------|
+| Channel | Docker Tag | Description |
+|---------|------------|-------------|
 | **Stable** | `latest` or `vX.Y.Z` | Production-ready releases |
 | **Preview** | `dev` | Latest development builds |
 
-## Version history
+```bash
+# Stable
+docker pull ghcr.io/moldytaint/cinephage:latest
+docker pull ghcr.io/moldytaint/cinephage:v0.11.0   # pinned
 
-### v0.11.0 - 2026-05-29 (latest stable)
+# Preview
+docker pull ghcr.io/moldytaint/cinephage:dev
+```
 
-**Highlights:**
-- Anime metadata via AniList/MAL with provider-aware enrichment and provider links
-- Blocklist overhaul: manual release blocking, configurable durations, metadata-level blocked media, and bulk actions
-- Auto-fail stalled downloads after configurable timeout; auto-blocklist on no seeders
-- Activity type tags and status popovers across the activity table and dashboard sidebar
-- Typed frontend API service layer
-- Library sort/filter/display slide-out drawer with persistent settings
-- Stalker portal auto-detection and endpoint probing with channel fallbacks
-- Login page redesign with app logo and password toggle
-- Full i18n pass across activity, blocklist, and remaining hardcoded UI strings
-- Resolved 132 TypeScript errors; consolidated duplicate types
-
-**Notable fixes:**
-- qBittorrent v5.2.0 authentication compatibility
-- Subtitle provider repairs (subf2m, gestdown, yify); subscene removed
-- Calendar page error handling, race conditions, and locale fixes
-- Smart list editor crash and duplicate profile-name validation
-
-[Full release notes on GitHub](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.11.0)
+| Use Case | Recommended tag |
+|----------|----------------|
+| Production | `latest` or pinned `vX.Y.Z` |
+| Testing new features | `dev` |
+| Reproducible deploys | pinned `vX.Y.Z` |
 
 ---
 
-### v0.10.0 - 2026-04-28
+## Latest - v0.11.0 (2026-05-29)
 
-Calendar feature: month grid, day detail panel, Coming Up dashboard widget, and upcoming API endpoints. Adds `releaseDate`/`firstAirDate` to movies and series with TMDB `now_playing`/`upcoming` caching.
+**Anime metadata** - AniList/MAL providers with provider-aware enrichment, provider links on detail views, and metadata provider override support.
+
+**Blocklist overhaul** - Manual release blocking from search results, configurable block durations, metadata-level blocked media with 3-layer guard architecture, and bulk actions.
+
+**Activity improvements** - Activity type tags and status popovers across the table and dashboard sidebar. Typed frontend API service layer.
+
+**Library UX** - Slide-out sort/filter/display drawer with persistent settings. Scope monitor/unmonitor to current library with cascade to seasons and episodes.
+
+**Stalled downloads** - Auto-fail after configurable timeout; auto-blocklist when no seeders found.
+
+**Bug fixes** - qBittorrent v5.2.0 authentication fix; subtitle provider repairs (subf2m, gestdown, yify), subscene removed; calendar error handling; smart list editor crash; 132 TypeScript errors resolved.
+
+[Full release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.11.0)
+
+---
+
+## Recent releases
+
+### v0.10.0 (2026-04-28)
+
+Calendar page with month grid, day detail panel, and Coming Up dashboard widget. Adds `releaseDate`/`firstAirDate` to movies and series with TMDB caching.
 
 [Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.10.0)
 
----
+### v0.9.0 (2026-04-28)
 
-### v0.9.0 - 2026-04-28
-
-Movie collection support in the database schema, naming system, and movie APIs. Adds a metadata refresh task and improves TMDB caching.
+Movie collection support in schema, naming system, and APIs. Metadata refresh task and improved TMDB caching.
 
 [Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.9.0)
 
----
+### v0.8.0 (2026-04-27)
 
-### v0.8.0 - 2026-04-27
-
-Cinephage IPTV integration: replaces IPTV-org sync with the Cinephage API playlist endpoint, adds a native IPTV account form, country proxy, and backup URL support.
+Cinephage IPTV integration replacing IPTV-org sync. Adds native IPTV account form, country proxy, and backup URL support.
 
 [Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.8.0)
 
----
+### v0.7.0 (2026-04-26)
 
-### v0.7.0 - 2026-04-26
+:::warning Breaking changes
+- **`BETTER_AUTH_SECRET`** must now be set as an environment variable. The auto-generated `.auth-secret` fallback is removed. Copy `data/.auth-secret` into the env var before upgrading or all sessions and API keys will be lost.
+- **Subtitles analytics endpoint** (`/api/subtitles/providers/analytics`) response shape changed - analytics object removed, provider fields now at top level.
 
-**Breaking changes:**
-- `BETTER_AUTH_SECRET` must now be set as an environment variable. The auto-generated `.auth-secret` file fallback is removed. Copy your secret from `data/.auth-secret` into the env var before upgrading.
-- Subtitles analytics endpoint (`/api/subtitles/providers/analytics`) response shape changed: analytics object removed, provider fields are now at top level, throttle state includes `consecutiveFailures`/`lastError`/`lastErrorAt`.
+See the [Migration Guide](/guides/deploy/migration) for step-by-step instructions.
+:::
 
-**Major features:** RBAC with admin password reset, i18n via Paraglide JS v2 with Spanish translation, native subtitle sync engine, activity system overhaul, Plex integration, rTorrent and Transmission clients, Torznab protocol support, configuration backup/restore with encrypted secrets, Live TV EPG and stalker portal improvements, rate limiting, and extensive security hardening.
+RBAC with admin password reset, full i18n via Paraglide JS v2 (Spanish), native subtitle sync engine, Plex integration, rTorrent and Transmission clients, Torznab protocol, backup/restore with encrypted secrets, rate limiting, and extensive security hardening.
 
 [Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.7.0)
 
 ---
 
-### v0.6.0 - 2026-04-25
+## Version history
 
-Skip stream probing for instant playback startup. Fixes seeding limit checks for Transmission and Deluge, and a date parser regression.
+All versions with key highlights. Click any link for full details.
 
-[Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.6.0)
+| Version | Date | Highlights |
+|---------|------|------------|
+| [v0.6.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.6.0) | 2026-04-25 | Skip stream probing for instant playback; seeding limit fixes for Transmission and Deluge |
+| [v0.5.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.5.0) | 2026-04-21 | List view with auto/manual grab; enhanced EPG and IPTV; symlinked file import; bulk library operations. Same breaking changes as v0.7.0. |
+| [v0.2.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.2.0) | 2026-04-17 | Unified status page; isPlayed/playedPercentage indicators; redesigned media explorer filter bar |
+| [v0.1.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.1.0) | 2026-04-15 | Initial public release - Live TV, captcha solver, NZB/NNTP streaming, smart lists, subtitle support, Docker and NixOS |
 
----
-
-### v0.5.0 - 2026-04-21
-
-Large release with the same breaking changes as v0.7.0 (they were first introduced here). Adds list view with auto/manual grab, enhanced EPG and IPTV account management, symlinked file import, unified media type handling, and bulk library operations.
-
-[Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.5.0)
-
----
-
-### v0.2.0 - 2026-04-17
-
-Unified status page, isPlayed/playedPercentage indicators in the media explorer, and a redesigned filter bar with tiered chip layout.
-
-[Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.2.0)
+Patch releases (v0.1.1-v0.4.0, v0.6.1, v0.7.1-v0.7.4, v0.8.1-v0.8.2, v0.9.1) contained bug fixes and CI improvements only. See the [GitHub Releases page](https://github.com/MoldyTaint/Cinephage/releases) for complete details on every release.
 
 ---
-
-### v0.1.0 - 2026-04-15
-
-Initial public release. Full architecture including Live TV with EPG, captcha solver, NZB/NNTP streaming, smart lists, media naming, subtitle support, activity system, and Docker/NixOS support.
-
-[Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.1.0)
-
----
-
-For patch releases and the complete changelog, see the [GitHub Releases page](https://github.com/MoldyTaint/Cinephage/releases).
-
-## Docker tags reference
-
-### Stable releases
-
-```bash
-# Latest stable
-docker pull ghcr.io/moldytaint/cinephage:latest
-
-# Pinned version (recommended for production)
-docker pull ghcr.io/moldytaint/cinephage:v0.11.0
-```
-
-### Preview builds
-
-```bash
-# Latest development build
-docker pull ghcr.io/moldytaint/cinephage:dev
-```
-
-## Which tag should I use?
-
-| Use Case | Recommended Tag |
-|----------|----------------|
-| Production deployment | `latest` or `vX.Y.Z` |
-| Testing new features | `dev` |
-| Deterministic deploys | `vX.Y.Z` (pinned) |
-| CI/CD pipelines | `vX.Y.Z` (pinned) |
 
 ## See Also
 
-- [Migration Guide](/guides/deploy/migration) - Upgrading between versions
-- [Backup & Restore](/guides/deploy/backup-restore) - Before updating
+- [Migration Guide](/guides/deploy/migration) - Upgrading between versions with breaking changes
+- [Backup and Restore](/guides/deploy/backup-restore) - Back up before updating
+- [Roadmap](/support/roadmap) - What is coming next
