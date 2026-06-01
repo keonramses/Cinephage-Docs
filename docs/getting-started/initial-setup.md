@@ -134,7 +134,7 @@ You are now on the Cinephage dashboard.
 
 After completing the wizard, configure these essential settings:
 
-### 1. quality profiles
+### 1. Quality profiles
 
 Navigate to **Settings > Profiles**:
 
@@ -143,7 +143,7 @@ Navigate to **Settings > Profiles**:
 3. Select a default profile for TV shows
 4. Click **Save**
 
-### 2. indexers
+### 2. Indexers
 
 Navigate to **Settings > Integrations > Indexers**:
 
@@ -160,7 +160,7 @@ Navigate to **Settings > Integrations > Indexers**:
 Start with one or two indexers. You can add more later.
 :::
 
-### 3. monitoring settings
+### 3. Monitoring settings
 
 Navigate to **Settings > Tasks**:
 
@@ -190,9 +190,10 @@ Navigate to **Settings > System** to manage API keys for external access:
 - Treat API keys like passwords
 - Regenerate keys if you suspect they've been compromised
 - Use the Streaming API Key (not Main) for media server connections
+
 :::
 
-### 5. media server notifications (optional)
+### 5. Media server notifications (optional)
 
 Navigate to **Settings > Integrations > Media Servers** to connect your media servers:
 

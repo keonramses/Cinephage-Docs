@@ -43,7 +43,7 @@ Cinephage follows a modern web application architecture with clear separation of
 
 ## Core Components
 
-### 1. web interface
+### 1. Web interface
 
 **Technology:** SvelteKit + Svelte 5
 
@@ -83,7 +83,7 @@ RESTful API endpoints handle all data operations:
 - API key support for external access
 - Rate limiting for protection
 
-### 3. services layer
+### 3. Services layer
 
 **Business Logic**
 
@@ -104,7 +104,7 @@ Services contain the core application logic:
 - Clear interfaces for testability
 - Error handling with typed errors
 
-### 4. database
+### 4. Database
 
 **Technology:** SQLite 3
 
@@ -134,7 +134,7 @@ Single-file embedded database:
 - Subtitles (providers, languages, files)
 - Live TV (portals, channels, EPG)
 
-### 5. external integrations
+### 5. External integrations
 
 Cinephage integrates with numerous external services:
 
@@ -165,7 +165,7 @@ Cinephage integrates with numerous external services:
 - Emby notifications
 - Plex notifications
 
-### 6. background services
+### 6. Background services
 
 **Technology:** Node.js with custom worker system
 
@@ -191,7 +191,7 @@ Long-running background processes:
 | `CaptchaSolver`       | Cloudflare bypass           | On-demand    |
 | `MediaBrowserNotifier`| Jellyfin/Emby/Plex updates  | Event-driven |
 
-### 7. worker system
+### 7. Worker system
 
 **Concurrent Task Processing**
 

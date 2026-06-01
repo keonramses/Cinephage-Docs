@@ -10,7 +10,7 @@ keywords: [roadmap, features, planning, future]
 
 This document outlines planned features, work in progress, and known limitations for Cinephage. It's intended to give users visibility into the project's direction.
 
-For completed features and changes, see the [Changelog](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md).
+For completed features and changes, see the [Changelog](/support/releases).
 
 ---
 
@@ -250,6 +250,6 @@ We welcome community input on prioritization and new feature ideas!
 
 ## See Also
 
-- [Changelog](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md)
+- [Changelog](/support/releases)
 - [GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues)
 - [FAQ](/support/faq)

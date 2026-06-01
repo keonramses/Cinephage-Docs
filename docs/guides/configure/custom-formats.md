@@ -26,12 +26,12 @@ Think of them as "search filters with scores":
 
 Navigate to **Settings > Quality > Custom Formats**:
 
-### 1. basic information
+### 1. Basic information
 
 - **Name** - Descriptive name (e.g., "x265 Preferred", "No HDR")
 - **Description** - Optional explanation
 
-### 2. add conditions
+### 2. Add conditions
 
 Click **Add Condition** and choose a type:
 
@@ -48,13 +48,13 @@ Click **Add Condition** and choose a type:
 | **Release Group** | Encoder group     | SPARKS, RARBG, YIFY                       |
 | **Size**          | File size range   | 1-4 GB                                    |
 
-### 3. set match logic
+### 3. Set match logic
 
 - **Must Contain** - All conditions must match
 - **Must Not Contain** - Release is rejected if matches
 - **Should Contain** - Optional, adds score if matches
 
-### 4. assign score
+### 4. Assign score
 
 - **Positive score** - Prefer these releases
 - **Negative score** - Avoid these releases
