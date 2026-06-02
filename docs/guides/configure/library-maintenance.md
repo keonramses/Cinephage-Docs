@@ -72,7 +72,7 @@ Update TMDB metadata for items:
    - Ratings
    - Release dates
 
-:::tip Scheduled Refresh
+:::tip[Scheduled Refresh]
 TMDB data changes over time. Refresh monthly for active series.
 :::
 

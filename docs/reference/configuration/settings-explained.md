@@ -39,7 +39,7 @@ Your API key from [The Movie Database](https://www.themoviedb.org/). Required fo
 - **Required:** Yes
 - **Default:** None
 
-:::info API Key Location
+:::info[API Key Location]
 The API key is a 32-character string found in your TMDB account **Settings > API section**. The "Read Access Token" is not used for this setting.
 :::
 
@@ -88,7 +88,7 @@ Root folders define where Cinephage stores your media library. You need at least
 | **Name** | Display name for the folder | "Movies", "TV Shows" |
 | **Path** | Absolute path inside container | `/media/movies` |
 
-:::warning Docker Paths
+:::warning[Docker Paths]
 When using Docker, use the **container path**, not the host path:
 - ✅ Correct: `/media/movies` (if mounted as `/media`)
 - ❌ Incorrect: `/mnt/media/movies` (host path)
@@ -103,7 +103,7 @@ When using Docker, use the **container path**, not the host path:
 | **Media Type** | Movies or TV Shows | Required, determines content type |
 | **Quality Profile** | Default quality profile for imports | Optional, defaults to system default |
 
-:::caution Path Requirements
+:::caution[Path Requirements]
 - Cinephage requires read/write permissions to the path
 - Root folders must not be nested within each other
 - Each root folder should be on a separate mount point
@@ -150,7 +150,7 @@ Template used for renaming media files:
 | `{Codec}` | Video codec | "x264" |
 | `{Audio}` | Audio codec | "DTS" |
 
-:::info Custom Naming Patterns
+:::info[Custom Naming Patterns]
 Custom naming patterns combine multiple tokens to create specific folder and file naming schemes. Example: `{Movie Title} ({Release Year}) [{Quality}][{Codec}]-{Group}`
 :::
 
@@ -175,7 +175,7 @@ Configure how Cinephage handles file imports:
 | **Hardlink** | Creates second reference to same data | Efficient, no duplication |
 | **Symlink** | Creates pointer to original file | Links to download folder |
 
-:::info Hardlink Efficiency
+:::info[Hardlink Efficiency]
 Hardlinks are most efficient when the download folder and library are on the same filesystem, as they reference the same underlying data without duplication while allowing seeding to continue.
 :::
 
@@ -282,7 +282,7 @@ Assign positive or negative scores:
 | **-10** | Slight avoidance |
 | **-100** | Reject |
 
-:::info Example: HEVC Preference
+:::info[Example: HEVC Preference]
 A custom format matching releases containing "HEVC" or "H.265" with a +50 score prefers more efficient codecs without rejecting other options.
 :::
 
@@ -367,7 +367,7 @@ Configure search sources for finding releases.
 | **Priority** | Search priority (lower = higher priority) | Optional, default: 25 |
 | **Enabled** | Whether the indexer is active | Yes, default: Enabled |
 
-:::info Indexer Priority
+:::info[Indexer Priority]
 Lower priority values indicate higher search priority. Indexers with priority 1 are searched first, while those with 50+ are searched later. Set higher values for slower indexers or those with rate limits.
 :::
 
@@ -390,7 +390,7 @@ Trackers not in the built-in list require a custom YAML definition containing:
 | **YAML Definition** | Indexer configuration in YAML format |
 | **Credentials** | API key, username, or other authentication |
 
-:::info YAML Format
+:::info[YAML Format]
 Custom YAML indexers must follow the Prowlarr/Jackett indexer definition format. The YAML is validated before saving.
 :::
 
@@ -471,7 +471,7 @@ Each task has:
 | **Next Run** | When task will execute next |
 | **Status** | Current state (idle/running) |
 
-:::caution Rate Limiting
+:::caution[Rate Limiting]
 Very short task intervals may trigger rate limiting from indexers or TMDB. The minimum recommended interval depends on the number of configured indexers and API usage.
 :::
 
@@ -542,7 +542,7 @@ Create encrypted configuration backups and restore from them.
 3. Confirm restoration
 4. Cinephage will restart with restored configuration
 
-:::warning Backup Compatibility
+:::warning[Backup Compatibility]
 Backups are compatible within the same major version. Cross-version restores may require manual adjustments.
 :::
 
@@ -574,7 +574,7 @@ Set your preferred interface and content languages:
 | **Content Language** | Default for media metadata | Based on TMDB languages |
 | **Subtitle Language** | Preferred subtitle language | Any configured language |
 
-:::tip i18n Support
+:::tip[i18n Support]
 Cinephage uses Paraglide JS v2 for internationalization. Interface translations are community-contributed.
 :::
 
@@ -690,7 +690,7 @@ View solver performance:
 - Average solve time
 - Failed attempts
 
-:::note First Run
+:::note[First Run]
 The first time you enable the Captcha Solver, Cinephage downloads the Camoufox browser (~80MB). This happens automatically.
 :::
 

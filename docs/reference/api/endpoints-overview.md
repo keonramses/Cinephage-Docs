@@ -28,7 +28,7 @@ See [Authentication](authentication) for auth requirements and API key usage.
 | GET    | `/api/ready`          | 🔓   | Readiness check for orchestration |
 | GET    | `/api/system/status`  | 🔓   | Background services status     |
 
-:::info Admin Authorization (v0.5.0+)
+:::info[Admin Authorization (v0.5.0+)]
 Many endpoints now require admin authorization (👑). Ensure your API key has admin privileges for these endpoints.
 :::
 
@@ -197,7 +197,7 @@ Many endpoints now require admin authorization (👑). Ensure your API key has a
 | POST   | `/api/subtitles/sync/bulk`        | 👑   | Bulk sync subtitles        |
 | DELETE | `/api/subtitles/[id]`             | 👑   | Delete subtitle            |
 
-:::warning API Change (v0.5.0+)
+:::warning[API Change (v0.5.0+)]
 The `/api/subtitles/providers/analytics` endpoint response shape has changed:
 - Analytics object (successRate, responseTimes) removed
 - Provider fields are now at top level

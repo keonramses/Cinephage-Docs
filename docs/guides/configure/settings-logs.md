@@ -194,7 +194,7 @@ environment:
   - LOG_INCLUDE_STACK=true
 ```
 
-:::warning Security
+:::warning[Security]
 Never enable `LOG_SENSITIVE` in production. It logs passwords, API keys, and other sensitive data.
 :::
 

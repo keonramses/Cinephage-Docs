@@ -84,7 +84,7 @@ FAQ, releases, roadmap, and troubleshooting.
 
 ## New in v0.11.0
 
-:::info Latest Release
+:::info[Latest Release]
 - **Anime metadata** - AniList/MAL providers with provider-aware enrichment
 - **Blocklist overhaul** - Manual release blocking, blocked media, and bulk actions
 - **Activity tags and status popovers** - Richer activity feed across the UI

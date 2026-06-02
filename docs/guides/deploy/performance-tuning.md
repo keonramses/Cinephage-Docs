@@ -99,7 +99,7 @@ WORKER_MAX_STREAMS=20
 WORKER_MAX_IMPORTS=8
 ```
 
-:::warning Don't Over-allocate
+:::warning[Don't Over-allocate]
 More workers isn't always better. Too many workers can:
 - Exhaust system memory
 - Cause database contention
@@ -129,7 +129,7 @@ data/cinephage.db
 | **HDD** | Good |  Acceptable for small libraries |
 | **Network Storage** | Poor |  Avoid for database |
 
-:::tip SSD for Database
+:::tip[SSD for Database]
 Place the database on SSD storage if possible. It significantly improves:
 - Search performance
 - Import speed
@@ -176,7 +176,7 @@ Rebuild indexes:
 sqlite3 data/cinephage.db "REINDEX;"
 ```
 
-:::caution Backup First
+:::caution[Backup First]
 Always backup your database before manual maintenance operations.
 :::
 
@@ -317,7 +317,7 @@ Adjust based on your needs:
 | **Cutoff Unmet** | Daily | Daily | Every 6 hours |
 | **Upgrade Search** | Weekly | Weekly | Daily |
 
-:::tip Aggressive Searching
+:::tip[Aggressive Searching]
 More frequent searches use more resources and hit indexer rate limits. Start conservative.
 :::
 
@@ -471,7 +471,7 @@ deploy:
       memory: 1G
 ```
 
-:::tip Prevent Resource Exhaustion
+:::tip[Prevent Resource Exhaustion]
 Resource limits prevent Cinephage from consuming all system resources, ensuring stability.
 :::
 

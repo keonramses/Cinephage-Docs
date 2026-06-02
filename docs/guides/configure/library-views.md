@@ -14,7 +14,7 @@ Cinephage provides flexible views for browsing your media library.
 
 Access via **Library > Movies** (URL: `/library/movies`)
 
-:::info URL Changes
+:::info[URL Changes]
 Library routes have been standardized:
 - Movies: `/library/movies` (previously `/movies`)
 - TV Shows: `/library/tv` (previously `/tv`)

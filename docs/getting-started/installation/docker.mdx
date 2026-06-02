@@ -11,7 +11,7 @@ keywords: [docker, docker compose, installation, setup, container]
 
 This guide covers installing Cinephage using Docker Compose. Docker provides a simple, consistent deployment method that works on any platform.
 
-:::tip Prefer Bare Metal?
+:::tip[Prefer Bare Metal]
 If you want maximum performance or prefer not to use containers, see the [Bare Metal Installation](./bare-metal) guide instead.
 :::
 
@@ -139,7 +139,7 @@ Update the volume paths to match your system:
 - **Unraid**: `/mnt/user/media`, `/mnt/user/downloads`
 - **macOS**: `/Users/yourname/media`, `/Users/yourname/downloads`
 
-:::warning Important
+:::warning[Important]
 Do not mount `/app` - this contains the application code and should not be modified.
 :::
 
@@ -225,10 +225,11 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 
 Copy the output and paste it as the `BETTER_AUTH_SECRET` value.
 
-:::warning Keep This Secret Safe
+:::warning[Keep This Secret Safe]
 - Store it like a password
 - Back it up with your configuration
 - Changing it will invalidate all user sessions and API keys
+
 :::
 
 ### Step 4: Start Cinephage
@@ -244,7 +245,7 @@ This will:
 2. Create the container
 3. Start the application in the background
 
-:::info First Startup Note
+:::info[First Startup Note]
 On first startup, Cinephage will download the Camoufox browser (~80MB) for Captcha Solver functionality. This is a one-time download stored in your `/config` volume.
 :::
 

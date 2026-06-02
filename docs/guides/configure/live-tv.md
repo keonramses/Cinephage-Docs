@@ -117,7 +117,7 @@ If you selected **Stalker Portal**:
 4. **Test Connection** - Click **Test** to verify credentials
 5. **Save** - Click **Save** to add the account
 
-:::tip Testing
+:::tip[Testing]
 Always test the connection before saving. The test verifies:
 - Portal is accessible
 - MAC address is valid
@@ -157,7 +157,7 @@ If you selected **M3U Playlist**:
 4. **Test** - Cinephage parses the playlist and counts channels
 5. **Save** - Click **Save** to add the playlist
 
-:::caution M3U Security
+:::caution[M3U Security]
 M3U URLs often contain authentication tokens. Treat them as sensitive information and don't share them publicly.
 :::
 
@@ -214,7 +214,7 @@ The scanner shows real-time progress:
 - **Failed** - Invalid or expired accounts
 - **Progress Bar** - Visual progress indicator
 
-:::tip Scanning Ethics
+:::tip[Scanning Ethics]
 Only scan portals you have permission to access. Unauthorized scanning may violate terms of service.
 :::
 
@@ -261,7 +261,7 @@ After adding an account, you need to sync channels from the provider.
 5. Updates database with channel information
 6. Shows sync results (channels added/updated/removed)
 
-:::note Sync Duration
+:::note[Sync Duration]
 Sync time depends on number of channels:
 - Small lists (100 channels): ~10-30 seconds
 - Medium lists (500 channels): ~1-2 minutes
@@ -409,7 +409,7 @@ Add external EPG:
 3. Cinephage fetches and parses EPG data
 4. Maps channels using tvg-id attributes
 
-:::tip Finding EPG URLs
+:::tip[Finding EPG URLs]
 Many Live TV providers offer XMLTV EPG URLs. Common sources:
 - Provider-specific EPG (check your account panel)
 - iptv-org/epg GitHub repository

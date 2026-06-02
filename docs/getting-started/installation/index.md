@@ -90,7 +90,7 @@ Regardless of your chosen method, you will need:
 - **Storage**: SSD recommended for database
 - **Network**: Stable internet connection
 
-:::tip Not Sure Which to Choose?
+:::tip[Not Sure Which to Choose?]
 
 If you are new to self-hosting, **start with Docker**. It is easier to set up, maintain, and troubleshoot. You can always migrate to bare metal later if you need maximum performance.
 

@@ -79,7 +79,7 @@ If a key is compromised or you want to rotate it:
 3. New key is generated immediately
 4. **Old key stops working instantly**
 
-:::warning Update Your Services
+:::warning[Update Your Services]
 After regenerating, update any services using the old key. The old key becomes invalid immediately.
 :::
 
@@ -98,7 +98,7 @@ curl -H "x-api-key: cinephage_your_key_here" \
 curl "http://localhost:3000/api/livetv/playlist.m3u?api_key=cinephage_your_key_here"
 ```
 
-:::tip When to Use Query Parameter
+:::tip[When to Use Query Parameter]
 Some media servers (Plex, Jellyfin) cannot send custom headers. Use the query parameter for M3U playlist URLs in these cases.
 :::
 

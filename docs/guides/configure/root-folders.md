@@ -28,7 +28,7 @@ You can further organize content with subtypes:
 | **Standard** | Regular movies/TV shows | Default for all content |
 | **Anime** | Japanese animation | Separate naming conventions and metadata |
 
-:::tip Anime Subtype
+:::tip[Anime Subtype]
 Use the Anime subtype for anime content to ensure proper metadata fetching and naming conventions specific to anime releases.
 :::
 
@@ -69,7 +69,7 @@ You can create multiple Root Folders:
 /media/kids        (Family content)
 ```
 
-:::tip Media Type Specific
+:::tip[Media Type Specific]
 Each root folder is dedicated to one media type. Don't mix movies and TV in the same root folder.
 :::
 
@@ -154,18 +154,18 @@ You can move media between Root Folders directly in Cinephage:
 4. Choose whether to move or copy files
 5. Click **Move**
 
-:::warning Move vs Copy
+:::warning[Move vs Copy]
 - **Move**: Relocates files to the new root folder (frees space in source)
 - **Copy**: Duplicates files to the new root folder (keeps original)
 :::
 
-:::tip Bulk Moves
+:::tip[Bulk Moves]
 You can select multiple items in the library to move them all at once. This is useful for reorganizing your library structure.
 :::
 
 ### Remove root folder
 
-:::warning Data Loss Warning
+:::warning[Data Loss Warning]
 Removing a root folder from Cinephage doesn't delete the actual files, but Cinephage will lose track of all items in that folder.
 :::
 

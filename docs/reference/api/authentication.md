@@ -77,7 +77,7 @@ curl -H "x-api-key: cinephage_your_key_here" \
 curl "http://localhost:3000/api/livetv/playlist.m3u?api_key=cinephage_your_key_here"
 ```
 
-:::tip When to Use Query Parameter
+:::tip[When to Use Query Parameter]
 Some media servers (Plex, Jellyfin) can't send custom headers. Use the query parameter for M3U playlist URLs.
 :::
 
@@ -91,7 +91,7 @@ Navigate to **Settings > System**:
 | **Copy**         | Copy to clipboard                        |
 | **Regenerate**   | Create new key (old key invalidates)     |
 
-:::warning Regenerating Keys
+:::warning[Regenerating Keys]
 Regenerating a key immediately invalidates the old key. Update any services using the key before regenerating.
 :::
 
@@ -184,7 +184,7 @@ openssl rand -base64 32
 node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
 
-:::danger Changing BETTER_AUTH_SECRET
+:::danger[Changing BETTER_AUTH_SECRET]
 Changing this secret will:
 - Invalidate all active sessions (users must re-login)
 - Make encrypted API keys unreadable (must regenerate)
