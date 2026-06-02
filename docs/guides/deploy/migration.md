@@ -18,15 +18,21 @@ Current deployment tags:
 
 ---
 
-## BETTER_AUTH_SECRET Migration (v0.5.0+)
+## BETTER_AUTH_SECRET Migration
 
-**Applies to:** All users upgrading to version 0.5.0 or later.
+**Applies to:** All users upgrading to v0.7.0 or later.
+
+Timeline:
+- **v0.5.0** - `BETTER_AUTH_SECRET` became required; the auto-generated `.auth-secret` file was still used as a fallback
+- **v0.7.0** - The `.auth-secret` file fallback was removed entirely; the env var is now the only accepted source
+
+If you have been running any version between v0.5.0 and v0.7.0, you must set the env var before upgrading to v0.7.0+.
 
 ### What changed
 
-- `BETTER_AUTH_SECRET` is now **required** as an environment variable
-- Auto-generated `.auth-secret` file fallback has been removed
-- Without migration, all sessions and encrypted API keys will be lost
+- `BETTER_AUTH_SECRET` must be set as an environment variable
+- The `.auth-secret` file is no longer read on startup
+- Without this migration, all sessions and encrypted API keys will be lost
 
 ### Migration steps
 
@@ -402,10 +408,10 @@ docker compose up -d
 
 ### What changed
 
-- **Monitoring settings page removed** — All monitoring configuration consolidated into **Settings > Tasks**
-- **Unified task registry** — Centralized task definitions with consistent configuration
-- **Task execution history** — All tasks now record detailed per-item activity
-- **Automatic history cleanup** — Old history entries automatically removed after 30 days
+- **Monitoring settings page removed** - All monitoring configuration consolidated into **Settings > Tasks**
+- **Unified task registry** - Centralized task definitions with consistent configuration
+- **Task execution history** - All tasks now record detailed per-item activity
+- **Automatic history cleanup** - Old history entries automatically removed after 30 days
 
 ### Task frequency changes
 
@@ -413,8 +419,8 @@ docker compose up -d
 |------|--------------|---------------|---------------|
 | CutoffUnmet | Monitoring | As configured | Daily |
 | Upgrade | Monitoring | As configured | Weekly |
-| MissingSubtitles | — | — | Every 6 hours (new) |
-| SubtitleUpgrade | — | — | Daily (new) |
+| MissingSubtitles | - | - | Every 6 hours (new) |
+| SubtitleUpgrade | - | - | Daily (new) |
 
 ### Migration steps
 
@@ -426,8 +432,8 @@ docker compose up -d
 
 **Step 2:** Enable new subtitle tasks (if using subtitles):
 
-- **Missing Subtitles** — Automatically finds missing subtitle languages
-- **Subtitle Upgrade** — Searches for better subtitle matches when allowed
+- **Missing Subtitles** - Automatically finds missing subtitle languages
+- **Subtitle Upgrade** - Searches for better subtitle matches when allowed
 
 **Step 3:** Monitor task history:
 
@@ -562,5 +568,5 @@ docker compose up -d
 ## See Also
 
 - [Installation](/getting-started/installation)
-- [Backup & Restore](./backup-restore) — Data protection
-- [Troubleshooting](./troubleshooting) — Common issues
+- [Backup & Restore](./backup-restore) - Data protection
+- [Troubleshooting](./troubleshooting) - Common issues

@@ -531,8 +531,8 @@ Score: -1000 for anything else
 ## See Also
 
 - [Set Up Quality Profiles](../configure/quality-profiles) - Detailed quality configuration
-- [Quality Scoring](/explanation/quality-scoring) — How scoring works
+- [Quality Scoring](/explanation/quality-scoring) - How scoring works
 - [Handle Failed Downloads](handle-failed-downloads) - Deal with download failures
 - [Search and Download](search-and-download) - Manual searching
 - [Update Cinephage](update-cinephage) - Keep Cinephage up to date
-- [Backup & Restore](../deploy/backup-restore) — Data protection
+- [Backup & Restore](../deploy/backup-restore) - Data protection

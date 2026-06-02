@@ -1,9 +1,1 @@
-{
-  "label": "Download Clients",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "title": "Download Clients",
-    "description": "Configure torrent and Usenet download clients"
-  }
-}
+{ "label": "Download Clients", "position": 1 }

@@ -14,12 +14,12 @@ Cinephage includes a built-in **Captcha Solver** that automatically handles Clou
 
 ## How It Works
 
-The Captcha Solver uses **Camoufox** — a privacy-focused Firefox fork with anti-detection features:
+The Captcha Solver uses **Camoufox** - a privacy-focused Firefox fork with anti-detection features:
 
-1. **Challenge Detection** — Automatically detects Cloudflare/Turnstile challenges
-2. **Browser Automation** — Launches headless browser to solve challenges
-3. **Cookie Caching** — Stores successful cookies to minimize solves
-4. **Health Monitoring** — Tracks success rates and adjusts automatically
+1. **Challenge Detection** - Automatically detects Cloudflare/Turnstile challenges
+2. **Browser Automation** - Launches headless browser to solve challenges
+3. **Cookie Caching** - Stores successful cookies to minimize solves
+4. **Health Monitoring** - Tracks success rates and adjusts automatically
 
 ---
 
@@ -33,16 +33,14 @@ Navigate to **Settings > Integrations > Captcha Solver**:
 | ------------- | ------------------------------------ | ------- |
 | **Enabled**   | Turn solver on/off                   | Enabled |
 | **Timeout**   | Max time to wait for solve (seconds) | 60      |
-| **Cache TTL** | How long to keep cookies (hours)     | 24      |
+| **Cache TTL** | How long to keep cookies (hours)     | 1       |
 | **Headless**  | Run browser without GUI              | Enabled |
 
 ### Advanced settings
 
-| Setting             | Description                       | Default |
-| ------------------- | --------------------------------- | ------- |
-| **Proxy**           | HTTP proxy for browser (optional) | None    |
-| **Max Retries**     | Retry attempts per challenge      | 3       |
-| **Parallel Solves** | Concurrent challenge solving      | 1       |
+| Setting   | Description                       | Default |
+| --------- | --------------------------------- | ------- |
+| **Proxy** | HTTP proxy for browser (optional) | None    |
 
 ---
 
@@ -50,9 +48,9 @@ Navigate to **Settings > Integrations > Captcha Solver**:
 
 Cookies are cached per-domain to minimize repeated challenges:
 
-- **Automatic refresh** — Cookies refreshed before expiration
-- **Per-domain storage** — Each indexer has isolated cookies
-- **Manual clearing** — Clear cookies if issues occur
+- **Automatic refresh** - Cookies refreshed before expiration
+- **Per-domain storage** - Each indexer has isolated cookies
+- **Manual clearing** - Clear cookies if issues occur
 
 ### Clearing cookies
 
@@ -77,24 +75,24 @@ The solver tracks its own performance:
 
 ### Challenges not being solved
 
-1. **Check solver is enabled** — **Settings > Integrations > Captcha Solver**
-2. **Increase timeout** — Some challenges take 30+ seconds
-3. **Check logs** — Look for "captcha" or "camoufox" errors
-4. **Clear cookie cache** — Corrupted cookies can cause failures
+1. **Check solver is enabled** - **Settings > Integrations > Captcha Solver**
+2. **Increase timeout** - Some challenges take 30+ seconds
+3. **Check logs** - Look for "captcha" or "camoufox" errors
+4. **Clear cookie cache** - Corrupted cookies can cause failures
 
 ### High failure rate
 
-1. **Disable headless mode** — Temporarily to debug (requires display)
-2. **Check proxy settings** — If using proxy, verify it works
-3. **Update Camoufox** — Solver uses latest browser version automatically
+1. **Disable headless mode** - Temporarily to debug (requires display)
+2. **Check proxy settings** - If using proxy, verify it works
+3. **Update Camoufox** - Solver uses latest browser version automatically
 
 ### Indexer still blocked
 
 Not all protection is Cloudflare:
 
-- **DataDome** — Currently not supported
-- **PerimeterX** — May work, not guaranteed
-- **Custom challenges** — Varies by site
+- **DataDome** - Currently not supported
+- **PerimeterX** - May work, not guaranteed
+- **Custom challenges** - Varies by site
 
 Try alternative indexers if one is consistently blocked.
 
@@ -110,5 +108,5 @@ Try alternative indexers if one is consistently blocked.
 
 ## See Also
 
-- [Indexers](./indexers) — Configuring indexers that need Cloudflare bypass
-- [Troubleshooting](../deploy/troubleshooting) — General troubleshooting guide
+- [Indexers](./indexers) - Configuring indexers that need Cloudflare bypass
+- [Troubleshooting](../deploy/troubleshooting) - General troubleshooting guide

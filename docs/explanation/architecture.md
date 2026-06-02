@@ -43,7 +43,7 @@ Cinephage follows a modern web application architecture with clear separation of
 
 ## Core Components
 
-### 1. web interface
+### 1. Web interface
 
 **Technology:** SvelteKit + Svelte 5
 
@@ -83,7 +83,7 @@ RESTful API endpoints handle all data operations:
 - API key support for external access
 - Rate limiting for protection
 
-### 3. services layer
+### 3. Services layer
 
 **Business Logic**
 
@@ -104,7 +104,7 @@ Services contain the core application logic:
 - Clear interfaces for testability
 - Error handling with typed errors
 
-### 4. database
+### 4. Database
 
 **Technology:** SQLite 3
 
@@ -134,20 +134,19 @@ Single-file embedded database:
 - Subtitles (providers, languages, files)
 - Live TV (portals, channels, EPG)
 
-### 5. external integrations
+### 5. External integrations
 
 Cinephage integrates with numerous external services:
 
 **Metadata:**
 
-- TMDB - Movie and TV metadata
-- TVDB - Additional TV data
+- TMDB - Movie, TV metadata, and external ID lookups (TVDB/IMDB IDs are resolved via TMDB's external IDs API)
 - IMDB - External ID linking
 
 **Download Clients:**
 
 - Torrent: qBittorrent, Transmission, Deluge, rTorrent, aria2
-- Usenet: SABnzbd, NZBGet, NZB-Mount
+- Usenet: SABnzbd, NZBGet
 
 **Indexers:**
 
@@ -157,7 +156,7 @@ Cinephage integrates with numerous external services:
 
 **Subtitles:**
 
-- 11 subtitle providers
+- 12 subtitle providers
 - OpenSubtitles, Addic7ed, SubDL, etc.
 
 **Media Servers:**
@@ -166,7 +165,7 @@ Cinephage integrates with numerous external services:
 - Emby notifications
 - Plex notifications
 
-### 6. background services
+### 6. Background services
 
 **Technology:** Node.js with custom worker system
 
@@ -192,7 +191,7 @@ Long-running background processes:
 | `CaptchaSolver`       | Cloudflare bypass           | On-demand    |
 | `MediaBrowserNotifier`| Jellyfin/Emby/Plex updates  | Event-driven |
 
-### 7. worker system
+### 7. Worker system
 
 **Concurrent Task Processing**
 
@@ -479,5 +478,5 @@ Key metrics tracked:
 - [Workers and Tasks](workers-and-tasks)
 - [Quality Scoring](quality-scoring)
 - [Design Decisions](design-decisions)
-- [Database Schema](/reference/database/schema-overview) — Complete database structure
-- [Getting Started](/getting-started/) — Installation and setup
+- [Database Schema](/reference/database/schema-overview) - Complete database structure
+- [Getting Started](/getting-started/) - Installation and setup

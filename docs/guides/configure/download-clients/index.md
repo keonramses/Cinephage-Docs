@@ -33,18 +33,17 @@ Download clients handle the actual downloading of media files. Cinephage connect
 
 | Client | Recommended | Features |
 |--------|-------------|----------|
-| [SABnzbd](sabnzbd) | Yes | Web UI, categories, scripting |
+| [SABnzbd](sabnzbd) | Yes | Web UI, categories, scripting, mount mode |
 | [NZBGet](nzbget) | | Lightweight, RSS support |
-| NZB-Mount | | Direct streaming via WebDAV |
 
 ## Prerequisites
 
 Before configuring any download client:
 
-- **Download client installed and running** — Install your preferred client and ensure it is operational
-- **Web UI enabled** — Most clients require enabling the web interface for remote access
-- **Network connectivity** — Cinephage must be able to reach the download client over the network
-- **Cinephage running** — Ensure Cinephage is installed and accessible
+- **Download client installed and running** - Install your preferred client and ensure it is operational
+- **Web UI enabled** - Most clients require enabling the web interface for remote access
+- **Network connectivity** - Cinephage must be able to reach the download client over the network
+- **Cinephage running** - Ensure Cinephage is installed and accessible
 
 ### For Docker users
 
@@ -141,9 +140,9 @@ Ensure adequate space on your download volume.
 
 If you encounter issues:
 
-- **Connection failures** — Verify network connectivity and credentials
-- **Downloads not importing** — Check path mappings and file permissions
-- **Authentication errors** — Verify API keys and passwords
+- **Connection failures** - Verify network connectivity and credentials
+- **Downloads not importing** - Check path mappings and file permissions
+- **Authentication errors** - Verify API keys and passwords
 
 For detailed troubleshooting, see [Troubleshooting downloads](/guides/deploy/troubleshooting).
 

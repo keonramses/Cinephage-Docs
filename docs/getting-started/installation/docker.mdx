@@ -203,7 +203,7 @@ LOG_LEVEL=info
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `ORIGIN` | Yes | URL where you access Cinephage |
-| `BETTER_AUTH_URL` | Yes | Authentication URL (usually same as ORIGIN) |
+| `BETTER_AUTH_URL` | No | Auth callback URL - defaults to ORIGIN if not set |
 | `BETTER_AUTH_SECRET` | Yes | Secret key for session encryption |
 | `PUID` | No* | User ID for file permissions (default: 1000) |
 | `PGID` | No* | Group ID for file permissions (default: 1000) |

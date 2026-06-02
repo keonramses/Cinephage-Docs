@@ -423,6 +423,6 @@ POST /api/download-clients/:id/test
 
 ## See Also
 
-- [Search](search) — Search and grab endpoints
-- [Movies](movies) — Movie library endpoints
-- [TV](tv) — TV shows and episode endpoints
+- [Search](search) - Search and grab endpoints
+- [Movies](movies) - Movie library endpoints
+- [TV](tv) - TV shows and episode endpoints

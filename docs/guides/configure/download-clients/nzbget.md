@@ -175,20 +175,20 @@ To set up categories in NZBGet:
 
 In **Settings** > **Download**, configure connection limits based on your usenet provider:
 
-- **Connections** — Number of connections to use
-- **Rate** — Download speed limit (0 = unlimited)
+- **Connections** - Number of connections to use
+- **Rate** - Download speed limit (0 = unlimited)
 
 ### Destination directories
 
 In **Settings** > **Paths**, configure where downloads are saved:
 
-- **DestDir** — Main download directory
-- **InterDir** — Intermediate directory (optional, for performance)
+- **DestDir** - Main download directory
+- **InterDir** - Intermediate directory (optional, for performance)
 
 Ensure these directories are accessible to Cinephage.
 
 ## See also
 
-- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
-- [How to configure SABnzbd](./sabnzbd) — Alternative usenet client
-- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions
+- [Download clients overview](/guides/configure/download-clients) - Overview of supported clients
+- [How to configure SABnzbd](./sabnzbd) - Alternative usenet client
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) - Common issues and solutions

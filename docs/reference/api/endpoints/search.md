@@ -327,6 +327,6 @@ Cinephage supports searching across multiple indexer types:
 
 ## See Also
 
-- [Movies](movies) — Movie library endpoints
-- [TV](tv) — TV shows and episode endpoints
-- [Download](download) — Queue and download management
+- [Movies](movies) - Movie library endpoints
+- [TV](tv) - TV shows and episode endpoints
+- [Download](download) - Queue and download management

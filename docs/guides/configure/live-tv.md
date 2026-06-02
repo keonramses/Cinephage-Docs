@@ -25,16 +25,12 @@ Cinephage supports live TV through three provider types, each with different fea
 Regardless of provider type, Cinephage provides:
 
 -  Channel sync from all provider types
--  Electronic Program Guide (EPG) support (Stalker fully implemented, XStream planned)
--  Channel lineup organization
--  M3U playlist generation for external players
--  Category management
--  Portal scanning for Stalker account discovery
--  Multi-provider mixing (channels from all providers in one lineup)
-
-:::note Feature Status
-Live TV functionality supports all three provider types. Stalker Portal is the most mature implementation with full EPG support. XStream Codes and M3U support are actively developed.
-:::
+- Electronic Program Guide (EPG) support for all three provider types
+- Channel lineup organization
+- M3U playlist generation for external players
+- Category management
+- Portal scanning for Stalker account discovery
+- Multi-provider mixing (channels from all providers in one lineup)
 
 ## Provider Types Explained
 
@@ -70,8 +66,8 @@ XStream Codes is a popular Live TV panel system used by many providers. Accounts
 **Key Features:**
 -  Username/password authentication
 -  Account expiration tracking
--  EPG support planned (not yet implemented)
--  Archive support implemented but not fully tested
+- EPG support via XMLTV URL
+- Archive support
 
 **Required Information:**
 - Server URL (e.g., `http://example.com:8080`)
@@ -384,9 +380,9 @@ EPG provides TV schedule information for your channels.
 
 | Provider | EPG Support | Source |
 |----------|-------------|--------|
-| **Stalker** |  Full | Retrieved from portal automatically |
-| **XStream** |  Planned | Via XStream EPG API |
-| **M3U** |  Optional | Requires external XMLTV URL |
+| **Stalker** | Full | Retrieved from portal automatically |
+| **XStream** | Supported | Via XMLTV URL |
+| **M3U** | Optional | Requires external XMLTV URL |
 
 ### Configuring EPG
 
@@ -698,6 +694,6 @@ When updating Cinephage:
 
 ## See Also
 
-- [Understanding the Interface](/getting-started/understanding-interface) — Navigate the Live TV interface
+- [Understanding the Interface](/getting-started/understanding-interface) - Navigate the Live TV interface
 - [Troubleshooting](../deploy/troubleshooting) - General troubleshooting steps
 - [Configure Subtitles](subtitles) - Set up subtitles for live TV

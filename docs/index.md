@@ -15,10 +15,10 @@ Welcome to the Cinephage documentation. Cinephage is a self-hosted media managem
 
 Instead of running multiple separate services, Cinephage provides one cohesive platform:
 
-- **One database** — All your media and configurations together
-- **One interface** — Browse, search, and manage everything
-- **One configuration** — Set up indexers and clients once
-- **One container** — Deploy with Docker and go
+- **One database** - All your media and configurations together
+- **One interface** - Browse, search, and manage everything
+- **One configuration** - Set up indexers and clients once
+- **One container** - Deploy with Docker and go
 
 ## Documentation Sections
 
@@ -78,27 +78,29 @@ FAQ, releases, roadmap, and troubleshooting.
 
 ## Quick Start
 
-1. **[Install](/getting-started/installation)** — Get running with Docker
-2. **[Configure](/getting-started/initial-setup)** — Set up TMDB API, download clients, and Root Folders
-3. **[Add Media](/getting-started/adding-media)** — Add your first movie or TV show
+1. **[Install](/getting-started/installation)** - Get running with Docker
+2. **[Configure](/getting-started/initial-setup)** - Set up TMDB API, download clients, and Root Folders
+3. **[Add Media](/getting-started/adding-media)** - Add your first movie or TV show
 
-## New in v0.5.0
+## New in v0.11.0
 
 :::info Latest Release
-- **Activity Management** — Enhanced history with stats and bulk actions
-- **Backup & Restore** — Encrypted configuration backups
-- **Native Subtitle Sync** — Built-in sync engine
-- **Smart Lists** — Dynamic TMDB Discover integration
-- **i18n Support** — Spanish localization
+- **Anime metadata** - AniList/MAL providers with provider-aware enrichment
+- **Blocklist overhaul** - Manual release blocking, blocked media, and bulk actions
+- **Activity tags and status popovers** - Richer activity feed across the UI
+- **Auto-fail stalled downloads** - Configurable timeout with auto-blocklist on no seeders
+- **Typed frontend API layer** - Improved reliability across all API calls
+- **Library sort/filter drawer** - Slide-out panel with persistent display settings
+- **qBittorrent v5.2.0 compatibility** - Authentication fix for new qBit versions
 
-[View full release notes →](/support/releases)
+[View release notes →](/support/releases#latest---v0110-2026-05-29)
 :::
 
 ## Getting Help
 
-- [Discord](https://discord.gg/scGCBTSWEt) — Community chat
-- [GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues) — Bug reports and feature requests
-- [Troubleshooting Guide](/guides/deploy/troubleshooting) — Common issues and fixes
+- [Discord](https://discord.gg/scGCBTSWEt) - Community chat
+- [GitHub Issues](https://github.com/MoldyTaint/Cinephage/issues) - Bug reports and feature requests
+- [Troubleshooting Guide](/guides/deploy/troubleshooting) - Common issues and fixes
 
 ---
 

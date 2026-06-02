@@ -20,11 +20,11 @@ Connect your media servers to Cinephage for automatic library refresh notificati
 
 ## How It Works
 
-1. **Event Occurs** — Cinephage imports, upgrades, renames, or deletes a file
-2. **Batching** — Events are collected for 5 seconds (deduplicated)
-3. **Path Mapping** — Local paths translated to media server paths
-4. **Notification Sent** — Each enabled server receives library update
-5. **Library Refreshes** — Media server refreshes affected folders
+1. **Event Occurs** - Cinephage imports, upgrades, renames, or deletes a file
+2. **Batching** - Events are collected for 5 seconds (deduplicated)
+3. **Path Mapping** - Local paths translated to media server paths
+4. **Notification Sent** - Each enabled server receives library update
+5. **Library Refreshes** - Media server refreshes affected folders
 
 ## Configuration
 
@@ -109,17 +109,17 @@ Remote Path: /data/media/movies
 
 You can connect multiple media servers:
 
-- **Multiple Jellyfin/Emby instances** — Different locations or users
-- **Mixed environments** — Jellyfin for some, Plex for others
-- **Backup server** — Secondary server for redundancy
+- **Multiple Jellyfin/Emby instances** - Different locations or users
+- **Mixed environments** - Jellyfin for some, Plex for others
+- **Backup server** - Secondary server for redundancy
 
 ### Bulk actions
 
 Select multiple servers to:
 
-- **Enable/Disable** — Toggle notifications
-- **Test** — Verify all connections
-- **Delete** — Remove servers
+- **Enable/Disable** - Toggle notifications
+- **Test** - Verify all connections
+- **Delete** - Remove servers
 
 ## Server Status Indicators
 
@@ -155,10 +155,10 @@ To trigger a full library refresh manually:
 
 ### Library not updating
 
-1. **Check notification triggers** — Ensure events are enabled
-2. **Verify path mappings** — Mismatched paths cause silent failures
-3. **Check server logs** — Media server may have received but ignored
-4. **Test manually** — Use Test button to verify connection
+1. **Check notification triggers** - Ensure events are enabled
+2. **Verify path mappings** - Mismatched paths cause silent failures
+3. **Check server logs** - Media server may have received but ignored
+4. **Test manually** - Use Test button to verify connection
 
 ### Path mapping issues
 
@@ -190,7 +190,7 @@ To trigger a full library refresh manually:
 
 - **Use consistent mount points** across containers
 - **Document your mappings** for future reference
-- **Test after Docker changes** — Recreating containers can change paths
+- **Test after Docker changes** - Recreating containers can change paths
 
 ### Notification strategy
 
@@ -200,9 +200,9 @@ To trigger a full library refresh manually:
 
 ### Performance
 
-- **Batching is automatic** — 5-second window groups rapid changes
-- **Deduplication** — Same file changed multiple times = single notification
-- **Non-blocking** — Notifications don't slow down Cinephage
+- **Batching is automatic** - 5-second window groups rapid changes
+- **Deduplication** - Same file changed multiple times = single notification
+- **Non-blocking** - Notifications don't slow down Cinephage
 
 ## API Endpoints
 
@@ -217,6 +217,6 @@ To trigger a full library refresh manually:
 
 ## See Also
 
-- [Initial Setup](/getting-started/initial-setup) — First-time configuration
-- [Root Folders](root-folders) — Managing your media library
-- [Troubleshooting](../deploy/troubleshooting) — General troubleshooting
+- [Initial Setup](/getting-started/initial-setup) - First-time configuration
+- [Root Folders](root-folders) - Managing your media library
+- [Troubleshooting](../deploy/troubleshooting) - General troubleshooting

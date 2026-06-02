@@ -159,7 +159,7 @@ While Cinephage finds and selects releases, download clients handle the actual d
 **Supported Clients:**
 
 - **Torrent:** qBittorrent, Transmission, Deluge, rTorrent, aria2
-- **Usenet:** SABnzbd, NZBGet, NZB-Mount
+- **Usenet:** SABnzbd, NZBGet
 
 **Integration:**
 
@@ -407,14 +407,14 @@ Smart Lists use TMDB queries to automatically find content matching your criteri
 
 - "All 2024 movies rated 7.5+"
 - "Action movies with Dwayne Johnson"
-- "Movies from my Trakt list"
+- "Movies from my IMDb watchlist"
 
 **Features:**
 
 - TMDB discover integration
 - Auto-refresh on schedule
 - Auto-add to library
-- Import from external sources
+- Import from IMDb lists, JSON URLs, or TMDB lists
 
 ### Live TV
 
@@ -502,5 +502,5 @@ environment:
 
 - [Architecture Overview](architecture)
 - [Quality Scoring](quality-scoring)
-- [Getting Started](/getting-started/) — Installation and setup
-- [How-To Guides](/guides/) — Configuration and usage guides
+- [Getting Started](/getting-started/) - Installation and setup
+- [How-To Guides](/guides/) - Configuration and usage guides

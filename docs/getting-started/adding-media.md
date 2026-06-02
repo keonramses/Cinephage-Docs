@@ -3,10 +3,10 @@ title: Adding Media
 description: Learn how to add movies and TV shows to your Cinephage library
 sidebar_position: 4
 tags: [media, library, tutorial, movies, tv]
-keywords: [movies, tv shows, library, discover, add media]
+keywords: [movies, TV shows, library, discover, add media]
 ---
 
-# Adding media
+# Adding Media
 
 This tutorial teaches you how to add movies and TV shows to your Cinephage library. You will learn to search for content, configure monitoring, and initiate downloads.
 
@@ -19,11 +19,11 @@ This tutorial teaches you how to add movies and TV shows to your Cinephage libra
 
 ## Part 1: Adding a Movie
 
-### Step 1: navigate to discover
+### Step 1: Navigate to Discover
 
-Click **Discover** in the top navigation bar. This shows trending and popular movies from TMDB.
+Click **Discover** in the navigation menu. This shows trending and popular **Movies** from TMDB.
 
-### Step 2: search for a movie
+### Step 2: Search for a Movie
 
 Use the search bar at the top to find a specific movie:
 
@@ -31,7 +31,7 @@ Use the search bar at the top to find a specific movie:
 2. Results appear as you type
 3. Click on the movie poster to view details
 
-### Step 3: view movie details
+### Step 3: View Movie Details
 
 The movie detail page shows:
 
@@ -41,7 +41,7 @@ The movie detail page shows:
 - **Files** - Downloaded files (if any)
 - **History** - Download and import history
 
-### Step 4: add to library
+### Step 4: Add to Library
 
 If the movie is not in your library:
 
@@ -68,7 +68,7 @@ If the movie is not in your library:
 
 3. Click **Add Movie**
 
-### Step 5: automatic search
+### Step 5: Automatic Search
 
 If monitoring is enabled:
 
@@ -77,7 +77,7 @@ If monitoring is enabled:
 3. The best release is sent to your download client
 4. Progress appears in **Activity** section
 
-### Step 6: monitor progress
+### Step 6: Monitor Progress
 
 Click **Activity** in the navigation to see:
 
@@ -85,26 +85,32 @@ Click **Activity** in the navigation to see:
 - **History** - Completed downloads
 - Click on a queue item to see details
 
-## Part 2: Adding a TV Shows
+## Part 2: Adding a TV Show
 
-### Step 1: switch to TV discover
+### Step 1: Navigate to Discover
 
-In the Discover page:
+Click **Discover** in the navigation menu. This shows trending and popular **TV Shows** from TMDB.
 
-1. Click the **TV** tab at the top
-2. Browse or search for a TV shows
+### Step 2: Search for a TV Show
 
-### Step 2: view series details
+Use the search bar at the top to find a specific TV show:
 
-Click a series to see:
+1. Type the series title
+2. Results appear as you type
+3. Click on the series poster to view details
+
+### Step 3: View Show Details
+
+The series detail page shows:
 
 - **Overview** - Series description and cast
-- **Seasons** - All seasons with episode lists
-- **Status** - Library status and monitored state
+- **Seasons** - All seasons with episode counts
+- **Status** - Whether it is in your library and its monitored state
+- **History** - Download and import history (if previously added)
 
-### Step 3: add to library
+### Step 4: Add to Library
 
-Click **Add to Library**:
+If the series is not in your library, click **Add to Library** and configure the following:
 
 **Root Folder:**
 
@@ -112,48 +118,65 @@ Click **Add to Library**:
 
 **Quality Profile:**
 
-- Choose appropriate profile for TV
+- Choose a profile (Quality, Balanced, Compact, or Streamer)
 
 **Series Type:**
 
 - **Standard** - Regular weekly episodes
 - **Daily** - Daily shows (talk shows, news)
-- **Anime** - Anime with absolute numbering
+- **Anime** - Anime with absolute episode numbering
 
 **Monitoring:**
 
-- **All Episodes** - Monitor and download entire series
-- **Future Episodes** - Only new/future episodes
-- **Missing Episodes** - Only episodes not in library
-- **First Season** - Only season 1
-- **Last Season** - Only latest season
-- **None** - Add to library but do not monitor
+- **All Episodes** - Monitor and download the entire series
+- **Future Episodes** - Only new episodes going forward
+- **Missing Episodes** - Only episodes not already in your library
+- **First Season** - Season 1 only
+- **Last Season** - The latest season only
+- **None** - Add to library without automatic downloading
 
 **Season Folders:**
 
-- Enable to organize episodes in season subfolders
-- Recommended for most series
+- Enable to organize episodes into per-season subfolders (recommended)
 
-### Step 4: understanding season/episode monitoring
+Click **Add Series** to confirm.
 
-After adding a series, you can customize monitoring per season:
+### Step 5: Automatic Search
 
-1. Go to **Library > TV**
-2. Click on the series
-3. Expand a season
-4. Toggle monitoring for individual episodes
+If monitoring is enabled:
 
-**Monitoring Icons:**
+1. Cinephage automatically searches your configured indexers for each monitored episode
+2. Releases are scored against your quality profile
+3. The best match for each episode is sent to your download client
+4. Progress appears in the **Activity** section
+
+### Step 6: Monitor Progress
+
+Click **Activity** in the navigation to see:
+
+- **Queue** - Active downloads
+- **History** - Completed downloads
+- Click on a queue item to see per-episode details
+
+### Customizing Season and Episode Monitoring
+
+After adding a series you can fine-tune which episodes are monitored:
+
+1. Go to **Library > TV** and click on the series
+2. Expand a season to see individual episodes
+3. Toggle the bookmark icon on any episode or season header
+
+**Monitoring icons:**
 
 - **Blue bookmark** - Monitored (will be downloaded)
 - **Gray bookmark** - Not monitored
-- **Checkmark** - Already in library
+- **Checkmark** - Already in your library
 
 ## Part 3: Manual Import
 
 If you already have media files, use manual import:
 
-### Import movies
+### Import Movies
 
 1. Go to **Library > Movies**
 2. Click **Import** button
@@ -161,7 +184,7 @@ If you already have media files, use manual import:
 4. Cinephage scans and matches files to TMDB
 5. Review matches and confirm import
 
-### Import TV shows
+### Import TV Shows
 
 1. Go to **Library > TV**
 2. Click **Import** button
@@ -169,7 +192,7 @@ If you already have media files, use manual import:
 4. Cinephage matches series and episodes
 5. Review and confirm
 
-### Handling unmatched files
+### Handling Unmatched Files
 
 If files cannot be automatically matched:
 
@@ -182,19 +205,19 @@ If files cannot be automatically matched:
 
 ## Part 4: Understanding the Workflow
 
-### Complete download workflow
+### Complete Download Workflow
 
 ```
 Add to Library → Search Indexers → Score Releases → Send to Download Client → Monitor Download → Import File → Organize → Notify
 ```
 
-### Monitoring vs library
+### Monitoring vs Library
 
 - **In Library** - Item is tracked in Cinephage database
 - **Monitored** - Cinephage actively searches for and downloads it
 - **Unmonitored** - Tracked but not automatically downloaded
 
-### Quality profiles in action
+### Quality Profiles in Action
 
 When searching:
 
@@ -225,19 +248,19 @@ Now that you can add media, continue to [Understanding the Interface](understand
 
 ## Tips and Best Practices
 
-### Organizing your library
+### Organizing Your Library
 
 - Use tags to categorize content (e.g., `kids`, `4k`, `hdr`)
 - Create separate Root Folders for different quality tiers
 - Enable season folders for TV shows
 
-### Efficient searching
+### Efficient Searching
 
 - Start with monitoring disabled if you are just tracking
 - Enable monitoring when you are ready to download
 - Use Custom Formats to prefer specific release groups or sources
 
-### Managing upgrades
+### Managing Upgrades
 
 - Enable upgrade monitoring to get better quality over time
 - Set cutoff qualities in profiles to prevent endless upgrades
@@ -245,18 +268,18 @@ Now that you can add media, continue to [Understanding the Interface](understand
 
 ## See Also
 
-### Next steps
-- [Understanding the Interface](./understanding-interface) — Navigate the Cinephage UI and discover advanced features
-- [Search and Download](../guides/use/search-and-download) — Detailed guide to finding and acquiring content
+### Next Steps
+- [Understanding the Interface](./understanding-interface) - Navigate the Cinephage UI and discover advanced features
+- [Search and Download](../guides/use/search-and-download) - Detailed guide to finding and acquiring content
 
-### Related guides
-- [Import Existing Files](../guides/use/import-existing-files) — Add your current media library to Cinephage
-- [Configure Quality Profiles](../guides/configure/quality-profiles) — Understand and customize quality settings
-- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) — Set up automatic quality improvements
+### Related Guides
+- [Import Existing Files](../guides/use/import-existing-files) - Add your current media library to Cinephage
+- [Configure Quality Profiles](../guides/configure/quality-profiles) - Understand and customize quality settings
+- [Monitor and Upgrade](../guides/use/monitor-and-upgrade) - Set up automatic quality improvements
 
 ### Concepts
-- [Quality Scoring](../explanation/quality-scoring) — How Cinephage calculates release quality
-- [Key Concepts](../explanation/concepts) — Understanding monitoring, Root Folders, and more
+- [Quality Scoring](../explanation/quality-scoring) - How Cinephage calculates release quality
+- [Key Concepts](../explanation/concepts) - Understanding monitoring, Root Folders, and more
 
 ---
 

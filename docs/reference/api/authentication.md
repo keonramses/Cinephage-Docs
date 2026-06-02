@@ -212,9 +212,9 @@ Cinephage automatically trusts:
 ### BETTER_AUTH_SECRET
 
 - **Generate a unique value** for each installation
-- **Back it up securely** — needed for database restoration
+- **Back it up securely** - needed for database restoration
 - **Don't change it** unless absolutely necessary
-- **Treat it like a password** — keep it secret
+- **Treat it like a password** - keep it secret
 
 ### Network security
 
@@ -227,12 +227,12 @@ Cinephage automatically trusts:
 ### "401 unauthorized"
 
 **Session auth:**
-- Session may have expired — log in again
-- Cookie may be blocked — check browser settings
+- Session may have expired - log in again
+- Cookie may be blocked - check browser settings
 
 **API key auth:**
-- Key may be invalid — verify in **Settings > System**
-- Key may be wrong type — use Main API Key for library access
+- Key may be invalid - verify in **Settings > System**
+- Key may be wrong type - use Main API Key for library access
 
 ### "403 forbidden"
 
@@ -242,10 +242,10 @@ Cinephage automatically trusts:
 
 ### API key not working
 
-1. **Check key is correct** — Copy from **Settings > System**
-2. **Check header name** — Must be `x-api-key`
-3. **Check permissions** — Streaming key has limited access
-4. **Check rate limits** — May be temporarily blocked
+1. **Check key is correct** - Copy from **Settings > System**
+2. **Check header name** - Must be `x-api-key`
+3. **Check permissions** - Streaming key has limited access
+4. **Check rate limits** - May be temporarily blocked
 
 ### Sessions invalid after restart
 
@@ -256,6 +256,6 @@ If all sessions are invalidated after restart:
 
 ## See Also
 
-- [Endpoints Overview](endpoints-overview) — Available API endpoints
-- [Environment Variables](../configuration/environment-variables) — Configuration reference
-- [Settings Explained](../configuration/settings-explained) — UI configuration
+- [Endpoints Overview](endpoints-overview) - Available API endpoints
+- [Environment Variables](../configuration/environment-variables) - Configuration reference
+- [Settings Explained](../configuration/settings-explained) - UI configuration

@@ -147,7 +147,7 @@ Click **Save** to add the download client.
 
 ## See Also
 
-- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
-- [How to configure SABnzbd](./sabnzbd) — Usenet client setup
-- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions
-- [Configure indexers](/guides/configure/indexers) — Add indexers
+- [Download clients overview](/guides/configure/download-clients) - Overview of supported clients
+- [How to configure SABnzbd](./sabnzbd) - Usenet client setup
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) - Common issues and solutions
+- [Configure indexers](/guides/configure/indexers) - Add indexers

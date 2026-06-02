@@ -37,7 +37,8 @@ const config: Config = {
 				docs: {
 					sidebarPath: './sidebars.ts',
 					routeBasePath: '/',
-					editUrl: 'https://github.com/MoldyTaint/Cinephage-Docs/edit/main/'
+					editUrl: 'https://github.com/MoldyTaint/Cinephage-Docs/edit/main/',
+					exclude: ['**/superpowers/**']
 				},
 				blog: false,
 				theme: {
@@ -54,7 +55,8 @@ const config: Config = {
 				hashed: true,
 				language: ['en'],
 				highlightSearchTermsOnTargetPage: true,
-				explicitSearchResultPath: true
+				explicitSearchResultPath: true,
+				docsRouteBasePath: '/'
 			}
 		]
 	],

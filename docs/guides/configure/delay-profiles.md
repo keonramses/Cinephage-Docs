@@ -28,10 +28,10 @@ Without delays, Cinephage grabs the HDTV immediately. With delays, it waits to s
 
 Delay profiles let you:
 
-- **Wait for better quality** — WEB-DL instead of HDTV
-- **Prefer usenet** — Wait for usenet releases instead of torrents
-- **Avoid fakes** — Let the community verify releases first
-- **Get proper releases** — PROPER/REPACK fixes often appear within hours
+- **Wait for better quality** - WEB-DL instead of HDTV
+- **Prefer usenet** - Wait for usenet releases instead of torrents
+- **Avoid fakes** - Let the community verify releases first
+- **Get proper releases** - PROPER/REPACK fixes often appear within hours
 
 ---
 
@@ -41,11 +41,11 @@ Delay profiles let you:
 
 When a monitored item is found:
 
-1. **Release appears** — Quality meets cutoff
-2. **Added to pending** — Not grabbed yet
-3. **Timer starts** — Delay period begins
-4. **Better release?** — If yes, replace in queue
-5. **Timer expires** — Grab best release in queue
+1. **Release appears** - Quality meets cutoff
+2. **Added to pending** - Not grabbed yet
+3. **Timer starts** - Delay period begins
+4. **Better release?** - If yes, replace in queue
+5. **Timer expires** - Grab best release in queue
 
 ### Quality upgrades during delay
 
@@ -53,7 +53,7 @@ If a better quality release appears during the delay:
 
 - **Replaces** the pending release
 - **Timer resets** (optional)
-- **Only if score is higher** — Not just different
+- **Only if score is higher** - Not just different
 
 ---
 
@@ -168,9 +168,9 @@ Override the default for specific content:
 
 ### Use cases for overrides
 
-- **Daytime TV** — Use aggressive (low quality expected)
-- **Premium Shows** — Use conservative (wait for best)
-- **Old Movies** — No delay (quality won't improve)
+- **Daytime TV** - Use aggressive (low quality expected)
+- **Premium Shows** - Use conservative (wait for best)
+- **Old Movies** - No delay (quality won't improve)
 
 ---
 
@@ -191,9 +191,9 @@ View all delayed releases:
 
 ### Manual actions
 
-- **Grab Now** — Bypass delay and download immediately
-- **Remove** — Remove from queue (won't grab)
-- **View Details** — See why it's pending
+- **Grab Now** - Bypass delay and download immediately
+- **Remove** - Remove from queue (won't grab)
+- **View Details** - See why it's pending
 
 ---
 
@@ -228,21 +228,21 @@ Monitoring tasks respect delays:
 
 ### Releases not being grabbed
 
-1. **Check pending queue** — May be waiting in delay
-2. **Verify delay profile assigned** — Default vs per-item
-3. **Check bypass conditions** — May not be met
+1. **Check pending queue** - May be waiting in delay
+2. **Verify delay profile assigned** - Default vs per-item
+3. **Check bypass conditions** - May not be met
 
 ### Delay too long
 
-1. **Reduce delay hours** — Start with 6-12 hours
-2. **Add bypass conditions** — Score threshold, highest quality
-3. **Use tags** — Bypass for specific content
+1. **Reduce delay hours** - Start with 6-12 hours
+2. **Add bypass conditions** - Score threshold, highest quality
+3. **Use tags** - Bypass for specific content
 
 ### Delay being ignored
 
-1. **Check cutoff unmet** — Ignores delays
-2. **Check manual search** — Manual grabs bypass delay
-3. **Check bypass tags** — Item may have bypass tag
+1. **Check cutoff unmet** - Ignores delays
+2. **Check manual search** - Manual grabs bypass delay
+3. **Check bypass tags** - Item may have bypass tag
 
 ### Conflicting profiles
 
@@ -279,14 +279,14 @@ Find the sweet spot for your indexers.
 
 Different indexers have different release patterns:
 
-- **Scene trackers** — Releases appear at predictable times
-- **Public indexers** — More variable, shorter delays okay
-- **Usenet** — Usually faster, can use 0 delay
+- **Scene trackers** - Releases appear at predictable times
+- **Public indexers** - More variable, shorter delays okay
+- **Usenet** - Usually faster, can use 0 delay
 
 ---
 
 ## See Also
 
-- [Quality Profiles](./quality-profiles) — How quality scoring works
-- [Custom Formats](./custom-formats) — Advanced scoring rules
-- [Blocklist](./blocklist) — Managing failed releases
+- [Quality Profiles](./quality-profiles) - How quality scoring works
+- [Custom Formats](./custom-formats) - Advanced scoring rules
+- [Blocklist](./blocklist) - Managing failed releases

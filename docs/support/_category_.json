@@ -1,9 +1,1 @@
-{
-  "label": "Support",
-  "position": 5,
-  "link": {
-    "type": "generated-index",
-    "title": "Support & Help",
-    "description": "FAQ, release notes, roadmap, and troubleshooting resources."
-  }
-}
+{ "label": "Support", "position": 5 }

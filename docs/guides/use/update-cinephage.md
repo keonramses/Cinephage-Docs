@@ -16,7 +16,7 @@ Breaking changes may occur between updates. Always backup before updating and re
 
 ## Before Updating
 
-### 1. backup your data
+### 1. Backup your data
 
 Always backup before updating:
 
@@ -30,12 +30,12 @@ cp .env .env.backup
 
 See [Backup & Restore](../deploy/backup-restore) for detailed backup procedures.
 
-### 2. check release notes
+### 2. Check release notes
 
 Review what's changed:
 
 - [GitHub Releases](https://github.com/MoldyTaint/Cinephage/releases)
-- [CHANGELOG.md](https://github.com/MoldyTaint/Cinephage/blob/main/CHANGELOG.md)
+- [CHANGELOG.md](/support/releases)
 
 Look for:
 
@@ -152,7 +152,7 @@ Cinephage handles database migrations automatically on startup:
 
 After updating, verify everything works:
 
-### 1. service status
+### 1. Service status
 
 ```bash
 # Docker
@@ -163,19 +163,19 @@ docker logs cinephage --tail 20
 sudo systemctl status cinephage
 ```
 
-### 2. web interface
+### 2. Web interface
 
 - Access Cinephage in browser
 - Check Settings load correctly
 - Verify library is intact
 
-### 3. functionality test
+### 3. Functionality test
 
 - Test a manual search
 - Verify download client connection
 - Check indexer status
 
-### 4. check logs
+### 4. Check logs
 
 ```bash
 # Docker
@@ -248,5 +248,5 @@ curl -s http://localhost:3000/api/system/status | jq .version
 
 - [Backup & Restore](../deploy/backup-restore) - Before updating
 - [Migration Guide](../deploy/migration) - Version migrations
-- [Releases](/support/releases) — Release channels explained
-- [Monitor and Upgrade](./monitor-and-upgrade) — Quality monitoring
+- [Releases](/support/releases) - Release channels explained
+- [Monitor and Upgrade](./monitor-and-upgrade) - Quality monitoring

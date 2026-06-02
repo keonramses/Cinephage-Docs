@@ -723,6 +723,6 @@ environment:
 ## See Also
 
 - [Troubleshooting](troubleshooting) - Common issues and solutions
-- [Environment Variables](/reference/configuration/environment-variables) — All configuration options
-- [Settings Explained](/reference/configuration/settings-explained) — UI settings reference
+- [Environment Variables](/reference/configuration/environment-variables) - All configuration options
+- [Settings Explained](/reference/configuration/settings-explained) - UI settings reference
 - [Backup and Restore](backup-restore) - Protect your optimized setup

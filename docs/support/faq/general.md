@@ -16,12 +16,12 @@ Cinephage is a unified, self-hosted media management platform that handles movie
 
 Cinephage provides comprehensive media management capabilities:
 
-- **Movies** — Library management, monitoring, quality profiles, automatic downloads
-- **TV Shows** — Episode tracking, season packs, automatic episode searches
-- **Indexer Management** — YAML-based indexer definitions, built-in and custom support
-- **Subtitles** — 11 subtitle providers with automatic syncing
-- **Requests & Discovery** — Browse trending content, manage watchlists
-- **Live TV & Streaming** — Live TV support via Stalker, XStream, M3U playlists
+- **Movies** - Library management, monitoring, quality profiles, automatic downloads
+- **TV Shows** - Episode tracking, season packs, automatic episode searches
+- **Indexer Management** - YAML-based indexer definitions, built-in and custom support
+- **Subtitles** - 11 subtitle providers with automatic syncing
+- **Requests & Discovery** - Browse trending content, manage watchlists
+- **Live TV & Streaming** - Live TV support via Stalker, XStream, M3U playlists
 
 ### Is Cinephage free?
 

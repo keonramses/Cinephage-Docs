@@ -40,12 +40,12 @@ When you exceed the rate limit, the API returns:
 
 ## Best Practices
 
-- **Cache responses** — Don't repeat identical requests
-- **Use streaming keys** — For media server integrations, use the limited-scope Streaming API Key
-- **Handle 429s gracefully** — Back off and retry with exponential delay
-- **Monitor usage** — Check the `X-RateLimit-Remaining` header
+- **Cache responses** - Don't repeat identical requests
+- **Use streaming keys** - For media server integrations, use the limited-scope Streaming API Key
+- **Handle 429s gracefully** - Back off and retry with exponential delay
+- **Monitor usage** - Check the `X-RateLimit-Remaining` header
 
 ## See Also
 
-- [Authentication](/reference/api/authentication) — API key management
-- [API Endpoints Overview](/reference/api/endpoints-overview) — Available endpoints
+- [Authentication](/reference/api/authentication) - API key management
+- [API Endpoints Overview](/reference/api/endpoints-overview) - Available endpoints

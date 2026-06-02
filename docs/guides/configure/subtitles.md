@@ -8,7 +8,7 @@ keywords: [subtitles, languages, providers, sync, configuration]
 
 # Configure subtitles
 
-This guide walks you through configuring Cinephage's subtitle management system with 11 supported providers and automatic downloading.
+This guide walks you through configuring Cinephage's subtitle management system with 12 supported providers and automatic downloading.
 
 ## Goal
 
@@ -24,7 +24,7 @@ Enable automatic subtitle downloads for your media library in multiple languages
 
 Cinephage provides comprehensive subtitle support:
 
-- **11 subtitle providers** - Multiple sources for best coverage
+- **12 subtitle providers** - Multiple sources for best coverage
 - **Language profiles** - Multi-language preferences with embedded subtitle support
 - **Auto-download** - Automatic search on import
 - **Monitoring tasks** - Automatic searches for missing subtitles and upgrades
@@ -47,11 +47,10 @@ Cinephage provides comprehensive subtitle support:
 | LegendasDivx      | Free         | Free Account  | Portuguese-focused          |
 | BetaSeries        | Free         | API Key       | French TV shows            |
 | Assrt             | Free         | API Key       | Chinese, Asian languages    |
+| Podnapisi         | Free         | Free          | Slovenian and general       |
 
-:::note Removed Providers
-The following providers have been removed due to service unavailability:
-- **Podnapisi** — Server no longer responding
-- **Subscene** — Blocked by CloudFlare protection
+:::note
+Subscene is not supported.
 :::
 
 ## Part 1: Enable Subtitle Providers
@@ -201,27 +200,27 @@ Cinephage recognizes embedded subtitles within video containers (MKV, MP4, etc.)
 
 When media is imported:
 
-1. **Scan Video Container** — Checks for subtitle tracks in MKV, MP4, and other containers
-2. **Language Detection** — Identifies language codes of embedded tracks
-3. **Profile Matching** — Compares against your language profile requirements
-4. **Requirement Satisfaction** — Marks languages as "present" if embedded subtitle found
+1. **Scan Video Container** - Checks for subtitle tracks in MKV, MP4, and other containers
+2. **Language Detection** - Identifies language codes of embedded tracks
+3. **Profile Matching** - Compares against your language profile requirements
+4. **Requirement Satisfaction** - Marks languages as "present" if embedded subtitle found
 
 ### Benefits
 
-- **Reduces Downloads** — No external subtitles needed for content with embedded tracks
-- **Faster Import** — Skips unnecessary subtitle searches
-- **Saves Bandwidth** — Less API calls to subtitle providers
-- **Cleaner Library** — Fewer external files to manage
+- **Reduces Downloads** - No external subtitles needed for content with embedded tracks
+- **Faster Import** - Skips unnecessary subtitle searches
+- **Saves Bandwidth** - Less API calls to subtitle providers
+- **Cleaner Library** - Fewer external files to manage
 
 ### Supported containers
 
-- **MKV** (Matroska) — Full support for all subtitle tracks
-- **MP4** — Supports mov_text and other embedded formats
-- **AVI** — Limited support via IDX/SUB
+- **MKV** (Matroska) - Full support for all subtitle tracks
+- **MP4** - Supports mov_text and other embedded formats
+- **AVI** - Limited support via IDX/SUB
 
 ### Configuration
 
-Embedded subtitle recognition is automatic and requires no configuration. It works alongside your existing language profiles — embedded subtitles count as satisfying "Required" languages, just like downloaded external subtitles.
+Embedded subtitle recognition is automatic and requires no configuration. It works alongside your existing language profiles - embedded subtitles count as satisfying "Required" languages, just like downloaded external subtitles.
 
 ## Part 3: Configure Download Behavior
 
@@ -342,10 +341,10 @@ Cinephage includes a **native subtitle synchronization engine** inspired by the 
 
 The sync engine uses Voice Activity Detection (VAD) to align subtitles:
 
-1. **Audio Extraction** — Extracts audio from the video file using ffmpeg
-2. **Speech Detection** — Identifies speech segments via energy-based VAD
-3. **Alignment** — Matches subtitle timing to speech segments
-4. **Correction** — Applies timing adjustments to subtitle file
+1. **Audio Extraction** - Extracts audio from the video file using ffmpeg
+2. **Speech Detection** - Identifies speech segments via energy-based VAD
+3. **Alignment** - Matches subtitle timing to speech segments
+4. **Correction** - Applies timing adjustments to subtitle file
 
 ### Sync options
 
@@ -635,6 +634,6 @@ Now that subtitles are configured:
 
 ## See Also
 
-- [Supported Languages](/reference/configuration/supported-languages) — Language configuration reference
-- [Troubleshooting](../deploy/troubleshooting) — Common issues
-- [Quality Profiles](quality-profiles) — Quality settings
+- [Supported Languages](/reference/configuration/supported-languages) - Language configuration reference
+- [Troubleshooting](../deploy/troubleshooting) - Common issues
+- [Quality Profiles](quality-profiles) - Quality settings

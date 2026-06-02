@@ -331,7 +331,7 @@ Cinephage handles schema migrations automatically:
 
 ## See Also
 
-- [Backup and Restore](/guides/deploy/backup-restore) — Data protection
-- [Troubleshooting](/guides/deploy/troubleshooting) — Common issues
-- [Performance Tuning](/guides/deploy/performance-tuning) — Optimization guide
+- [Backup and Restore](/guides/deploy/backup-restore) - Data protection
+- [Troubleshooting](/guides/deploy/troubleshooting) - Common issues
+- [Performance Tuning](/guides/deploy/performance-tuning) - Optimization guide
 - [SQLite Documentation](https://www.sqlite.org/docs.html)

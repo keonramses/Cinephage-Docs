@@ -181,22 +181,22 @@ The Label plugin can organize downloads:
 
 Configure upload/download limits in **Preferences** > **Bandwidth**:
 
-- **Maximum Download Rate** — Limit download speed
-- **Maximum Upload Rate** — Limit upload speed for seeding
-- **Maximum Connections** — Limit peer connections
+- **Maximum Download Rate** - Limit download speed
+- **Maximum Upload Rate** - Limit upload speed for seeding
+- **Maximum Connections** - Limit peer connections
 
 ### Download location
 
 Set the download directory in **Preferences** > **Downloads**:
 
-- **Download to** — Main download directory
-- **Move completed to** — Optional separate directory for completed downloads
+- **Download to** - Main download directory
+- **Move completed to** - Optional separate directory for completed downloads
 
 Ensure these directories are accessible to Cinephage.
 
 ## See also
 
-- [Download clients overview](/guides/configure/download-clients) — Overview of supported clients
-- [How to configure qBittorrent](./qbittorrent) — Alternative torrent client
-- [How to configure Transmission](./transmission) — Another torrent client option
-- [Troubleshooting downloads](/guides/deploy/troubleshooting) — Common issues and solutions
+- [Download clients overview](/guides/configure/download-clients) - Overview of supported clients
+- [How to configure qBittorrent](./qbittorrent) - Alternative torrent client
+- [How to configure Transmission](./transmission) - Another torrent client option
+- [Troubleshooting downloads](/guides/deploy/troubleshooting) - Common issues and solutions
