@@ -8,6 +8,8 @@ keywords: [releases, versions, stable, dev]
 
 # Release History
 
+Cinephage follows semantic versioning and maintains two release channels.
+
 ## Release channels
 
 | Channel | Docker Tag | Description |
@@ -91,10 +93,10 @@ All versions with key highlights. Click any link for full details.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [v0.6.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.6.0) | 2026-04-25 | Skip stream probing for instant playback; seeding limit fixes for Transmission and Deluge |
-| [v0.5.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.5.0) | 2026-04-21 | List view with auto/manual grab; enhanced EPG and IPTV; symlinked file import; bulk library operations. Same breaking changes as v0.7.0. |
-| [v0.2.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.2.0) | 2026-04-17 | Unified status page; isPlayed/playedPercentage indicators; redesigned media explorer filter bar |
-| [v0.1.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.1.0) | 2026-04-15 | Initial public release - Live TV, captcha solver, NZB/NNTP streaming, smart lists, subtitle support, Docker and NixOS |
+| [v0.6.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.6.0) | 2026&#8209;04&#8209;25 | Skip stream probing for instant playback; seeding limit fixes for Transmission and Deluge |
+| [v0.5.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.5.0) | 2026&#8209;04&#8209;21 | List view with auto/manual grab; enhanced EPG and IPTV; symlinked file import; bulk library operations. Same breaking changes as v0.7.0. |
+| [v0.2.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.2.0) | 2026&#8209;04&#8209;17 | Unified status page; isPlayed/playedPercentage indicators; redesigned media explorer filter bar |
+| [v0.1.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.1.0) | 2026&#8209;04&#8209;15 | Initial public release - Live TV, captcha solver, NZB/NNTP streaming, smart lists, subtitle support, Docker and NixOS |
 
 Patch releases (v0.1.1-v0.4.0, v0.6.1, v0.7.1-v0.7.4, v0.8.1-v0.8.2, v0.9.1) contained bug fixes and CI improvements only. See the [GitHub Releases page](https://github.com/MoldyTaint/Cinephage/releases) for complete details on every release.
 
