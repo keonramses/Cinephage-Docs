@@ -95,13 +95,22 @@ Click **Discover** in the navigation menu. This shows trending and popular **TV 
 
 Use the search bar at the top to find a specific TV show:
 
+1. Type the series title
+2. Results appear as you type
+3. Click on the series poster to view details
+
+### Step 3: View Show Details
+
+The series detail page shows:
+
 - **Overview** - Series description and cast
-- **Seasons** - All seasons with episode lists
-- **Status** - Library status and monitored state
+- **Seasons** - All seasons with episode counts
+- **Status** - Whether it is in your library and its monitored state
+- **History** - Download and import history (if previously added)
 
-### Step 3: Add to Library
+### Step 4: Add to Library
 
-Click **Add to Library**:
+If the series is not in your library, click **Add to Library** and configure the following:
 
 **Root Folder:**
 
@@ -109,42 +118,59 @@ Click **Add to Library**:
 
 **Quality Profile:**
 
-- Choose appropriate profile for TV
+- Choose a profile (Quality, Balanced, Compact, or Streamer)
 
 **Series Type:**
 
 - **Standard** - Regular weekly episodes
 - **Daily** - Daily shows (talk shows, news)
-- **Anime** - Anime with absolute numbering
+- **Anime** - Anime with absolute episode numbering
 
 **Monitoring:**
 
-- **All Episodes** - Monitor and download entire series
-- **Future Episodes** - Only new/future episodes
-- **Missing Episodes** - Only episodes not in library
-- **First Season** - Only season 1
-- **Last Season** - Only latest season
-- **None** - Add to library but do not monitor
+- **All Episodes** - Monitor and download the entire series
+- **Future Episodes** - Only new episodes going forward
+- **Missing Episodes** - Only episodes not already in your library
+- **First Season** - Season 1 only
+- **Last Season** - The latest season only
+- **None** - Add to library without automatic downloading
 
 **Season Folders:**
 
-- Enable to organize episodes in season subfolders
-- Recommended for most series
+- Enable to organize episodes into per-season subfolders (recommended)
 
-### Step 4: Understanding Season/Episode Monitoring
+Click **Add Series** to confirm.
 
-After adding a series, you can customize monitoring per season:
+### Step 5: Automatic Search
 
-1. Go to **Library > TV**
-2. Click on the series
-3. Expand a season
-4. Toggle monitoring for individual episodes
+If monitoring is enabled:
 
-**Monitoring Icons:**
+1. Cinephage automatically searches your configured indexers for each monitored episode
+2. Releases are scored against your quality profile
+3. The best match for each episode is sent to your download client
+4. Progress appears in the **Activity** section
+
+### Step 6: Monitor Progress
+
+Click **Activity** in the navigation to see:
+
+- **Queue** - Active downloads
+- **History** - Completed downloads
+- Click on a queue item to see per-episode details
+
+### Customizing Season and Episode Monitoring
+
+After adding a series you can fine-tune which episodes are monitored:
+
+1. Go to **Library > TV** and click on the series
+2. Expand a season to see individual episodes
+3. Toggle the bookmark icon on any episode or season header
+
+**Monitoring icons:**
 
 - **Blue bookmark** - Monitored (will be downloaded)
 - **Gray bookmark** - Not monitored
-- **Checkmark** - Already in library
+- **Checkmark** - Already in your library
 
 ## Part 3: Manual Import
 
