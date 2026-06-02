@@ -10,7 +10,7 @@ keywords: [update, upgrade, maintenance, migration]
 
 Keep Cinephage up to date with the latest stable releases and fixes.
 
-:::warning Alpha Software
+:::warning[Alpha Software]
 Breaking changes may occur between updates. Always backup before updating and review release notes.
 :::
 
@@ -201,7 +201,7 @@ services:
     command: --interval 86400 cinephage
 ```
 
-:::caution Not Recommended for Alpha
+:::caution[Not Recommended for Alpha]
 Automatic updates are not recommended for alpha software. Breaking changes may occur.
 :::
 

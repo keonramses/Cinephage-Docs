@@ -93,7 +93,7 @@ Filter by quality ratings:
 | **Maximum Rating** | Highest TMDB rating to include | 9.0 |
 | **Minimum Vote Count** | Filters out obscure titles | 1000+ votes |
 
-:::tip Vote Count Filter
+:::tip[Vote Count Filter]
 Always use a minimum vote count (e.g., 100-1000) to filter out titles with inflated ratings from few votes.
 :::
 
@@ -161,7 +161,7 @@ Configure how often the list refreshes:
 - **Minimum:** 1 hour (not recommended due to rate limits)
 - **Maximum:** 7 days
 
-:::note TMDB Rate Limits
+:::note[TMDB Rate Limits]
 TMDB has rate limits on their API. Refreshing too frequently may cause temporary blocks. 6 hours is recommended for most use cases.
 :::
 

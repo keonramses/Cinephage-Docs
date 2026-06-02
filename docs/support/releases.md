@@ -72,7 +72,7 @@ Cinephage IPTV integration replacing IPTV-org sync. Adds native IPTV account for
 
 ### v0.7.0 (2026-04-26)
 
-:::warning Breaking changes
+:::warning[Breaking changes]
 - **`BETTER_AUTH_SECRET`** must now be set as an environment variable. The auto-generated `.auth-secret` fallback is removed. Copy `data/.auth-secret` into the env var before upgrading or all sessions and API keys will be lost.
 - **Subtitles analytics endpoint** (`/api/subtitles/providers/analytics`) response shape changed - analytics object removed, provider fields now at top level.
 

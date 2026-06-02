@@ -318,7 +318,7 @@ curl -X DELETE \
 }
 ```
 
-:::warning Orphaned Items
+:::warning[Orphaned Items]
 When a library is deleted, media items remain in the database but are no longer associated with a library. Set `removeFiles=true` to also delete the actual media files.
 :::
 

@@ -34,7 +34,7 @@ The first step is creating your administrator account:
 
 This account has full administrative access to configure and manage Cinephage.
 
-:::note Single Admin Architecture
+:::note[Single Admin Architecture]
 Cinephage uses a single-administrator model. After the first account is created, additional registrations are disabled. This account is the only user that can access Cinephage.
 :::
 
@@ -186,7 +186,7 @@ Navigate to **Settings > System** to manage API keys for external access:
 - Only permits: Live TV playlists, EPG data, streaming content
 - Use when connecting media servers to Cinephage's Live TV features
 
-:::tip API Key Security
+:::tip[API Key Security]
 - Treat API keys like passwords
 - Regenerate keys if you suspect they've been compromised
 - Use the Streaming API Key (not Main) for media server connections

@@ -124,7 +124,7 @@ Result: Task searches for 1080p version
 - **Cutoff Unmet:** Only items below minimum quality
 - **Upgrade:** All items, even those meeting cutoff
 
-:::tip Use Sparingly
+:::tip[Use Sparingly]
 Upgrade search is resource-intensive. Weekly is usually sufficient. Use cutoff unmet for regular monitoring.
 :::
 
@@ -167,7 +167,7 @@ Upgrade search is resource-intensive. Weekly is usually sufficient. Use cutoff u
 | **Enabled** | Yes | Enable/disable |
 | **Interval** | 15 minutes | How often to sync |
 
-:::caution Rate Limits
+:::caution[Rate Limits]
 Short intervals may cause rate limiting from indexers. 15-30 minutes is recommended.
 :::
 
@@ -385,7 +385,7 @@ Set delays to avoid "bad" releases:
 3. If better quality available before timer expires, wait
 4. When timer expires, download best available
 
-:::tip Use Case
+:::tip[Use Case]
 Set 24-hour delay for BluRay to avoid early low-quality encodes. If a good WEB-DL releases within 24 hours, you'll get that instead of waiting for BluRay.
 :::
 

@@ -11,7 +11,7 @@ keywords: [bare metal, native, manual installation, systemd, linux]
 
 This guide covers installing Cinephage directly on your Linux server using the native Node.js application. This method provides maximum performance without container overhead.
 
-:::tip Prefer Docker?
+:::tip[Prefer Docker?]
 If you want simpler deployment and easier maintenance, see the [Docker Installation](./) guide instead.
 :::
 
@@ -117,7 +117,7 @@ node --version  # Should show v20.x.x or higher
 npm --version   # Should show 10.x.x or higher
 ```
 
-:::info Other Distributions
+:::info[Other Distributions]
 For CentOS/RHEL, Fedora, or other distributions, see the [Node.js downloads page](https://nodejs.org/en/download/).
 :::
 
@@ -173,7 +173,7 @@ npm run build
 exit
 ```
 
-:::tip Build Takes Time
+:::tip[Build Takes Time]
 The build process compiles the Svelte frontend and may take 2-5 minutes depending on your server's performance.
 :::
 
@@ -218,10 +218,11 @@ EOF
 | `PORT` | No | Port to listen on (default: 3000) |
 | `TZ` | No | Timezone (default: UTC) |
 
-:::warning Keep BETTER_AUTH_SECRET Safe
+:::warning[Keep BETTER_AUTH_SECRET Safe]
 - Store it like a password
 - Back it up with your configuration
 - Changing it invalidates all user sessions and API keys
+
 :::
 
 ### Step 6: Set Up Data Directories
@@ -316,7 +317,7 @@ sudo journalctl -u cinephage -f
 
 You should see messages indicating the server started successfully.
 
-:::info First Startup Note
+:::info[First Startup Note]
 On first startup, Cinephage will download the Camoufox browser (~80MB) for Captcha Solver functionality. This is a one-time download stored in `/opt/cinephage/data`.
 :::
 

@@ -174,7 +174,7 @@ Cinephage now properly sets and respects seeding limits in Transmission. Configu
 | **seed-time-limit** | Stop seeding after this many minutes | 1440 (24 hours) |
 | **idle-seeding-limit** | Stop seeding after idle minutes | 30 |
 
-:::tip Hit-and-Run Protection
+:::tip[Hit-and-Run Protection]
 Cinephage respects these limits and will not remove torrents that are still seeding. Once seeding limits are met, Cinephage can safely remove completed downloads from the queue.
 :::
 

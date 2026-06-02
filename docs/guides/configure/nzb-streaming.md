@@ -73,7 +73,7 @@ Your usenet provider must support standard NNTP:
 | **Bandwidth** | 50+ Mbps | Smooth streaming requires speed |
 | **Completion** | 99%+ article availability | Missing segments interrupt playback |
 
-:::tip Provider recommendations
+:::tip[Provider recommendations]
 Look for providers with 3000+ days retention, multiple backbone connections, SSL on port 563, and unlimited or high data cap plans.
 :::
 
@@ -108,7 +108,7 @@ This is the only required step for Cinephage-native streaming.
 
 4. Click **Test** then **Save**
 
-:::tip Connection count
+:::tip[Connection count]
 More connections improve streaming throughput. Stay within your provider's connection limit - typically 10-50 connections.
 :::
 
@@ -119,7 +119,7 @@ More connections improve streaming throughput. Stay within your provider's conne
 3. Set preferred qualities (1080p WEB-DL recommended as cutoff)
 4. Ensure **File Type** is set to `.strm`
 
-:::note STRM files
+:::note[STRM files]
 The Streamer profile creates `.strm` files instead of video files. These are small pointer files that your media server uses to stream directly from Cinephage.
 :::
 
@@ -144,7 +144,7 @@ data/nzb_cache/
 /config/data/nzb_cache/
 ```
 
-:::tip SSD recommended
+:::tip[SSD recommended]
 The cache benefits significantly from SSD storage due to frequent small random reads and writes.
 :::
 
@@ -167,7 +167,7 @@ Stream a specific release on-demand without adding it to your library:
 3. Click **Stream** instead of Download
 4. Playback starts immediately
 
-:::tip When to use this
+:::tip[When to use this]
 Good for previewing content before adding to your library, or for one-time viewing.
 :::
 
@@ -230,7 +230,7 @@ When grabbing a release, select the SABnzbd (Mount Mode) client. Cinephage will 
 
 **Multiple providers** - Add a backup NNTP server at a lower priority. Cinephage falls back automatically if the primary fails.
 
-:::warning Provider limits
+:::warning[Provider limits]
 Exceeding your provider's connection limit can result in throttling or account suspension. Check your provider's documentation.
 :::
 

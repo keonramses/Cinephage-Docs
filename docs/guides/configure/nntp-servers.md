@@ -74,7 +74,7 @@ Check your Usenet provider's connection limits:
 | UsenetExpress | 50                  |
 | Blocknews     | 30                  |
 
-:::warning Don't Exceed Limits
+:::warning[Don't Exceed Limits]
 Setting connections higher than your provider allows may result in:
 - Connection refused errors
 - Temporary IP blocks

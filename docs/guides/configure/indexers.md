@@ -175,7 +175,7 @@ Russian torrent tracker with extensive movie and TV content.
    - **Categories**: Movies, TV
 5. Click **Test** and **Save**
 
-:::tip Kinozal Features
+:::tip[Kinozal Features]
 - Supports IMDB ID search for accurate matching
 - Extensive Russian and international content
 - Good for hard-to-find titles
@@ -196,7 +196,7 @@ Private torrent tracker with high-quality releases.
    - **Categories**: Movies, TV
 5. Click **Test** and **Save**
 
-:::warning Private Tracker
+:::warning[Private Tracker]
 Milkie.cc requires an account and API key. Category IDs are automatically normalized to tracker-native mapping.
 :::
 

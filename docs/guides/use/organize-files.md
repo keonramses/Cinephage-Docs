@@ -359,7 +359,7 @@ Rename existing library:
 3. Preview all changes
 4. Confirm batch rename
 
-:::warning Rename Carefully
+:::warning[Rename Carefully]
 Renaming affects file paths. If you have:
 - Hardlinks from torrent clients (may break seeding)
 - Media server libraries (may need rescan)

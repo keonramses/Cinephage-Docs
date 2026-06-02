@@ -53,7 +53,7 @@ Downloaded_File_123.mkv      # Obfuscated name
 video.mp4                    # Generic name
 ```
 
-:::tip Rename Before Import
+:::tip[Rename Before Import]
 If your files have cryptic names, consider using a bulk renamer like:
 - **FileBot** (cross-platform)
 - **Advanced Renamer** (Windows)
@@ -125,7 +125,7 @@ For each file, verify or correct the TMDB match:
 3. Select correct result
 4. Or click **Ignore** to skip file
 
-:::tip Batch Matching
+:::tip[Batch Matching]
 Use the checkboxes to select multiple files and apply the same action:
 - **Match All** - Accept all automatic matches
 - **Ignore Selected** - Skip selected files
@@ -225,7 +225,7 @@ For each detected series:
 3. Confirm episode numbering matches TMDB
 4. Correct any mismatches
 
-:::warning Episode Numbering
+:::warning[Episode Numbering]
 TV episode numbering must match TMDB exactly. Some series have different ordering on different databases. Always verify against TMDB.
 :::
 
@@ -299,7 +299,7 @@ Configure TV import settings:
 - **Best for:** Same filesystem, seeding torrents
 - **After import:** Two paths to same file data
 
-:::tip Hardlink Requirements
+:::tip[Hardlink Requirements]
 Hardlinks only work when source and destination are on the **same filesystem**. They don't work across different drives or network mounts.
 :::
 

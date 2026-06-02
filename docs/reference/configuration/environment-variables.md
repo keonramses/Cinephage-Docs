@@ -21,7 +21,7 @@ These variables must be set for Cinephage to function correctly:
 | `BETTER_AUTH_SECRET` | Secret key for session signing and API key encryption | _generate unique value_        |
 | `ORIGIN`             | Trusted origin URL for CSRF protection               | `http://localhost:3000`        |
 
-:::danger BREAKING CHANGE - Version 0.7.0
+:::danger[BREAKING CHANGE - Version 0.7.0]
 `BETTER_AUTH_SECRET` is now **required**. The auto-generated `.auth-secret` file fallback was removed in v0.7.0 (the requirement was first introduced in v0.5.0).
 
 **Migration for existing deployments:**
@@ -44,7 +44,7 @@ openssl rand -base64 32
 node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
 
-:::warning Important Security Notes
+:::warning[Important Security Notes]
 - **Keep this secret secure** - Store it safely like a password
 - **Back it up** - You'll need the same value if you restore from backup
 - **Changing it has consequences:**

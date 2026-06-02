@@ -315,7 +315,7 @@ If you want to allow a release again:
 2. Confirm deletion
 3. All releases unblocked
 
-:::warning Use Sparingly
+:::warning[Use Sparingly]
 Only clear blocklist if you understand why items were blocked. Clearing may result in re-downloading problematic releases.
 :::
 
@@ -379,7 +379,7 @@ A confirmation modal appears:
 
 Click **Clear 15 Items** to confirm.
 
-:::warning Blocklist Warning
+:::warning[Blocklist Warning]
 If you check "Also add to blocklist," these releases will be skipped in future searches. Only enable this for releases that genuinely won't work.
 :::
 

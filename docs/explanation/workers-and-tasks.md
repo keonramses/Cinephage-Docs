@@ -242,7 +242,7 @@ WORKER_MAX_STREAMS=20
 WORKER_MAX_IMPORTS=8
 ```
 
-:::warning Resource Limits
+:::warning[Resource Limits]
 More workers consume more:
 - **Memory** - Each worker uses 50-100MB RAM
 - **CPU** - Concurrent processing
@@ -298,7 +298,7 @@ Scheduled tasks run automatically:
 | RSS Sync | 30 min | 15 min | 5 min |
 | Smart List Refresh | 12 hours | 6 hours | 1 hour |
 
-:::tip Rate Limiting
+:::tip[Rate Limiting]
 More frequent tasks may hit indexer rate limits. Start conservative.
 :::
 
