@@ -93,7 +93,7 @@ FAQ, releases, roadmap, and troubleshooting.
 - **Library sort/filter drawer** - Slide-out panel with persistent display settings
 - **qBittorrent v5.2.0 compatibility** - Authentication fix for new qBit versions
 
-[View full release notes](/support/releases)
+[View release notes →](/support/releases#latest---v0110-2026-05-29)
 :::
 
 ## Getting Help
