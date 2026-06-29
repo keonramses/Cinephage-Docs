@@ -20,7 +20,7 @@ Cinephage follows semantic versioning and maintains two release channels.
 ```bash
 # Stable
 docker pull ghcr.io/moldytaint/cinephage:latest
-docker pull ghcr.io/moldytaint/cinephage:v0.11.0   # pinned
+docker pull ghcr.io/moldytaint/cinephage:v0.13.0   # pinned
 
 # Preview
 docker pull ghcr.io/moldytaint/cinephage:dev
@@ -34,25 +34,47 @@ docker pull ghcr.io/moldytaint/cinephage:dev
 
 ---
 
-## Latest - v0.11.0 (2026-05-29)
+## Latest - v0.13.0 (2026-06-29)
 
-**Anime metadata** - AniList/MAL providers with provider-aware enrichment, provider links on detail views, and metadata provider override support.
+**Storage maintenance** - Collapsible library rows with labeled badges (Monitored, Auto-search, Subtitles) and a direct link to each library. Sortable, filterable Top Played and Largest Items tables with type filter (All/Movies/Episodes), item count, and show-more pagination. Disk usage bar legend now labels each segment (Cinephage / Other / Free) on both mobile and desktop. Free space is deduplicated across root folders that share the same physical disk so totals are never counted twice. Dashboard storage card links directly to the Storage Maintenance page.
 
-**Blocklist overhaul** - Manual release blocking from search results, configurable block durations, metadata-level blocked media with 3-layer guard architecture, and bulk actions.
+**Quality profiles** - New Prevent Resolution Downgrades toggle (enabled by default on all profiles) blocks a higher-scoring lower-resolution release from replacing an existing file. Failed downloads now have a 1-hour cooldown before a re-grab attempt. Releases with unknown file sizes are rejected when size limits are configured.
 
-**Activity improvements** - Activity type tags and status popovers across the table and dashboard sidebar. Typed frontend API service layer.
+**Naming tokens** - New `{OriginalTitle}` and `{OriginalCleanTitle}` tokens expose the media's original-language title for use in file and folder naming patterns.
 
-**Library UX** - Slide-out sort/filter/display drawer with persistent settings. Scope monitor/unmonitor to current library with cascade to seasons and episodes.
+**Library detail** - Redesigned movie detail header with improved layout and metadata. Mobile sticky action bar. TV series contextual back button restores library scope on navigation.
 
-**Stalled downloads** - Auto-fail after configurable timeout; auto-blocklist when no seeders found.
+**Discover** - Hero enriched with video clips and backdrops. Keyword blocklist now filters dashboard sections and takes effect without a restart.
 
-**Bug fixes** - qBittorrent v5.2.0 authentication fix; subtitle provider repairs (subf2m, gestdown, yify), subscene removed; calendar error handling; smart list editor crash; 132 TypeScript errors resolved.
+**Bug fixes** - Vanished download recovery via client path reconstruction with auto-retry. Root folder path validation no longer incorrectly flags self-overlap on edit. Old theatrical-only movies now show as Released after 3 years.
 
-[Full release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.11.0)
+[Full release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.13.0)
 
 ---
 
 ## Recent releases
+
+### v0.12.0 (2026-06-23)
+
+**Activity overhaul** - Failed downloads moved from the Active tab to History. Queue cards work across both tabs. Contextual status labels replace the generic active-download count.
+
+**Search and indexers** - Smarter title selection reduces indexer load. Season pack scoping and category mapping fixed. Torznab URL auto-discovery added. Orphaned managed indexers auto-disabled on connection test failure. Profile-driven upgrades now work between streaming and downloaded media.
+
+**Library and importer** - Library-scoped monitor-all works correctly in custom libraries for both movies and TV. Root folders shown in the folder browser. Manual importer hides media type filter when launched from a library item. Season override added to Match Folder modal for unparseable filenames. Absolute episode numbering fixed for unmatched file auto-matching. Anime content defaults to Anime series type on add via Discover.
+
+**Media server integration** - Notifications sent to Plex/Emby/Jellyfin on file rename. Connection testing and version tracking improved.
+
+**Parser** - Fansub and BD-BOX naming conventions handled. Fansub "S1 - NN" notation no longer mis-detected as a multi-season pack.
+
+**Bug fixes** - Date/time handling is now i18n-aware with timezone safety. User-created custom format edit/delete fixed. Blocked keywords persist across server restarts. CSRF replaced with a proper LAN origin guard. Coming Up dashboard items are now clickable links to library detail pages.
+
+[Full release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.12.0)
+
+### v0.11.0 (2026-05-29)
+
+Anime metadata with AniList/MAL providers, provider-aware enrichment, provider links on detail views, and metadata provider override support. Blocklist overhaul with manual release blocking from search results, configurable block durations, and metadata-level blocked media with 3-layer guard architecture. Activity type tags and status popovers. Library slide-out sort/filter/display drawer with persistent settings. Stalled download auto-fail with configurable timeout and auto-blocklist when no seeders found.
+
+[Release notes](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.11.0)
 
 ### v0.10.0 (2026-04-28)
 
@@ -93,6 +115,10 @@ All versions with key highlights. Click any link for full details.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [v0.13.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.13.0) | 2026&#8209;06&#8209;29 | Storage maintenance UX; OriginalTitle naming tokens; prevent resolution downgrades; library detail redesign |
+| [v0.12.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.12.0) | 2026&#8209;06&#8209;23 | Activity overhaul; search/indexer fixes; library importer improvements; media server notifications on rename |
+| [v0.11.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.11.0) | 2026&#8209;05&#8209;29 | Anime metadata (AniList/MAL); blocklist overhaul; stalled download auto-fail |
+| [v0.10.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.10.0) | 2026&#8209;04&#8209;28 | Calendar page with Coming Up widget; releaseDate/firstAirDate metadata |
 | [v0.6.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.6.0) | 2026&#8209;04&#8209;25 | Skip stream probing for instant playback; seeding limit fixes for Transmission and Deluge |
 | [v0.5.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.5.0) | 2026&#8209;04&#8209;21 | List view with auto/manual grab; enhanced EPG and IPTV; symlinked file import; bulk library operations. Same breaking changes as v0.7.0. |
 | [v0.2.0](https://github.com/MoldyTaint/Cinephage/releases/tag/v0.2.0) | 2026&#8209;04&#8209;17 | Unified status page; isPlayed/playedPercentage indicators; redesigned media explorer filter bar |

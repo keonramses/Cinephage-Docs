@@ -80,14 +80,20 @@ TMDB data changes over time. Refresh monthly for active series.
 
 ### Monitor usage
 
-```
-**Settings > System > Disk Space**
-```
+Navigate to **Settings > General > Storage Maintenance** to get a full picture of your storage:
 
-Shows:
-- Per root folder usage
-- Free space remaining
-- Largest items
+- **Storage summary** - total used across all libraries broken down by movies, TV, and subtitles with a visual usage bar
+- **Libraries and Root Folders** - per-library and per-root-folder breakdown with disk usage bars showing Cinephage vs other vs free space; click a library row to collapse or expand its root folders
+- **Top Played Items** - sortable table of most-played content; filter by All, Movies, or Episodes
+- **Largest Items** - sortable table of biggest files to help identify candidates for cleanup
+
+:::tip[Dashboard shortcut]
+The storage card on the dashboard links directly to the Storage Maintenance page.
+:::
+
+:::note[Free space accuracy]
+When multiple root folders share the same physical disk or network share, Cinephage deduplicates free space by filesystem device ID so the total is never counted more than once.
+:::
 
 ### Cleanup strategies
 
