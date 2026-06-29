@@ -82,18 +82,17 @@ FAQ, releases, roadmap, and troubleshooting.
 2. **[Configure](/getting-started/initial-setup)** - Set up TMDB API, download clients, and Root Folders
 3. **[Add Media](/getting-started/adding-media)** - Add your first movie or TV show
 
-## New in v0.11.0
+## New in v0.13.0
 
 :::info[Latest Release]
-- **Anime metadata** - AniList/MAL providers with provider-aware enrichment
-- **Blocklist overhaul** - Manual release blocking, blocked media, and bulk actions
-- **Activity tags and status popovers** - Richer activity feed across the UI
-- **Auto-fail stalled downloads** - Configurable timeout with auto-blocklist on no seeders
-- **Typed frontend API layer** - Improved reliability across all API calls
-- **Library sort/filter drawer** - Slide-out panel with persistent display settings
-- **qBittorrent v5.2.0 compatibility** - Authentication fix for new qBit versions
+- **Storage maintenance** - Collapsible library rows, sortable Top Played/Largest Items tables, labeled disk usage legend, deduplicated free space
+- **Prevent resolution downgrades** - New quality profile toggle (on by default) blocks lower-resolution replacements even with higher custom format scores
+- **Naming tokens** - `{OriginalTitle}` and `{OriginalCleanTitle}` for original-language titles in file/folder patterns
+- **Library detail redesign** - Improved movie header layout, mobile sticky action bar, TV series contextual back button
+- **Discover hero** - Video clips and backdrops on media hero; keyword blocklist filters dashboard sections immediately
+- **Failed download cooldown** - 1-hour cooldown before re-grab; unknown-size releases rejected when size limits are set
 
-[View release notes →](/support/releases#latest---v0110-2026-05-29)
+[View release notes →](/support/releases#latest---v0130-2026-06-29)
 :::
 
 ## Getting Help

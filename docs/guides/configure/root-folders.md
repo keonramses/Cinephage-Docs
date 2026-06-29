@@ -144,6 +144,10 @@ Shows:
 - Default language profile
 - Path (use with caution)
 
+:::tip[Path validation]
+Path overlap validation correctly handles editing an existing root folder - it will not falsely flag the folder as conflicting with its own current path.
+:::
+
 ### Move media between Root Folders (v0.5.0+)
 
 You can move media between Root Folders directly in Cinephage:

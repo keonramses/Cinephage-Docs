@@ -36,6 +36,8 @@ The Matrix (1999) - 1080p BluRay - YIFY
 |-------|-------------|---------|
 | `{Movie Title}` | Full movie title | "The Matrix" |
 | `{Movie Title:EN}` | Title in English | "The Matrix" |
+| `{OriginalTitle}` | Title in original language | "七人の侍" |
+| `{OriginalCleanTitle}` | Original title, special chars removed | "七人の侍" |
 | `{Release Year}` | Release year | "1999" |
 | `{IMDb Id}` | IMDb identifier | "tt0133093" |
 | `{TMDB Id}` | TMDB identifier | "603" |
