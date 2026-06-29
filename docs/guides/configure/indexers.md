@@ -100,8 +100,12 @@ If you have Jackett running:
 3. Copy the **Torznab Feed** URL for a tracker
 4. In Cinephage, add indexer:
    - Select **Torznab** type
-   - Paste the Jackett URL
+   - Paste the Jackett base URL - Cinephage will auto-discover the Torznab feed endpoint
    - Add Jackett API key
+
+:::tip[URL Auto-Discovery]
+When you enter a Torznab base URL, Cinephage automatically discovers the correct feed endpoint. You don't need to manually construct the full Torznab feed path.
+:::
 
 ### Option b: direct torrent indexer
 

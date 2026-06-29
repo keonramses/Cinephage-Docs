@@ -10,6 +10,10 @@ keywords: [library, adding content, movies, tv, bulk import]
 
 Add movies and TV shows to your library through various methods.
 
+## Discover
+
+The Discover page surfaces trending, popular, and upcoming content from TMDB. The hero section at the top displays video clips and backdrop images for featured content, giving you a preview before adding.
+
 ## Manual Addition
 
 ### Adding movies

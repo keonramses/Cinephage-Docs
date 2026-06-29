@@ -31,6 +31,14 @@ Shows recent events:
 - Downloads completed
 - Upgrades applied
 
+### Coming Up
+
+Upcoming releases for monitored content:
+
+- Movies with upcoming release dates
+- TV episodes airing soon
+- Click any item to go directly to its library detail page
+
 ### Quick Actions
 
 Buttons for common tasks:
@@ -110,7 +118,7 @@ Sort by:
 
 ### Movie Details
 
-Click any movie to see:
+Click any movie to see the redesigned detail header with poster, backdrop, full metadata, and action buttons. On mobile, a sticky action bar stays visible as you scroll.
 
 **Overview Tab:**
 
@@ -150,6 +158,8 @@ Similar to movies but with series-level information:
 - Season count
 
 ### Series Details
+
+Click a series for details. A contextual back button at the top returns you to the library you navigated from, preserving any active filters or library scope.
 
 Click a series for:
 

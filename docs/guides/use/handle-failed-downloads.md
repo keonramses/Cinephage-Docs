@@ -336,11 +336,11 @@ Only clear blocklist if you understand why items were blocked. Clearing may resu
 
 ### Bulk clear failed downloads
 
-Clear multiple failed items from the queue at once:
+Clear multiple failed items at once:
 
 **Step 1: Access Bulk Clear**
 
-1. Go to **Activity > Queue**
+1. Go to **Activity > History**
 2. Click **Filter** and select **Failed**
 3. Select multiple items using checkboxes
 4. Click **Clear Failed** button
@@ -428,6 +428,12 @@ This is useful for:
 
 ## Advanced Failure Management
 
+### Vanished download recovery
+
+If a download disappears from the download client before Cinephage can import it (for example, the client restarted, the torrent was removed, or the item was manually deleted), Cinephage automatically attempts to recover it using client path reconstruction. It locates the files via the expected download path and retries the import without requiring manual intervention.
+
+If recovery fails, the item is marked as failed and appears in **Activity > History** where you can review the error and search for an alternative release.
+
 ### Failed download handling settings
 
 Configure automatic failure handling:
@@ -483,7 +489,7 @@ journalctl -u cinephage | grep -i reject
 
 If automatic import fails, try manual import:
 
-1. Go to **Activity > Queue**
+1. Go to **Activity > History**
 2. Find failed item
 3. Click **Manual Import**
 4. Browse to downloaded files

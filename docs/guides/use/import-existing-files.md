@@ -72,8 +72,9 @@ If your files have cryptic names, consider using a bulk renamer like:
 ### Step 2: select source folder
 
 1. Click **Browse** or enter the path
-2. Navigate to the folder containing your movie files
-3. Cinephage scans the folder recursively
+2. Your configured root folders are shown as shortcuts at the top of the browser - click one to navigate directly into it
+3. Navigate to the folder containing your movie files
+4. Cinephage scans the folder recursively
 
 **Supported Movie Folder Structures:**
 
@@ -248,6 +249,7 @@ After series is identified, match individual episodes:
 | **Specials** | Use S00 for specials/extras |
 | **Absolute numbering** | Some anime uses absolute numbers; convert to SXXEXX |
 | **Missing episodes** | Mark as not present; Cinephage will search for them |
+| **Unparseable season number** | Use the **Season Override** field in the Match Folder modal to manually specify the season |
 
 ### Step 5: import options
 
