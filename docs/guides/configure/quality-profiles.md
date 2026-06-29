@@ -177,6 +177,28 @@ Configure cutoff in profile settings:
    - **2160p WEB-DL** - Stop at 4K WEB-DL
    - Custom selection
 
+### Prevent resolution downgrades
+
+When enabled, **Prevent Resolution Downgrades** stops Cinephage from replacing an existing file with one at a lower resolution, even if the lower-resolution release scores higher overall due to custom format bonuses.
+
+:::tip[Enabled by default]
+All built-in profiles and newly created custom profiles have this option enabled by default.
+:::
+
+**Example:**
+
+- You have a 1080p file
+- A 720p release appears with a high custom format score
+- With prevent downgrades **on** - the 720p release is skipped
+- With prevent downgrades **off** - the 720p release could replace your 1080p file
+
+To configure:
+
+1. Go to **Settings > Profiles**
+2. Click **Edit** on a profile
+3. Toggle **Prevent Resolution Downgrades**
+4. Click **Save**
+
 ## Part 4: Create Custom Formats
 
 Custom formats let you define rules for specific release characteristics.
@@ -358,6 +380,24 @@ Use **AND** and **OR** logic:
 - Review quality profile minimums
 - Check blocklist for entries
 - Verify indexer categories
+
+### Release rejected due to unknown size
+
+**Problem:** A release is rejected with "Release size unknown; cannot verify against configured size limits"
+
+**Cause:** Your quality profile has minimum or maximum file size limits configured, but the indexer did not report a file size for this release. Cinephage rejects it rather than downloading blindly.
+
+**Solutions:**
+
+- If the release is trustworthy, temporarily remove the size limits from your profile, grab it manually, then restore the limits
+- Use an indexer that reports file sizes in search results
+- Remove size limits from the profile if you no longer need them
+
+### Same item downloaded multiple times
+
+**Problem:** Cinephage keeps re-grabbing the same media after a failed download
+
+**Cause:** A 1-hour cooldown is applied to failed downloads, so re-grab attempts are held off for 60 minutes. If downloads are still looping after an hour, check the Activity log for the specific failure reason - it is usually a download client misconfiguration or a bad release.
 
 ## Best Practices
 

@@ -23,6 +23,8 @@ Tokens available for movie file naming.
 | `{Movie Title}` | Full movie title | `Inception` |
 | `{Movie TitleThe}` | Title with "The" moved to end | `Dark Knight, The` |
 | `{Movie CleanTitle}` | Title with special chars removed | `Inception` |
+| `{OriginalTitle}` | Title in the media's original language | `七人の侍` |
+| `{OriginalCleanTitle}` | Original title with special chars removed | `七人の侍` |
 | `{Year}` | Release year | `2010` |
 | `{Release Year}` | Full release date (YYYY-MM-DD) | `2010-07-16` |
 | `{Edition Tags}` | Edition tags (Director's Cut, etc.) | `Director's Cut` |
